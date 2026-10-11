@@ -1,0 +1,412 @@
+﻿category,level,french,meaning,example_fr,example_en,note
+Grammar,A1,Je suis fatigué.,I am tired (present: être).,Je suis fatigué après le travail.,I am tired after work.,"Présent: je suis, tu es, il est, nous sommes, vous êtes, ils sont."
+Grammar,A1,J'ai deux frères.,I have two brothers (present: avoir).,J'ai aussi une sœur.,I also have a sister.,"Présent: j'ai, tu as, il a, nous avons, vous avez, ils ont."
+Grammar,A1,Je vais au travail.,I go to work (present: aller).,Je vais au travail en bus.,I go to work by bus.,"Présent: je vais, tu vas, il va, nous allons, vous allez, ils vont."
+Grammar,A1,Nous faisons du sport.,We exercise (present: faire).,Nous faisons du sport le samedi.,We exercise on Saturdays.,"Présent: fais, fais, fait, faisons, faites, font."
+Grammar,A1,Elle habite à Lyon.,She lives in Lyon (present: regular -er).,Elle habite près de la gare.,She lives near the station.,"Regular -er verb: habite, habites, habite, habitons, habitez, habitent."
+Grammar,A1,Ils finissent à cinq heures.,They finish at five (present: -ir).,Ils finissent leur cours à cinq heures.,They finish their class at five.,"Regular finir: finis, finis, finit, finissons, finissez, finissent."
+Grammar,A2,Je prends le train.,I take the train (present: prendre).,Je prends le train tous les jours.,I take the train every day.,"Irregular present: prends, prends, prend, prenons, prenez, prennent."
+Grammar,A2,Elle se lève tôt.,She gets up early (present: reflexive).,Elle se lève à six heures.,She gets up at six o'clock.,"Reflexive pronoun agrees with subject: me, te, se, nous, vous, se."
+Grammar,A2,Nous pouvons venir.,We can come (present: pouvoir).,Nous pouvons venir après le déjeuner.,We can come after lunch.,"Pouvoir: peux, peux, peut, pouvons, pouvez, peuvent."
+Grammar,A2,Vous devez attendre.,You must wait (present: devoir).,Vous devez attendre votre tour.,You must wait your turn.,"Devoir: dois, dois, doit, devons, devez, doivent."
+Grammar,A2,Je veux apprendre.,I want to learn (present: vouloir).,Je veux apprendre le français.,I want to learn French.,"Vouloir: veux, veux, veut, voulons, voulez, veulent."
+Grammar,A2,Ils viennent demain.,They are coming tomorrow (present: venir).,Ils viennent chez nous demain.,They are coming to our place tomorrow.,Present can express a scheduled near-future event.
+Grammar,A2,J'ai mangé.,I ate / have eaten (passé composé).,J'ai mangé avant le cours.,I ate before class.,Passé composé with avoir: subject + avoir + past participle.
+Grammar,A2,Nous avons regardé un film.,We watched a movie (passé composé).,Nous avons regardé un film hier soir.,We watched a movie last night.,Past participle of regular -er verbs ends in -é.
+Grammar,A2,Elle a fini ses devoirs.,She finished her homework (passé composé).,Elle a fini ses devoirs à huit heures.,She finished her homework at eight.,Finir → fini; common -ir past participle.
+Grammar,A2,J'ai pris un taxi.,I took a taxi (passé composé).,J'ai pris un taxi pour arriver à l'heure.,I took a taxi to arrive on time.,Prendre → pris (irregular past participle).
+Grammar,A2,Ils ont vu le message.,They saw the message (passé composé).,Ils ont vu votre message ce matin.,They saw your message this morning.,Voir → vu (irregular past participle).
+Grammar,A2,Nous avons fait une réservation.,We made a reservation (passé composé).,Nous avons fait une réservation en ligne.,We made a reservation online.,Faire → fait (irregular past participle).
+Grammar,A2,Elle est arrivée tôt.,She arrived early (passé composé with être).,Elle est arrivée à la gare à neuf heures.,She arrived at the station at nine.,"With être, past participle agrees with subject: arrivé/arrivée."
+Grammar,A2,Ils sont partis hier.,They left yesterday (passé composé with être).,Ils sont partis hier matin.,They left yesterday morning.,"Partir uses être: parti, partie, partis, parties."
+Grammar,A2,Nous sommes allées au musée.,We went to the museum (female group).,Nous sommes allées au musée dimanche.,We went to the museum on Sunday.,"With être, -es shows all-female plural; mixed group: allés."
+Grammar,A2,Elle s'est réveillée tôt.,She woke up early (reflexive past).,Elle s'est réveillée à sept heures.,She woke up at seven.,Reflexive passé composé normally uses être; agreement depends on grammatical structure.
+Grammar,B1,Je travaillais le soir.,I used to work evenings (imparfait).,Je travaillais le soir quand j'étais étudiant.,I used to work evenings when I was a student.,"Imparfait of travailler: travaillais, travaillais, travaillait, travaillions, travailliez, travaillaient."
+Grammar,B1,Il faisait froid.,It was cold (imparfait).,Il faisait froid pendant notre voyage.,It was cold during our trip.,Imparfait describes weather and background conditions in the past.
+Grammar,B1,Nous avions une petite voiture.,We had a small car (imparfait).,Nous avions une petite voiture à l'époque.,We had a small car back then.,Avoir → avions in the nous form.
+Grammar,B1,Elle allait souvent au parc.,She often went to the park (imparfait).,Elle allait souvent au parc après l'école.,She often went to the park after school.,Imparfait often expresses repeated past habits.
+Grammar,B1,Je lisais quand tu as appelé.,I was reading when you called.,Je lisais quand tu as appelé hier soir.,I was reading when you called last night.,Imparfait = ongoing background; passé composé = completed interruption.
+Grammar,B1,Nous étions très occupés.,We were very busy (imparfait).,Nous étions très occupés la semaine dernière.,We were very busy last week.,Être has irregular imparfait stem ét-.
+Grammar,B1,Je ne savais pas.,I didn't know (imparfait).,Je ne savais pas que tu habitais ici.,I didn't know you lived here.,Imparfait can describe a past state of knowledge.
+Grammar,B1,"Avant, je prenais le bus.",I used to take the bus.,"Avant, je prenais le bus chaque matin.",I used to take the bus every morning.,Avant + imparfait often contrasts past and present habits.
+Grammar,A2,Je vais étudier.,I am going to study (futur proche).,Je vais étudier après le dîner.,I am going to study after dinner.,Futur proche: aller in the present + infinitive.
+Grammar,A2,Elle va acheter du pain.,She is going to buy bread.,Elle va acheter du pain en rentrant.,She is going to buy bread on her way home.,Use futur proche for an imminent action or current plan.
+Grammar,A2,Nous allons partir bientôt.,We are going to leave soon.,Nous allons partir dans dix minutes.,We are going to leave in ten minutes.,Negation surrounds conjugated aller: nous n'allons pas partir.
+Grammar,B1,Ils vont déménager.,They are going to move house.,Ils vont déménager le mois prochain.,They are going to move next month.,Futur proche for an intended future change.
+Grammar,B1,Je vais devoir attendre.,I am going to have to wait.,Je vais devoir attendre encore une heure.,I am going to have to wait another hour.,Can combine aller + devoir + infinitive.
+Grammar,B1,Je serai disponible demain.,I will be available tomorrow (futur simple).,Je serai disponible après seize heures.,I will be available after 4 p.m.,"Être future stem ser-: serai, seras, sera, serons, serez, seront."
+Grammar,B1,Nous aurons le temps.,We will have time (futur simple).,Nous aurons le temps de visiter le centre.,We will have time to visit downtown.,Avoir future stem aur-.
+Grammar,B1,Ils iront au Canada.,They will go to Canada (futur simple).,Ils iront au Canada l'année prochaine.,They will go to Canada next year.,Aller future stem ir-.
+Grammar,B1,Elle fera les courses.,She will do the shopping (futur simple).,Elle fera les courses après son travail.,She will do the shopping after work.,Faire future stem fer-.
+Grammar,B1,Tu pourras choisir.,You will be able to choose.,Tu pourras choisir une autre date.,You will be able to choose another date.,Pouvoir future stem pourr-.
+Grammar,B1,Nous viendrons ensemble.,We will come together.,Nous viendrons ensemble à la réunion.,We will come to the meeting together.,Venir future stem viendr-.
+Grammar,B1,Je finirai demain.,I will finish tomorrow.,Je finirai ce dossier demain matin.,I will finish this file tomorrow morning.,"Regular -ir future = infinitive + -ai, -as, -a, -ons, -ez, -ont."
+Grammar,B1,"Quand j'arriverai, je t'appellerai.","When I arrive, I'll call you.","Quand j'arriverai à la gare, je t'appellerai.","When I arrive at the station, I'll call you.","After quand referring to future, French uses futur simple, not present."
+Grammar,B1,Je voudrais des renseignements.,I would like some information (conditional).,Je voudrais des renseignements sur les horaires.,I'd like some information about the schedules.,Conditional makes a request more polite; vouloir stem voudr-.
+Grammar,B1,Pourriez-vous répéter ?,Could you repeat? (conditional).,Pourriez-vous répéter la dernière phrase ?,Could you repeat the last sentence?,Polite question with pouvoir: pourriez-vous.
+Grammar,B1,Nous aimerions participer.,We would like to take part.,Nous aimerions participer à votre atelier.,We would like to take part in your workshop.,Conditional of aimer softens a preference.
+Grammar,B1,"À ta place, je choisirais le train.","In your place, I would choose the train.","À ta place, je choisirais le train direct.","In your place, I'd choose the direct train.",Conditional expresses advice or an imagined choice.
+Grammar,B1,"Si j'avais le temps, je voyagerais.","If I had time, I would travel.","Si j'avais le temps, je voyagerais davantage.","If I had time, I would travel more.","Hypothetical present: si + imparfait, conditionnel présent."
+Grammar,B2,Cela coûterait moins cher.,That would cost less.,Cela coûterait moins cher si nous réservions tôt.,That would cost less if we booked early.,Conditionnel can express a hypothetical result.
+Grammar,B2,Il aurait plus de chances.,He would have a better chance.,Il aurait plus de chances s'il se préparait.,He'd have a better chance if he prepared.,Si + imparfait → conditional; not si + conditional.
+Grammar,B2,"Si j'avais su, je serais venu.","If I had known, I would have come.","Si j'avais su pour la réunion, je serais venu.","If I'd known about the meeting, I'd have come.","Past unreal condition: si + plus-que-parfait, conditionnel passé."
+Grammar,B2,J'avais déjà terminé.,I had already finished (plus-que-parfait).,J'avais déjà terminé quand il est arrivé.,I had already finished when he arrived.,Imparfait of avoir + past participle.
+Grammar,B2,Elle était partie.,She had left (plus-que-parfait).,Elle était partie avant notre arrivée.,She had left before we arrived.,"Imparfait of être + past participle, with agreement."
+Grammar,B2,Nous avions compris la situation.,We had understood the situation.,Nous avions compris la situation avant la réunion.,We had understood the situation before the meeting.,Plus-que-parfait describes an event earlier than another past event.
+Grammar,B2,Il s'était levé tard.,He had got up late.,Il s'était levé tard ce jour-là.,He had got up late that day.,Reflexive plus-que-parfait: imperfect of être + participle.
+Grammar,B2,Il faut que tu sois à l'heure.,You must be on time (subjunctive).,Il faut que tu sois à l'heure demain.,You must be on time tomorrow.,"After il faut que, use subjonctif: sois, sois, soit, soyons, soyez, soient."
+Grammar,B2,Je souhaite qu'elle réussisse.,I hope she succeeds (subjunctive).,Je souhaite qu'elle réussisse son examen.,I hope she passes her exam.,Souhaiter que usually introduces the subjunctive.
+Grammar,B2,"Bien qu'il pleuve, nous sortons.","Although it's raining, we're going out.","Bien qu'il pleuve, nous sortons marcher.","Although it's raining, we're going walking.",Bien que is followed by the subjunctive.
+Grammar,B2,Je doute qu'il puisse venir.,I doubt he can come.,Je doute qu'il puisse venir ce soir.,I doubt he can come tonight.,Douter que usually takes the subjunctive.
+Grammar,B2,Il est important que nous fassions attention.,It's important that we pay attention.,Il est important que nous fassions attention aux détails.,It's important that we pay attention to details.,"Faire in subjunctive: fasse, fasses, fasse, fassions, fassiez, fassent."
+Grammar,B2,Je veux que vous veniez.,I want you to come.,Je veux que vous veniez avant midi.,I want you to come before noon.,"Venir subjonctif: vienne, viennes, vienne, venions, veniez, viennent."
+Grammar,B2,"Pour qu'elle comprenne, explique lentement.",Explain slowly so she understands.,"Pour qu'elle comprenne, explique chaque étape lentement.",Explain each step slowly so she understands.,Pour que introduces a goal and requires the subjunctive.
+Grammar,A2,Écoutez attentivement !,Listen carefully! (imperative).,Écoutez attentivement les consignes.,Listen carefully to the instructions.,Imperative vous form of écouter; no explicit subject.
+Grammar,A2,Allons-y !,Let's go! (imperative).,"Le bus arrive, allons-y !",The bus is arriving; let's go!,Imperative nous form: allons.
+Grammar,A2,Ne t'inquiète pas !,Don't worry! (negative imperative).,"Ne t'inquiète pas, tout va bien.","Don't worry, everything is fine.",Negative imperative places ne…pas around the verb.
+Grammar,B1,Je viens de rentrer.,I have just returned (recent past).,Je viens de rentrer chez moi.,I've just come home.,Passé récent: venir de + infinitive.
+Grammar,B1,Nous sommes en train de discuter.,We are discussing right now.,Nous sommes en train de discuter du projet.,We're discussing the project right now.,Être en train de + infinitive highlights an ongoing action.
+Vocabulary,A1,être,to be,Je suis prêt pour le cours.,I am ready for class.,"Irregular: je suis, nous sommes, ils sont."
+Vocabulary,A1,avoir,to have,J'ai un rendez-vous demain.,I have an appointment tomorrow.,"Irregular: j'ai, nous avons, ils ont."
+Vocabulary,A1,aller,to go,Nous allons au marché.,We are going to the market.,"Irregular: je vais, nous allons, ils vont."
+Vocabulary,A1,faire,to do; to make,Elle fait la cuisine ce soir.,She is cooking tonight.,"Irregular: je fais, vous faites, ils font."
+Vocabulary,A1,parler,to speak,Je parle un peu français.,I speak a little French.,"Regular -er: je parle, nous parlons."
+Vocabulary,A1,aimer,to like; to love,J'aime apprendre de nouveaux mots.,I like learning new words.,Aimer + infinitive: to like doing something.
+Vocabulary,A1,habiter,to live; reside,Nous habitons près du centre.,We live near downtown.,Habiter à + city; habiter en/au + country.
+Vocabulary,A1,travailler,to work,Il travaille dans un magasin.,He works in a shop.,Regular -er verb.
+Vocabulary,A1,manger,to eat,Nous mangeons ensemble.,We eat together.,Keep -e- in nous mangeons for soft g.
+Vocabulary,A1,boire,to drink,Je bois de l'eau.,I drink water.,"Irregular: bois, bois, boit, buvons, buvez, boivent."
+Vocabulary,A1,prendre,to take,Je prends le métro.,I take the subway.,"Irregular: prends, prend, prenons, prennent."
+Vocabulary,A1,venir,to come,Tu viens avec nous ?,Are you coming with us?,"Irregular: viens, viens, vient, venons, venez, viennent."
+Vocabulary,A1,voir,to see,Je vois la montagne.,I see the mountain.,"Irregular: vois, vois, voit, voyons, voyez, voient."
+Vocabulary,A1,savoir,to know (a fact or skill),Je sais où se trouve la gare.,I know where the station is.,Savoir + infinitive: know how to.
+Vocabulary,A1,connaître,to know (someone/place),Je connais ce quartier.,I know this neighborhood.,"Connaître takes a person, place, or thing as object."
+Vocabulary,A1,vouloir,to want,Je veux prendre un café.,I want to have a coffee.,"Irregular: veux, veut, voulons, veulent."
+Vocabulary,A1,pouvoir,to be able to; can,Vous pouvez entrer.,You can come in.,"Irregular: peux, peut, pouvons, peuvent."
+Vocabulary,A1,devoir,to have to; must,Je dois partir maintenant.,I have to leave now.,"Irregular: dois, doit, devons, doivent."
+Vocabulary,A1,dire,to say; tell,Elle dit toujours bonjour.,She always says hello.,"Irregular: dis, dit, disons, dites, disent."
+Vocabulary,A1,lire,to read,Je lis un article chaque matin.,I read an article every morning.,"Irregular: lis, lit, lisons, lisez, lisent."
+Vocabulary,A1,écrire,to write,J'écris un message à mon ami.,I am writing a message to my friend.,"Irregular: écris, écrit, écrivons, écrivent."
+Vocabulary,A1,écouter,to listen to,Nous écoutons la radio.,We listen to the radio.,"Écouter takes a direct object, no à."
+Vocabulary,A1,regarder,to watch; look at,Ils regardent les informations.,They watch the news.,Regarder takes a direct object.
+Vocabulary,A1,acheter,to buy,J'achète des légumes.,I am buying vegetables.,"Stem change: j'achète, nous achetons."
+Vocabulary,A1,payer,to pay,Je paie par carte.,I pay by card.,Je paie or je paye are both acceptable.
+Vocabulary,A2,finir,to finish,Je finis le travail à six heures.,I finish work at six.,"Regular -ir: finissons, finissez, finissent."
+Vocabulary,A2,choisir,to choose,Vous choisissez quelle option ?,Which option do you choose?,Regular -ir; nous choisissons.
+Vocabulary,A2,réussir,to succeed; pass,Elle a réussi son examen.,She passed her exam.,Réussir à + infinitive; réussir un examen.
+Vocabulary,A2,attendre,to wait for,J'attends le prochain bus.,I'm waiting for the next bus.,"Attendre is transitive: attendre quelqu'un, not attendre pour."
+Vocabulary,A2,répondre,to respond; answer,Pouvez-vous répondre à ma question ?,Can you answer my question?,Répondre à + someone or something.
+Vocabulary,A2,comprendre,to understand,Je ne comprends pas cette règle.,I don't understand this rule.,Comprendre → compris in passé composé.
+Vocabulary,A2,apprendre,to learn,Nous apprenons le français.,We are learning French.,Apprendre → appris in passé composé.
+Vocabulary,A2,mettre,to put; place,Je mets mon manteau.,I'm putting on my coat.,"Mettre: mets, met, mettons, mettent; past mis."
+Vocabulary,A2,ouvrir,to open,Vous pouvez ouvrir la fenêtre ?,Can you open the window?,Conjugated like -er present: j'ouvre; past ouvert.
+Vocabulary,A2,offrir,to offer; give,Elle m'offre un livre.,She gives me a book.,Offrir: j'offre; past offert.
+Vocabulary,A2,sortir,to go out; leave,Nous sortons après le cours.,We are going out after class.,Sortir normally uses être for movement in passé composé.
+Vocabulary,A2,partir,to leave,Ils partent demain matin.,They leave tomorrow morning.,Partir → parti; normally takes être in passé composé.
+Vocabulary,A2,arriver,to arrive,Le train arrive à quinze heures.,The train arrives at 3 p.m.,Arriver normally takes être in passé composé.
+Vocabulary,A2,entrer,to enter,"Entrez, s'il vous plaît.","Come in, please.",Entrer normally takes être in passé composé.
+Vocabulary,A2,rester,to stay,Nous restons ici ce soir.,We're staying here tonight.,Rester normally takes être in passé composé.
+Vocabulary,A2,retourner,to return; go back,Elle retourne à l'école lundi.,She goes back to school Monday.,Motion use takes être; transitive use may take avoir.
+Vocabulary,A2,dormir,to sleep,Je dors huit heures par nuit.,I sleep eight hours a night.,"Dormir: dors, dort, dormons, dorment."
+Vocabulary,A2,courir,to run,Il court trois fois par semaine.,He runs three times a week.,"Courir: cours, court, courons, courent."
+Vocabulary,A2,envoyer,to send,Je vous envoie le document.,I'm sending you the document.,Future stem enverr-: j'enverrai.
+Vocabulary,A2,recevoir,to receive,J'ai reçu votre courriel.,I received your email.,Past participle reçu; je reçois.
+Vocabulary,A2,conduire,to drive,Elle conduit prudemment.,She drives carefully.,"Conduire: conduis, conduit, conduisons, conduisent."
+Vocabulary,A2,apporter,to bring (an item),J'apporte mon ordinateur.,I'm bringing my computer.,Apporter something to a destination.
+Vocabulary,A2,emmener,to take someone somewhere,J'emmène ma fille à l'école.,I'm taking my daughter to school.,Emmener is usually used with people or animals.
+Vocabulary,B1,se renseigner,to inquire; get information,Je voudrais me renseigner sur les tarifs.,I'd like to ask about the prices.,Reflexive; useful for TEF information requests.
+Vocabulary,B1,s'inscrire,to register; sign up,Je souhaite m'inscrire à votre formation.,I'd like to register for your course.,S'inscrire à + course or event.
+Vocabulary,B1,annuler,to cancel,Nous devons annuler la réservation.,We must cancel the booking.,"Useful for appointments, trips and contracts."
+Vocabulary,B1,reporter,to postpone,Pourrait-on reporter la réunion ?,Could we postpone the meeting?,Reporter à + new date; not the same as annuler.
+Vocabulary,B1,réserver,to book; reserve,Je voudrais réserver deux places.,I'd like to book two seats.,Réserver une chambre / une table / des billets.
+Vocabulary,B1,proposer,to suggest; offer,Je te propose de venir avec nous.,I suggest you come with us.,Proposer à quelqu'un de + infinitive.
+Vocabulary,B1,convaincre,to convince,Je vais essayer de te convaincre.,I'll try to convince you.,Convaincre quelqu'un de + infinitive.
+Vocabulary,B1,encourager,to encourage,Cela encourage les jeunes à lire.,That encourages young people to read.,Encourager quelqu'un à + infinitive.
+Vocabulary,B1,permettre,to allow; make possible,Ce cours permet de progresser rapidement.,This course makes it possible to progress quickly.,Permettre à quelqu'un de + infinitive.
+Vocabulary,B1,éviter,to avoid,Nous devons éviter les retards.,We must avoid delays.,Éviter de + infinitive also possible.
+Vocabulary,B1,prévoir,to plan; anticipate,Nous prévoyons de partir tôt.,We plan to leave early.,Prévoir de + infinitive; irregular future prévoirai.
+Vocabulary,B1,organiser,to organize,L'association organise un événement.,The association is organizing an event.,Regular -er verb.
+Vocabulary,B1,profiter,to enjoy; benefit from,Profitons du beau temps !,Let's enjoy the nice weather!,Profiter de + noun.
+Vocabulary,B1,participer,to participate,Je participe à un atelier samedi.,I'm participating in a workshop Saturday.,Participer à + event.
+Vocabulary,B1,améliorer,to improve,Je veux améliorer ma prononciation.,I want to improve my pronunciation.,Améliorer + direct object.
+Vocabulary,B1,développer,to develop,Ce projet développe la créativité.,This project develops creativity.,Developper (without accent) is incorrect; développer has é.
+Vocabulary,B1,se débrouiller,to manage; get by,Je me débrouille en français.,I can get by in French.,Reflexive; common B1 expression.
+Vocabulary,B1,se souvenir,to remember,Je me souviens de cette visite.,I remember that visit.,Se souvenir de + noun; je me souviens.
+Vocabulary,B1,oublier,to forget,J'ai oublié mon mot de passe.,I forgot my password.,Oublier de + infinitive; oublier quelque chose.
+Vocabulary,B1,se rendre compte,to realize,Je me rends compte de mon erreur.,I realize my mistake.,Se rendre compte de; past: je me suis rendu compte.
+Vocabulary,B1,avoir besoin de,to need,J'ai besoin d'un renseignement.,I need some information.,Fixed expression with de; not a single verb.
+Vocabulary,B1,avoir envie de,to feel like; want to,J'ai envie de visiter ce musée.,I feel like visiting this museum.,Avoir envie de + noun or infinitive.
+Vocabulary,B1,être d'accord,to agree,Je suis d'accord avec cette idée.,I agree with that idea.,Être d'accord avec quelqu'un; sur quelque chose.
+Vocabulary,B2,soutenir,to support; maintain,Je soutiens cette proposition.,I support this proposal.,"Soutenir: soutiens, soutient, soutenons, soutiennent."
+Vocabulary,B2,remettre en question,to call into question,Cette étude remet nos idées en question.,This study calls our ideas into question.,Multiword verb useful for arguments.
+Vocabulary,B2,souligner,to emphasize,Je voudrais souligner un point important.,I'd like to emphasize an important point.,Useful for structured speaking arguments.
+Vocabulary,B2,démontrer,to demonstrate,Les résultats démontrent son efficacité.,The results demonstrate its effectiveness.,Démontrer + direct object.
+Vocabulary,B2,entraîner,to cause; lead to,Cette décision entraîne des dépenses.,This decision leads to expenses.,Entraîner + consequence.
+Vocabulary,B2,nuancer,to qualify; add nuance,Il faut nuancer cette affirmation.,We must qualify that statement.,Useful for balanced discussion.
+Vocabulary,B2,envisager,to consider,Nous envisageons de déménager.,We're considering moving.,Envisager de + infinitive.
+Vocabulary,B2,s'adapter,to adapt,Il faut s'adapter aux changements.,We need to adapt to changes.,S'adapter à + noun.
+Vocabulary,B2,renforcer,to strengthen,Ce programme renforce les compétences.,This program strengthens skills.,Renforcer + direct object.
+Vocabulary,B2,aboutir,to lead to; result in,Les négociations ont abouti à un accord.,The negotiations resulted in an agreement.,Aboutir à + result.
+Vocabulary,B2,mettre en place,to implement; set up,L'école met en place un nouveau système.,The school is implementing a new system.,Common administrative expression.
+Vocabulary,B2,faire face à,to face; deal with,Nous devons faire face à ce problème.,We must deal with this problem.,Fixed expression: faire face à.
+Grammar,A1,et,and,Je parle français et anglais.,I speak French and English.,Coordinating conjunction: adds elements.
+Grammar,A1,mais,but,"C'est intéressant, mais c'est cher.","It's interesting, but it's expensive.",Connects contrasting ideas.
+Grammar,A1,ou,or,Tu préfères le thé ou le café ?,Do you prefer tea or coffee?,Alternative; without accent. Où means where.
+Grammar,A1,parce que,because,Je reste chez moi parce que je suis malade.,I'm staying home because I'm sick.,Introduces a reason; parce qu' before a vowel.
+Grammar,A1,quand,when,Je t'appelle quand je rentre.,I'll call you when I get home.,Can link actions in the present or future.
+Grammar,A2,donc,so; therefore,"Il pleut, donc je prends un parapluie.","It's raining, so I'm taking an umbrella.",Consequence; can follow a comma.
+Grammar,A2,car,because; for,"Je pars tôt, car j'ai un rendez-vous.",I'm leaving early because I have an appointment.,A coordinating connector used before a reason.
+Grammar,A2,puis,then,"Nous mangeons, puis nous partons.",We eat and then leave.,Orders actions or events.
+Grammar,A2,ensuite,next; afterward,"Nous visitons le musée, ensuite nous déjeunons.",We visit the museum and then have lunch.,"Sequencing adverb, not strictly a conjunction."
+Grammar,A2,alors,so; then,"Le bus est en retard, alors je marche.","The bus is late, so I'm walking.",Conversational result connector; also temporal.
+Grammar,A2,comme (cause),since; as,"Comme il neige, nous restons ici.","Since it's snowing, we're staying here.",Cause clause frequently comes first.
+Grammar,A2,si (condition),if,"Si tu as le temps, appelle-moi.","If you have time, call me.","Real possibility: si + présent, present/future/imperative."
+Grammar,A2,lorsque,when,"Lorsque je travaille, je coupe mon téléphone.","When I work, I turn off my phone.",A slightly more formal alternative to quand.
+Grammar,A2,pendant que,while,Je cuisine pendant que tu mets la table.,I'm cooking while you set the table.,Two actions happening at the same time.
+Grammar,A2,avant que,before (subordinate),Ferme la fenêtre avant qu'il pleuve.,Close the window before it rains.,Avant que + subjonctif (unlike avant de + infinitive).
+Grammar,A2,après que,after (subordinate),Je sortirai après qu'il aura terminé.,I'll go out after he has finished.,"In standard formal French après que takes the indicative, not subjunctive."
+Grammar,B1,même si,even if; even though,"Même s'il pleut, nous irons au parc.","Even if it rains, we'll go to the park.",Usually indicative; useful concession.
+Grammar,B1,bien que,although,"Bien qu'il soit fatigué, il continue.","Although he is tired, he carries on.",Bien que + subjonctif.
+Grammar,B1,quoique,although,"Quoique ce soit difficile, elle essaie.","Although it is difficult, she tries.",Quoique (one word) + subjonctif; quoi que (two words) differs.
+Grammar,B1,pour que,so that,Je répète pour que vous compreniez.,I repeat so that you understand.,Purpose + subjonctif.
+Grammar,B1,afin que,in order that,J'explique la règle afin que chacun comprenne.,I explain the rule so everyone understands.,More formal purpose + subjonctif.
+Grammar,B1,à condition que,provided that,Tu peux venir à condition que tu sois à l'heure.,You can come provided you're on time.,Condition + subjonctif.
+Grammar,B1,à moins que,unless,Nous sortirons à moins qu'il pleuve.,We'll go out unless it rains.,Usually subjonctif; ne explétif possible in formal use.
+Grammar,B1,dès que,as soon as,"Dès que j'arriverai, je t'écrirai.","As soon as I arrive, I'll write to you.","For future events, French often uses future tense in this clause."
+Grammar,B1,aussitôt que,as soon as,"Aussitôt que le train arrivera, nous partirons.","As soon as the train arrives, we'll leave.",Temporal conjunction; future event → future in French.
+Grammar,B1,tant que,as long as; while,Tu peux rester tant que tu veux.,You can stay as long as you want.,Duration/condition; followed by indicative.
+Grammar,B1,depuis que,since (the time when),"Depuis qu'elle habite ici, elle marche plus.","Since she's lived here, she walks more.",Introduces a starting point in time.
+Grammar,B1,jusqu'à ce que,until,Attends jusqu'à ce que je revienne.,Wait until I come back.,Jusqu'à ce que + subjonctif.
+Grammar,B1,alors que,whereas; while,"Il adore la ville, alors que je préfère la campagne.","He loves the city, whereas I prefer the countryside.",Contrasts two clauses or indicates simultaneous events.
+Grammar,B1,tandis que,whereas; while,"Elle travaille, tandis que je me repose.",She is working while I rest.,Contrast or simultaneous actions.
+Grammar,B1,puisque,since; given that,"Puisque tu es libre, viens avec nous.","Since you're free, come with us.",Assumes the reason is known or accepted.
+Grammar,B1,grâce à,thanks to,"Grâce à ce cours, je progresse.","Thanks to this course, I'm improving.","Preposition, not conjunction; followed by noun group."
+Grammar,B1,à cause de,because of,"À cause du bruit, je n'ai pas dormi.","Because of the noise, I didn't sleep.",Preposition + noun group; often a negative cause.
+Grammar,B1,en revanche,on the other hand,"Le trajet est rapide. En revanche, il coûte cher.","The journey is fast. On the other hand, it's expensive.","Discourse connector, not a conjunction."
+Grammar,B1,pourtant,however; yet,"Il faisait froid, pourtant nous sommes sortis.","It was cold, yet we went out.",Concession or unexpected result.
+Grammar,B1,cependant,however,"C'est pratique. Cependant, ce n'est pas gratuit.","It's practical. However, it isn't free.",More formal contrast connector.
+Grammar,B1,par conséquent,consequently,"Le magasin est fermé. Par conséquent, je reviendrai.","The shop is closed. Consequently, I'll come back.",Formal consequence connector.
+Grammar,B1,en effet,indeed; in fact,"Ce cours est utile. En effet, il couvre les bases.","This course is useful. Indeed, it covers the basics.",Gives confirmation or an explanation.
+Grammar,B1,d'ailleurs,besides; moreover,"Je connais cette région. D'ailleurs, j'y ai vécu.","I know this region. In fact, I lived there.",Adds supporting information.
+Grammar,B2,non seulement… mais aussi,not only… but also,"Il est non seulement rapide, mais aussi fiable.",It's not only fast but also reliable.,Pairs two characteristics or ideas.
+Grammar,B2,soit… soit,either… or,"On peut partir soit lundi, soit mardi.",We can leave either Monday or Tuesday.,Paired alternative; often repeated.
+Grammar,B2,ni… ni,neither… nor,Je ne bois ni café ni thé.,I drink neither coffee nor tea.,Negative coordinator; normally with ne.
+Grammar,B2,de sorte que,so that; with the result that,"Il a parlé lentement, de sorte que tous ont compris.","He spoke slowly, so everyone understood.","Can express result (indicative) or purpose (subjunctive), depending on context."
+Grammar,B2,si bien que,so that; consequently,"La route était bloquée, si bien que nous avons attendu.","The road was blocked, so we waited.",Result/consequence; followed by indicative.
+Grammar,B2,de peur que,for fear that,Je parle bas de peur qu'il se réveille.,I speak quietly for fear he'll wake up.,Subjonctif; formal grammar sometimes adds ne explétif.
+Grammar,B2,sans que,without (someone doing),Elle est partie sans que je le sache.,She left without my knowing.,Sans que + subjonctif.
+Grammar,B2,pourvu que,provided that; as long as,"Tu peux choisir, pourvu que ce soit raisonnable.","You can choose, as long as it's reasonable.",Condition or hope + subjunctive.
+Grammar,B2,en supposant que,assuming that,"En supposant que vous ayez raison, que ferons-nous ?","Assuming you're right, what will we do?",Often followed by subjunctive.
+Grammar,B2,à supposer que,supposing that,"À supposer qu'il accepte, nous commencerons lundi.","Supposing he accepts, we'll start Monday.",Hypothetical expression + subjunctive.
+Grammar,B2,quoique… néanmoins,although… nevertheless,"Quoiqu'il soit tard, nous pouvons néanmoins discuter.","Although it's late, we can nevertheless talk.",Pairs a concessive subordinate clause with an adverb.
+Grammar,C1,d'autant plus que,all the more so because,"Ce choix est judicieux, d'autant plus qu'il est économique.","This choice is sensible, all the more so because it is economical.",Strengthens an argument with an additional reason.
+Grammar,C1,dans la mesure où,insofar as; given that,Cette solution convient dans la mesure où elle reste abordable.,This solution works insofar as it remains affordable.,"Expresses extent or causal justification, depending on context."
+Grammar,C1,encore faut-il que,but it is still necessary that,Le projet semble intéressant. Encore faut-il qu'il soit financé.,The project seems interesting. But it still needs funding.,Inversion-like set expression; followed by subjunctive.
+Grammar,A1,les amis,the friends,Les amis arrivent à midi.,The friends arrive at noon.,Required liaison: les amis → /le.za.mi/; final s sounds /z/.
+Grammar,A1,des enfants,some children,Des enfants jouent dehors.,Some children are playing outside.,Required: des enfants → /de.zɑ̃.fɑ̃/; s → /z/.
+Grammar,A1,mes idées,my ideas,Mes idées sont différentes.,My ideas are different.,Required: mes idées → /me.zi.de/.
+Grammar,A1,tes affaires,your things,Prends tes affaires avant de partir.,Take your things before leaving.,Required determiner + vowel: tes affaires → /te.za.fɛʁ/.
+Grammar,A1,un ami,a (male) friend,Un ami m'a appelé.,A friend called me.,Required: un ami → /œ̃.na.mi/; n is pronounced at the link.
+Grammar,A1,mon amie,my (female) friend,Mon amie habite à Ottawa.,My friend lives in Ottawa.,Required: mon amie → /mɔ̃.na.mi/.
+Grammar,A1,deux étudiants,two students,Deux étudiants attendent devant la classe.,Two students wait in front of class.,Required: deux étudiants → /dø.ze.ty.djɑ̃/.
+Grammar,A1,trois heures,three o'clock,Le rendez-vous est à trois heures.,The appointment is at three.,Required: trois heures → /tʁwa.zœʁ/.
+Grammar,A1,vous avez,you have,Vous avez une question ?,Do you have a question?,Required: vous avez → /vu.za.ve/.
+Grammar,A1,nous allons,we are going,Nous allons commencer.,We are going to start.,Required: nous allons → /nu.za.lɔ̃/.
+Grammar,A1,ils ont,they have,Ils ont une voiture.,They have a car.,Required: ils ont → /il.zɔ̃/.
+Grammar,A1,elles arrivent,they arrive (feminine),Elles arrivent dans dix minutes.,They arrive in ten minutes.,Required: elles arrivent → /ɛl.za.ʁiv/.
+Grammar,A1,vous êtes,you are,Vous êtes très gentil.,You are very kind.,Required: vous êtes → /vu.zɛt/.
+Grammar,A2,petit enfant,small child,Ce petit enfant sourit.,This small child is smiling.,Required adjective-before-noun: petit enfant → /pə.ti.tɑ̃.fɑ̃/.
+Grammar,A2,grand homme,great man,C'est un grand homme.,He is a great man.,Required adjective-before-noun: grand homme → /gʁɑ̃.tɔm/; d sounds /t/.
+Grammar,A2,très utile,very useful,Ce conseil est très utile.,This advice is very useful.,Commonly required: très utile → /tʁɛ.zy.til/.
+Grammar,A2,trop aimable,too kind,Vous êtes trop aimable.,You are too kind.,Commonly required: trop aimable → /tʁo.pɛ.mabl/; p pronounced.
+Grammar,A2,bien entendu,of course; understood,"Bien entendu, vous pouvez venir.","Of course, you can come.",Common fixed-phrase liaison: bien entendu → /bjɛ̃.nɑ̃.tɑ̃.dy/.
+Grammar,A2,tout à fait,absolutely; completely,Je suis tout à fait d'accord.,I completely agree.,Required in set expression: tout à fait → /tu.ta.fɛ/.
+Grammar,A2,tout est prêt,everything is ready,Tout est prêt pour la fête.,Everything is ready for the party.,Pronoun tout + vowel: /tu.tɛ.pʁɛ/.
+Grammar,A2,c'est intéressant,that's interesting,C'est intéressant comme sujet.,That's an interesting topic.,Required after c'est: /sɛ.tɛ̃.te.ʁe.sɑ̃/.
+Grammar,A2,on a,we have; one has,On a beaucoup de temps.,We have plenty of time.,Required: on a → /ɔ̃.na/.
+Grammar,A2,on est,we are; one is,On est déjà en retard.,We're already late.,Required: on est → /ɔ̃.nɛ/.
+Grammar,A2,chez eux,at their place,Nous allons chez eux samedi.,We're going to their place Saturday.,Liaison: chez eux → /ʃe.zø/.
+Grammar,A2,dans un,in a,Il est dans un café.,He is in a café.,Required: dans un → /dɑ̃.zœ̃/.
+Grammar,A2,sans hésiter,without hesitating,Elle a répondu sans hésiter.,She answered without hesitating.,Required: sans hésiter → /sɑ̃.ze.zi.te/.
+Grammar,A2,les hommes,the men,Les hommes sont arrivés.,The men arrived.,H muet permits liaison: les hommes → /le.zɔm/.
+Grammar,A2,les hôtels,the hotels,Les hôtels sont complets.,The hotels are fully booked.,H muet permits liaison: les hôtels → /le.zo.tɛl/.
+Grammar,B1,les haricots,the beans,J'ai acheté des haricots verts.,I bought green beans.,Forbidden liaison: haricots has h aspiré; say /le a.ʁi.ko/.
+Grammar,B1,les héros,the heroes,Les héros reviennent à la maison.,The heroes come home.,Forbidden liaison: héros has h aspiré; /le e.ʁo/.
+Grammar,B1,les hiboux,the owls,Les hiboux chassent la nuit.,Owls hunt at night.,Forbidden liaison: hibou has h aspiré; /le i.bu/.
+Grammar,B1,et elle,and she,Paul vient et elle aussi.,"Paul is coming, and she is too.",Forbidden liaison after the conjunction et: /e ɛl/.
+Grammar,B1,mais elle,but she,"Il est prêt, mais elle hésite.","He is ready, but she's hesitating.",Optional/variable liaison after mais; often /mɛ ɛl/ in careful modern speech.
+Grammar,B1,un grand ami,a great friend,C'est un grand ami de la famille.,He's a great friend of the family.,Adjective grand before vowel noun: d → /t/: /gʁɑ̃.ta.mi/.
+Grammar,B1,un ancien élève,a former student,Cet ancien élève revient nous voir.,This former student comes back to visit us.,Required: ancien élève → /ɑ̃.sjɛ̃.ne.lɛv/.
+Grammar,B1,les anciens étudiants,the former students,Les anciens étudiants se retrouvent.,The former students get together.,Two links: les anciens → /le.zɑ̃.sjɛ̃/; anciens étudiants → /ɑ̃.sjɛ̃.ze.ty.djɑ̃/.
+Grammar,B1,ils sont arrivés,they have arrived,Ils sont arrivés très tard.,They arrived very late.,Liaison sont arrivés is often optional; liaison ils ont is required.
+Grammar,B1,nous sommes allés,we went,Nous sommes allés au parc.,We went to the park.,The liaison sommes allés is often optional in everyday speech.
+Grammar,B1,pas encore,not yet,Je n'ai pas encore terminé.,I haven't finished yet.,Liaison after pas is optional and more frequent in careful speech.
+Grammar,B1,assez intéressant,interesting enough,"C'est assez intéressant, en fait.","It's quite interesting, actually.",Liaison after assez before vowel is common; /a.se.zɛ̃.te.ʁe.sɑ̃/.
+Grammar,B1,moins important,less important,Ce détail est moins important.,This detail is less important.,Usually liaison before vowel: moins important → /mwɛ̃.zɛ̃.pɔʁ.tɑ̃/.
+Grammar,B1,avec elle,with her,Je vais au cinéma avec elle.,I'm going to the movies with her.,Not a liaison: final c /k/ is always pronounced; consonant enchaînement.
+Grammar,B1,il arrive,he arrives,Il arrive à dix heures.,He arrives at ten.,Not a liaison: /l/ is pronounced even before consonants.
+Grammar,B1,une amie,a (female) friend,Une amie m'a envoyé un message.,A friend sent me a message.,Not a liaison: final n is pronounced in une; this is enchaînement.
+Grammar,B1,quand il vient,when he comes,"Quand il vient, nous dînons ensemble.","When he comes, we have dinner together.",Liaison quand il → /kɑ̃.til/ is required in standard speech.
+Grammar,B2,vingt et un,twenty-one,J'ai vingt et un ans.,I am twenty-one.,Vingt et un: liaison /t/ belongs to vingt before et; never add liaison after et.
+Grammar,B2,quatre-vingts euros,eighty euros,Le billet coûte quatre-vingts euros.,The ticket costs eighty euros.,Final s in quatre-vingts links as /z/ before euro: /katʁə.vɛ̃.zø.ʁo/.
+Grammar,B2,un bon exemple,a good example,C'est un bon exemple de cette règle.,That's a good example of this rule.,Liaison: bon exemple → /bɔ.nɛɡ.zɑ̃pl/; note nasal quality may change.
+Grammar,B2,les premiers arrivés,the first arrivals,Les premiers arrivés ont choisi leurs places.,The first arrivals chose their seats.,Adjective premiers → /pʁə.mje.z/ before arrivés.
+Grammar,B2,comment allez-vous ?,how are you?,"Bonjour, comment allez-vous ?","Hello, how are you?",Fixed formal inversion: comment allez → /kɔ.mɑ̃.ta.le/; allez-vous → /a.le.vu/.
+Grammar,A1,tu,you (informal singular),Tu viens avec moi ?,Are you coming with me?,Vowel /y/: round lips for /u/ while tongue stays near /i/.
+Grammar,A1,tout,all; everything,Tout est prêt.,Everything is ready.,Vowel /u/: back rounded vowel; contrast with tu /ty/.
+Grammar,A1,rue,street,La rue est calme.,The street is quiet.,/ʁy/: practice front rounded /y/ after French r.
+Grammar,A1,roue,wheel,La roue tourne.,The wheel is turning.,/ʁu/: /u/ contrast with rue /ʁy/.
+Grammar,A1,dessus,on top; above,Le livre est dessus.,The book is on top.,/də.sy/ ends in /y/ as in tu.
+Grammar,A1,dessous,underneath; below,Le sac est dessous.,The bag is underneath.,/də.su/ ends in /u/ as in tout.
+Grammar,A1,peu,little; few,J'ai peu de temps.,I have little time.,/pø/: close-mid rounded vowel /ø/.
+Grammar,A1,peur,fear,J'ai peur de tomber.,I'm afraid of falling.,/pœʁ/: open-mid rounded vowel /œ/.
+Grammar,A1,deux,two,Il reste deux places.,There are two places left.,/dø/: compare with de /də/ in unstressed speech.
+Grammar,A1,sœur,sister,Ma sœur travaille ici.,My sister works here.,/sœʁ/: open-mid rounded /œ/.
+Grammar,A1,beau,beautiful (masculine),Quel beau paysage !,What a beautiful landscape!,"/bo/: spellings beau, eau, au can correspond to /o/."
+Grammar,A1,bon,good (masculine),C'est un bon restaurant.,It's a good restaurant.,/bɔ̃/: nasal vowel /ɔ̃/; don't pronounce final n alone.
+Grammar,A1,banc,bench,Nous sommes assis sur un banc.,We're sitting on a bench.,"/bɑ̃/: nasal /ɑ̃/, not same as bon /bɔ̃/."
+Grammar,A1,pain,bread,Je voudrais du pain.,I'd like some bread.,/pɛ̃/: nasal /ɛ̃/ (regional variants exist).
+Grammar,A1,vin,wine,Ce restaurant sert du vin.,This restaurant serves wine.,/vɛ̃/: nasal /ɛ̃/ as in pain.
+Grammar,A1,un,a; one (masculine),J'ai un livre.,I have a book.,/œ̃/ traditionally; often merged with /ɛ̃/ in metropolitan French.
+Grammar,A1,brun,brown (masculine),Il porte un manteau brun.,He's wearing a brown coat.,/bʁœ̃/ traditionally; some accents merge with /bʁɛ̃/.
+Grammar,A1,an,year (in expressions),Un an passe vite.,A year goes by quickly.,/ɑ̃/: spelling an; compare nasal vowels in bon and pain.
+Grammar,A1,temps,time; weather,Je n'ai pas le temps.,I don't have time.,/tɑ̃/: final p and s silent in isolation.
+Grammar,A1,maison,house,Cette maison est ancienne.,This house is old.,/mɛ.zɔ̃/: intervocalic s often pronounced /z/.
+Grammar,A1,poisson,fish,Je mange du poisson.,I eat fish.,/pwa.sɔ̃/: ss between vowels gives /s/.
+Grammar,A1,oiseau,bird,Un oiseau chante.,A bird is singing.,"/wa.zo/: oi → /wa/, eau → /o/, s between vowels → /z/."
+Grammar,A1,moi,me,"Moi, je préfère le thé.",I prefer tea.,/mwa/: spelling oi usually sounds /wa/.
+Grammar,A1,oui,yes,"Oui, je comprends.","Yes, I understand.",/wi/: sound /w/ followed by /i/.
+Grammar,A1,huit,eight,Le cours commence à huit heures.,Class starts at eight.,/ɥit/: /ɥ/ is the rounded glide; all four sounds audible.
+Grammar,A1,fille,girl; daughter,Ma fille adore lire.,My daughter loves reading.,/fij/: ill after vowel often gives /j/; fille is not /fil/.
+Grammar,A1,famille,family,Ma famille habite ici.,My family lives here.,/fa.mij/: -ille pronounced /ij/.
+Grammar,A1,montagne,mountain,Nous allons à la montagne.,We're going to the mountains.,/mɔ̃.taɲ/: gn often sounds /ɲ/ like Spanish ñ.
+Grammar,A1,oignon,onion,Je coupe un oignon.,I'm chopping an onion.,/ɔ.ɲɔ̃/ is usual modern pronunciation; an irregular spelling.
+Grammar,A1,chat,cat,Le chat dort sur le canapé.,The cat sleeps on the sofa.,/ʃa/: ch usually /ʃ/ as English sh.
+Grammar,A1,journal,newspaper; journal,Je lis le journal.,I read the newspaper.,"/ʒuʁ.nal/: j is /ʒ/, like s in English measure."
+Grammar,A1,rouge,red,Elle porte une robe rouge.,She's wearing a red dress.,/ʁuʒ/: final ge pronounced /ʒ/.
+Grammar,A1,café,coffee,Je prends un café.,I'm having a coffee.,/ka.fe/: é corresponds to close /e/.
+Grammar,A1,lait,milk,Je bois du lait.,I drink milk.,/lɛ/: ai here gives open /ɛ/ in standard French.
+Grammar,A1,été,summer,"En été, il fait chaud.","In summer, it's hot.",/e.te/: two /e/ vowels; stress on last pronounced syllable of group.
+Grammar,A2,était,was (imparfait),Il était fatigué.,He was tired.,/e.tɛ/: contrast été /e.te/ with était /e.tɛ/.
+Grammar,A2,les,the (plural),Les cours commencent demain.,Classes start tomorrow.,/le/: article les has /e/ vowel.
+Grammar,A2,l'ai,have it (elision),Je l'ai déjà lu.,I've already read it.,/lɛ/: compare les /le/ and l'ai /lɛ/ in many accents.
+Grammar,A2,je,I,Je suis disponible.,I am available.,/ʒə/ in careful speech; schwa may drop in casual connected speech.
+Grammar,A2,premier,first (masculine),C'est mon premier cours.,It's my first class.,/pʁə.mje/: -ier ends with /je/.
+Grammar,A2,parler,to speak,Je veux parler français.,I want to speak French.,/paʁ.le/: infinitive -er pronounced /e/ (not /ɛʁ/).
+Grammar,A2,parlez,you speak; speak!,Vous parlez français ?,Do you speak French?,/paʁ.le/: -ez pronounced /e/; same ending sound as parler.
+Grammar,A2,parlais,was speaking; used to speak,Je parlais français avec elle.,I used to speak French with her.,/paʁ.lɛ/: -ais normally /ɛ/ in standard French.
+Grammar,A2,petit,small (masculine),Un petit chat dort.,A small cat is sleeping.,/pə.ti/: final t silent before a consonant or pause.
+Grammar,A2,petite,small (feminine),Une petite fille joue.,A little girl is playing.,/pə.tit/: final t pronounced in feminine form.
+Grammar,A2,grand,big; tall (masculine),C'est un grand jardin.,It's a large garden.,/gʁɑ̃/: final d silent before consonants and at pause.
+Grammar,A2,grande,big; tall (feminine),C'est une grande maison.,It's a large house.,/gʁɑ̃d/: final d pronounced in feminine form.
+Grammar,A2,beaucoup,a lot,Merci beaucoup !,Thank you very much!,/bo.ku/: final p is silent.
+Grammar,A2,vous,you (formal/plural),Vous êtes prêt ?,Are you ready?,"/vu/: final s is silent alone, /z/ in liaison before a vowel."
+Grammar,B1,heureux,happy (masculine),Il est heureux de venir.,He's happy to come.,/ø.ʁø/: initial h is silent; x silent at end.
+Grammar,B1,heureusement,fortunately,"Heureusement, tout va bien.","Fortunately, everything is fine.",/ø.ʁøz.mɑ̃/ in standard speech; suffix -ment nasal /mɑ̃/.
+Grammar,B1,vraiment,really,Tu es vraiment sûr ?,Are you really sure?,/vʁɛ.mɑ̃/: final -ment nasal /mɑ̃/.
+Grammar,B1,rapidement,quickly,Parlez un peu moins rapidement.,Speak a little less quickly.,/ʁa.pid.mɑ̃/ often; some schwas are dropped in speech.
+Grammar,B1,je ne sais pas,I don't know,Je ne sais pas encore.,I don't know yet.,Careful /ʒə nə sɛ pa/; conversational French may drop ne.
+Grammar,B1,il y a,there is; there are,Il y a un problème.,There's a problem.,"Often reduced in fast conversation, but careful speech /il ja/."
+Grammar,B1,qu'est-ce que,what (question phrase),Qu'est-ce que vous proposez ?,What do you suggest?,/kɛs kə/; connected pronunciation differs from written spacing.
+Grammar,B1,est-ce que,question introduction,Est-ce que vous êtes libre ?,Are you available?,/ɛs kə/: est-ce pronounced /ɛs/; que often /kə/.
+Grammar,B1,aujourd'hui,today,"Aujourd'hui, j'ai du temps.",Today I have time.,/o.ʒuʁ.dɥi/: /ɥ/ glide in -hui.
+Grammar,B1,exactement,exactly,C'est exactement ce que je pense.,That's exactly what I think.,/ɛɡ.zak.tə.mɑ̃/: x in ex- often /ɡz/ before a vowel.
+Grammar,B1,expliquer,to explain,Pouvez-vous expliquer cela ?,Can you explain that?,/ɛks.pli.ke/: x here pronounced /ks/ before consonant.
+Grammar,B1,rendez-vous,appointment,J'ai un rendez-vous demain.,I have an appointment tomorrow.,/ʁɑ̃.de.vu/: French r /ʁ/ is made at back of mouth.
+Grammar,B2,accueillir,to welcome,Nous allons accueillir les invités.,We're going to welcome the guests.,/a.kœ.jiʁ/: complex vowel + /j/ sequence; listen to chunks.
+Grammar,B2,écureuil,squirrel,Un écureuil traverse le jardin.,A squirrel crosses the garden.,/e.ky.ʁœj/: includes /y/ and /œj/; practice slowly.
+Vocabulary,A1,une personne,a person,Une personne attend à l'accueil.,Someone is waiting at reception.,Feminine noun; plural des personnes.
+Vocabulary,A1,un voisin,a neighbor (male),Mon voisin est très gentil.,My neighbor is very kind.,Feminine une voisine.
+Vocabulary,A1,une voisine,a neighbor (female),Ma voisine parle français.,My neighbor speaks French.,Feminine form of voisin.
+Vocabulary,A1,une adresse,an address,Quelle est votre adresse ?,What is your address?,Feminine noun.
+Vocabulary,A1,un numéro de téléphone,a phone number,Pouvez-vous me donner votre numéro de téléphone ?,Can you give me your phone number?,Masculine noun: un numéro.
+Vocabulary,A1,un arrêt de bus,a bus stop,L'arrêt de bus est en face.,The bus stop is opposite.,Arrêt is masculine.
+Vocabulary,A1,une gare,a train station,La gare se trouve au centre-ville.,The train station is downtown.,Feminine noun.
+Vocabulary,A1,un billet,a ticket,Je voudrais acheter un billet.,I'd like to buy a ticket.,Travel and events.
+Vocabulary,A1,un magasin,a shop; store,Ce magasin ouvre à neuf heures.,This store opens at nine.,Masculine noun.
+Vocabulary,A1,une pharmacie,a pharmacy,Il y a une pharmacie près d'ici.,There's a pharmacy near here.,Feminine noun.
+Vocabulary,A1,un rendez-vous,an appointment,J'ai un rendez-vous chez le dentiste.,I have a dentist appointment.,Masculine compound noun; unchanged in plural.
+Vocabulary,A1,un repas,a meal,Le repas est prêt.,The meal is ready.,Masculine noun; s is silent.
+Vocabulary,A1,un légume,a vegetable,Je mange beaucoup de légumes.,I eat lots of vegetables.,Masculine noun; commonly plural.
+Vocabulary,A1,des fruits,fruit,Je mange des fruits chaque matin.,I eat fruit every morning.,Plural of un fruit.
+Vocabulary,A1,une bouteille,a bottle,J'achète une bouteille d'eau.,I'm buying a bottle of water.,Feminine noun.
+Vocabulary,A1,un quartier,a neighborhood,J'habite dans un quartier calme.,I live in a quiet neighborhood.,Masculine noun.
+Vocabulary,A1,une chambre,a room; bedroom,Je cherche une chambre pour deux nuits.,I'm looking for a room for two nights.,Feminine noun; hotel or home.
+Vocabulary,A1,un horaire,a schedule; timetable,Où puis-je consulter les horaires ?,Where can I check the schedule?,Masculine noun.
+Vocabulary,A1,une semaine,a week,Je travaille cinq jours par semaine.,I work five days a week.,Feminine noun.
+Vocabulary,A1,une question,a question,J'ai une question à vous poser.,I have a question to ask you.,Feminine noun.
+Vocabulary,A2,les transports en commun,public transportation,Je prends les transports en commun.,I take public transport.,Plural expression.
+Vocabulary,A2,un abonnement,a subscription; pass,Mon abonnement se termine vendredi.,My subscription ends Friday.,"Transport, gym, services."
+Vocabulary,A2,un tarif,a rate; price,Quels sont vos tarifs pour les étudiants ?,What are your rates for students?,Masculine noun.
+Vocabulary,A2,une réduction,a discount,Y a-t-il une réduction pour les familles ?,Is there a discount for families?,Feminine noun; good for TEF inquiries.
+Vocabulary,A2,les frais,fees; charges,Les frais d'inscription sont-ils inclus ?,Are registration fees included?,Usually plural; masculine.
+Vocabulary,A2,un remboursement,a refund,Est-ce possible d'obtenir un remboursement ?,Is it possible to get a refund?,Masculine noun.
+Vocabulary,A2,une réservation,a reservation; booking,J'ai fait une réservation pour samedi.,I made a booking for Saturday.,Feminine noun.
+Vocabulary,A2,une annulation,a cancellation,Quelles sont les conditions d'annulation ?,What are the cancellation conditions?,Feminine noun.
+Vocabulary,A2,un document,a document,Quels documents faut-il apporter ?,Which documents do we need to bring?,Masculine noun.
+Vocabulary,A2,une pièce d'identité,an ID document,Veuillez présenter une pièce d'identité.,Please show an ID document.,Feminine noun.
+Vocabulary,A2,un formulaire,a form,"Remplissez ce formulaire, s'il vous plaît.",Please fill out this form.,Masculine noun.
+Vocabulary,A2,une inscription,a registration,L'inscription se fait en ligne.,Registration is done online.,Feminine noun.
+Vocabulary,A2,un cours du soir,an evening class,Je cherche un cours du soir.,I'm looking for an evening class.,Masculine noun; useful for TEF.
+Vocabulary,A2,une formation,a training course,Cette formation dure six semaines.,This training course lasts six weeks.,Feminine noun.
+Vocabulary,A2,un entretien,an interview; meeting,J'ai un entretien d'embauche lundi.,I have a job interview Monday.,Masculine noun.
+Vocabulary,A2,un salaire,a salary,Le salaire dépend de l'expérience.,The salary depends on experience.,Masculine noun.
+Vocabulary,A2,un congé,leave; time off,Je prends un congé la semaine prochaine.,I'm taking time off next week.,Masculine noun.
+Vocabulary,A2,un trajet,a journey; commute,Mon trajet dure quarante minutes.,My commute takes forty minutes.,Masculine noun.
+Vocabulary,A2,un logement,housing; accommodation,Il est difficile de trouver un logement.,It's difficult to find housing.,Masculine noun.
+Vocabulary,A2,une facture,a bill; invoice,J'ai reçu la facture par courriel.,I received the invoice by email.,Feminine noun.
+Vocabulary,B1,une demande,a request; application,J'ai envoyé une demande hier.,I sent an application yesterday.,Feminine noun.
+Vocabulary,B1,un délai,a time frame; deadline,Quel est le délai de réponse ?,What is the response time?,Masculine noun; plural délais.
+Vocabulary,B1,une démarche,a procedure; step,Cette démarche peut se faire en ligne.,This procedure can be done online.,Feminine noun; administrative context.
+Vocabulary,B1,une preuve,proof; evidence,Vous devez fournir une preuve d'adresse.,You must provide proof of address.,Feminine noun.
+Vocabulary,B1,un justificatif,a supporting document,Avez-vous un justificatif de domicile ?,Do you have proof of address?,Masculine noun.
+Vocabulary,B1,un avantage,an advantage; benefit,Ce service présente plusieurs avantages.,This service offers several benefits.,Masculine noun.
+Vocabulary,B1,un inconvénient,a disadvantage,Le principal inconvénient est le prix.,The main disadvantage is the price.,Masculine noun.
+Vocabulary,B1,une occasion,an opportunity; occasion,C'est une bonne occasion de pratiquer.,It's a good chance to practice.,Feminine noun.
+Vocabulary,B1,une solution,a solution,Nous devons trouver une solution.,We need to find a solution.,Feminine noun.
+Vocabulary,B1,une difficulté,a difficulty,J'ai rencontré une difficulté technique.,I encountered a technical difficulty.,Feminine noun.
+Vocabulary,B1,une amélioration,an improvement,J'ai remarqué une nette amélioration.,I've noticed a clear improvement.,Feminine noun.
+Vocabulary,B1,la santé,health,Il faut prendre soin de sa santé.,We need to take care of our health.,Feminine noun; usually uncountable.
+Vocabulary,B1,l'environnement,the environment,Protéger l'environnement est important.,Protecting the environment is important.,Masculine noun.
+Vocabulary,B1,le recyclage,recycling,Le recyclage réduit les déchets.,Recycling reduces waste.,Masculine noun.
+Vocabulary,B1,les déchets,waste; rubbish,Il faut trier les déchets.,We need to sort the waste.,Masculine plural noun.
+Vocabulary,B1,une consommation,consumption,Notre consommation d'énergie augmente.,Our energy consumption is increasing.,Feminine noun.
+Vocabulary,B1,une habitude,a habit,Je veux changer mes habitudes.,I want to change my habits.,Feminine noun despite beginning with h.
+Vocabulary,B1,une activité bénévole,a volunteer activity,Elle fait une activité bénévole le dimanche.,She does volunteer work on Sundays.,Bénévole = unpaid volunteer.
+Vocabulary,B1,une association,an association; nonprofit group,Cette association aide les familles.,This nonprofit group helps families.,Feminine noun.
+Vocabulary,B1,la vie quotidienne,everyday life,La technologie change notre vie quotidienne.,Technology changes our everyday lives.,Feminine expression.
+Vocabulary,B1,un événement,an event,L'événement aura lieu samedi.,The event will take place Saturday.,Masculine noun.
+Vocabulary,B1,un participant,a participant (male),Chaque participant reçoit un certificat.,Every participant receives a certificate.,Feminine une participante.
+Vocabulary,B1,un renseignement,a piece of information,Je voudrais obtenir un renseignement.,I'd like to get some information.,Masculine; plural renseignements very common.
+Vocabulary,B1,une condition,a condition; requirement,Quelles sont les conditions d'accès ?,What are the entry requirements?,Feminine noun.
+Vocabulary,B1,une disponibilité,an available time; availability,Avez-vous des disponibilités mardi ?,Do you have any openings on Tuesday?,Feminine noun; plural often means time slots.
+Vocabulary,B1,une préférence,a preference,Avez-vous une préférence pour le matin ?,Do you have a preference for mornings?,Feminine noun.
+Vocabulary,B1,un conseil,a piece of advice,Auriez-vous un conseil à me donner ?,Would you have any advice for me?,Masculine noun.
+Vocabulary,B1,une expérience,an experience,J'ai vécu une expérience enrichissante.,I had an enriching experience.,Feminine noun.
+Vocabulary,B1,une compétence,a skill,Ce cours développe de nouvelles compétences.,This course develops new skills.,Feminine noun.
+Vocabulary,B1,un changement,a change,Il y a eu un changement d'horaire.,There has been a schedule change.,Masculine noun.
+Vocabulary,B2,un enjeu,a key issue; stake,La mobilité est un enjeu majeur.,Mobility is a major issue.,Masculine noun; plural enjeux.
+Vocabulary,B2,une mesure,a measure; step,Le gouvernement propose une nouvelle mesure.,The government proposes a new measure.,Feminine noun.
+Vocabulary,B2,une conséquence,a consequence,Cette décision aura des conséquences.,This decision will have consequences.,Feminine noun.
+Vocabulary,B2,une contrainte,a constraint,Le budget représente une contrainte importante.,The budget is a major constraint.,Feminine noun.
+Vocabulary,B2,une priorité,a priority,L'éducation devrait être une priorité.,Education should be a priority.,Feminine noun.
+Vocabulary,B2,un impact,an impact,Quel sera l'impact sur les habitants ?,What will the impact on residents be?,Masculine noun.
+Vocabulary,B2,une tendance,a trend,Cette tendance se confirme depuis plusieurs années.,This trend has been confirmed over several years.,Feminine noun.
+Vocabulary,B2,une augmentation,an increase,Nous constatons une augmentation des prix.,We're seeing an increase in prices.,Feminine noun.
+Vocabulary,B2,une baisse,a decrease; drop,On observe une baisse du chômage.,A decline in unemployment is being observed.,Feminine noun.
+Vocabulary,B2,une pénurie,a shortage,Cette région souffre d'une pénurie de logements.,This region suffers from a housing shortage.,Feminine noun.
+Vocabulary,B2,un compromis,a compromise,Nous devons trouver un compromis.,We must find a compromise.,"Masculine noun; final s pronounced? no, silent."
+Vocabulary,B2,une démarche durable,a sustainable approach,L'entreprise adopte une démarche durable.,The company is adopting a sustainable approach.,Used in environmental and business contexts.
+Vocabulary,B2,une inégalité,an inequality,L'école peut réduire certaines inégalités.,Schools can reduce some inequalities.,Feminine noun.
+Vocabulary,B2,la sensibilisation,awareness-raising,La sensibilisation à la sécurité est essentielle.,Raising awareness of safety is essential.,Feminine noun.
+Vocabulary,B2,une initiative,an initiative,Cette initiative favorise l'entraide.,This initiative encourages mutual help.,Feminine noun.
+Vocabulary,B2,un dispositif,a scheme; system; measure,Ce dispositif facilite l'accès aux soins.,This scheme makes healthcare more accessible.,Meaning depends on administrative context.
+Vocabulary,B2,une perspective,a prospect; outlook,Ce projet offre de nouvelles perspectives.,This project offers new prospects.,Feminine noun.
+Vocabulary,B2,une fiabilité,reliability,La fiabilité du système est importante.,The system's reliability is important.,Feminine abstract noun.
+Vocabulary,B2,une efficacité,effectiveness; efficiency,Nous devons évaluer l'efficacité du programme.,We must evaluate the program's effectiveness.,Feminine abstract noun.
+Vocabulary,C1,un bouleversement,a major upheaval,Cette innovation provoque un bouleversement du secteur.,This innovation causes a major upheaval in the industry.,Masculine noun for sweeping change.
+Vocabulary,C1,une résilience,resilience,La résilience des communautés est remarquable.,The communities' resilience is remarkable.,Feminine noun.
+Vocabulary,C1,une disparité,a disparity,Il existe des disparités entre les régions.,There are disparities between regions.,Feminine noun; often plural.
+Vocabulary,C1,un levier,a lever; driver,La formation est un levier de développement.,Training is a driver of development.,Figurative policy or business term.
+Vocabulary,C1,une pérennité,long-term viability,La pérennité du projet dépend de son financement.,The project's long-term viability depends on funding.,Feminine abstract noun.
+Vocabulary,C1,une remise en question,a reassessment,Cette étude entraîne une remise en question.,This study prompts reassessment.,Feminine expression.
