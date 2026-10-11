@@ -243,7 +243,7 @@ function csvRows(text){const rows=[];let row=[],field='',quoted=false;text=Strin
 function parseCSV(text){const rows=csvRows(text);if(rows.length<2)return[];const headers=rows.shift().map(s=>normal(s).replace(/\s+/g,'_'));const columns={};for(const [field,names] of Object.entries(alias))columns[field]=headers.findIndex(x=>names.includes(x));if(columns.front<0||columns.back<0)throw new Error('CSV needs front/back (or french/meaning, question/answer) columns.');return rows.map(r=>{const out={};for(const k of Object.keys(columns))out[k]=columns[k]<0?'':clean(r[columns[k]]);return out;}).filter(c=>c.front&&c.back);}
 function cardId(card){let hash=2166136261;const value=card.front+'|'+card.back;for(let i=0;i<value.length;i++){hash^=value.charCodeAt(i);hash=Math.imul(hash,16777619);}return String(hash>>>0)}
 const knownSet=path=>new Set(knownByDeck[path]||[]);
-function setNotice(message,kind=''){const e=$('notice');e.className='notice '+kind;$('noticeText').textContent=message;}
+function setNotice(message,kind=''){const e=$('notice');e.className='notice '+kind;$('noticeText').textContent=message;const h=$('headerStatus');h.className='headerStatus '+kind;h.textContent=message;}
 function updateStats(){const subjects=new Set(state.items.map(i=>i.subject));$('subjectTotal').textContent=subjects.size;$('deckTotal').textContent=state.items.length;$('knownTotal').textContent=state.items.reduce((n,d)=>n+knownSet(d.path).size,0);$('footerRepo').textContent=config.repo;const url='https://github.com/'+config.repo;$('sourceLink').href=url;}
 function optionText(node,cls,title,meta){const a=document.createElement('span');a.className=cls;a.textContent=title;node.append(a);if(meta){const b=document.createElement('span');b.className=cls==='subjectTitle'?'subjectCount':'tileMeta';b.textContent=meta;node.append(b);}}
 function chooseSubject(subject){state.subject=subject;state.topic=null;$('topicsPanel').classList.remove('hidden');$('decksPanel').classList.add('hidden');$('studySection').classList.add('hidden');renderSubjects();renderTopics();}
@@ -251,25 +251,66 @@ function renderSubjects(){const grid=$('subjectsGrid');grid.replaceChildren();co
 function renderTopics(){const language=state.subject==='Languages';$('topicHeading').textContent=language?'Which language would you like to learn?':'Which topic would you like to learn?';$('topicHint').textContent=language?'Only languages available in your GitHub decks appear here.':'Select an area of '+state.subject+'.';$('subjectCrumb').textContent=state.subject;const topics=[...new Set(state.items.filter(d=>d.subject===state.subject).map(d=>d.topic))].sort();$('topicCount').textContent=topics.length+' options';const grid=$('topicGrid');grid.replaceChildren();for(const topic of topics){const btn=document.createElement('button');btn.className='tile';btn.type='button';btn.setAttribute('aria-pressed',String(state.topic===topic));optionText(btn,'tileTitle',topic,state.items.filter(d=>d.subject===state.subject&&d.topic===topic).length+' decks');btn.addEventListener('click',()=>chooseTopic(topic));grid.append(btn);}}
 function chooseTopic(topic){state.topic=topic;$('decksPanel').classList.remove('hidden');$('studySection').classList.add('hidden');$('topicCrumb').textContent=state.subject+' / '+topic;$('deckSearch').value='';renderTopics();renderDecks();}
 function renderDecks(){const q=normal($('deckSearch').value);const decks=state.items.filter(d=>d.subject===state.subject&&d.topic===state.topic&&(!q||normal(d.title+' '+d.path).includes(q)));$('deckCount').textContent=decks.length+' decks';const grid=$('deckGrid');grid.replaceChildren();if(!decks.length){const p=document.createElement('p');p.className='panelEmpty';p.textContent='No matching decks.';grid.append(p);return;}for(const deck of decks){const btn=document.createElement('button');btn.type='button';btn.className='tile';btn.setAttribute('aria-pressed',String(state.active?.path===deck.path));optionText(btn,'tileTitle',deck.title,deck.cards?deck.cards.length+' cards':'Tap to open ↗');btn.addEventListener('click',()=>openDeck(deck));grid.append(btn);}}
+
+/* Compact selector bar. Keep the original subject/topic/deck grid and its logic
+   for compatibility, but manage everyday navigation from these three selects. */
+function renderPicker(){
+ const subjects=[...new Set(state.items.map(d=>d.subject))].sort((a,b)=>(a==='Languages'?-1:b==='Languages'?1:a.localeCompare(b)));
+ const subject=subjects.includes(state.subject)?state.subject:(subjects[0]||null);
+ const topics=[...new Set(state.items.filter(d=>d.subject===subject).map(d=>d.topic))].sort((a,b)=>a.localeCompare(b));
+ const topic=topics.includes(state.topic)?state.topic:(topics[0]||null);
+ const decks=state.items.filter(d=>d.subject===subject&&d.topic===topic);
+ const selected=decks.some(d=>d.path===state.active?.path)?state.active.path:(decks[0]?.path||'');
+ function populate(id,values,value,placeholder){
+  const el=$(id);el.replaceChildren();
+  if(!values.length){const opt=document.createElement('option');opt.textContent=placeholder;opt.value='';el.append(opt);el.disabled=true;return;}
+  for(const [val,label] of values){const opt=document.createElement('option');opt.value=val;opt.textContent=label;el.append(opt);}
+  el.value=value;el.disabled=false;
+ }
+ populate('subjectSelect',subjects.map(x=>[x,x]),subject||'','No subjects');
+ populate('topicSelect',topics.map(x=>[x,x]),topic||'','No topics');
+ populate('deckSelect',decks.map(x=>[x.path,x.title]),selected,'No decks');
+ $('emptyLanding').classList.toggle('hidden',!!state.activeCards.length);
+}
+async function switchPicker(which){
+ if(state.working)return;
+ const subj=which==='subject'?$('subjectSelect').value:($('subjectSelect').value||state.subject);
+ const choices=state.items.filter(d=>d.subject===subj);
+ const topic=which==='subject'?(choices[0]?.topic||null):($('topicSelect').value||choices[0]?.topic||null);
+ const options=choices.filter(d=>d.topic===topic);
+ const chosen=which==='deck'?options.find(d=>d.path===$('deckSelect').value):options[0];
+ if(!chosen)return;
+ state.subject=chosen.subject;state.topic=chosen.topic;
+ renderPicker();
+ await openDeck(chosen);
+}
 function rawUrl(d){return 'https://raw.githubusercontent.com/'+config.repo+'/'+encodeURIComponent(config.branch)+'/'+d.path.split('/').map(encodeURIComponent).join('/')+'?v='+encodeURIComponent(d.sha||Date.now().toString());}
 async function fetchTimed(url,timeout=18000){const ctl=new AbortController(),t=setTimeout(()=>ctl.abort(),timeout);try{const res=await fetch(url,{cache:'no-store',signal:ctl.signal});if(!res.ok)throw new Error('GitHub returned HTTP '+res.status);return res;}finally{clearTimeout(t);}}
 async function sync(){if(state.working)return;
  const toResume=state.active?sessionSnapshot():(restoreOnInitialSync?store.get('lastSession',null):null);
  state.working=true;$('syncBtn').disabled=true;setNotice('Checking GitHub for CSV decks…');try{const url='https://api.github.com/repos/'+config.repo+'/git/trees/'+encodeURIComponent(config.branch)+'?recursive=1';const data=await(await fetchTimed(url)).json();if(!Array.isArray(data.tree))throw new Error('GitHub did not return a file listing.');if(data.truncated)throw new Error('GitHub repository is too large to list all files.');state.items=getDecks(data.tree);if(state.active){const updated=state.items.find(d=>d.path===state.active.path);state.active=updated||null;state.activeCards=[];$('studySection').classList.add('hidden');}if(state.subject&&!state.items.some(d=>d.subject===state.subject))state.subject=null;if(state.subject&&state.topic&&!state.items.some(d=>d.subject===state.subject&&d.topic===state.topic))state.topic=null;renderSubjects();$('topicsPanel').classList.toggle('hidden',!state.subject);$('decksPanel').classList.toggle('hidden',!state.topic);if(state.subject)renderTopics();if(state.topic)renderDecks();updateStats();setNotice('Connected to GitHub · '+state.items.length+' decks available.','ready');
+ let restored=false;
  if(validSession(toResume)){
   const deck=state.items.find(d=>d.path===toResume.path);
-  if(deck){state.subject=deck.subject;state.topic=deck.topic;renderSubjects();renderTopics();renderDecks();$('topicsPanel').classList.remove('hidden');$('decksPanel').classList.remove('hidden');await openDeck(deck,toResume);}
+  if(deck){state.subject=deck.subject;state.topic=deck.topic;renderSubjects();renderTopics();renderDecks();$('topicsPanel').classList.remove('hidden');$('decksPanel').classList.remove('hidden');await openDeck(deck,toResume);restored=true;}
  }
+ if(!restored&&state.items.length){
+  const deck=state.items.find(d=>d.path===state.active?.path)||state.items[0];
+  state.subject=deck.subject;state.topic=deck.topic;
+  await openDeck(deck);
+ }
+ renderPicker();
  restoreOnInitialSync=false;
  }
  catch(e){setNotice('Could not load GitHub decks: '+(e.name==='AbortError'?'request timed out':e.message)+'. Check Settings or retry.','error');if(!state.items.length)renderSubjects();}
- finally{state.working=false;$('syncBtn').disabled=false;}}
-async function openDeck(deck,resume=null){state.active=deck;$('studySection').classList.remove('hidden');$('studyTitle').textContent=deck.title;$('studySubtitle').textContent=deck.subject+' › '+deck.topic;$('cardLayout').classList.add('hidden');$('filters').classList.add('hidden');setNotice('Loading '+deck.title+' from GitHub…');$('studyCount').textContent='Loading…';try{if(!deck.cards)deck.cards=parseCSV(await(await fetchTimed(rawUrl(deck))).text());if(!deck.cards.length)throw new Error('CSV contains no valid cards.');state.activeCards=deck.cards;state.index=0;state.shuffled=!!resume?.shuffled;state.frontVisible=resume?resume.frontVisible!==false:true;state.backVisible=resume?resume.backVisible!==false:true;
+ finally{state.working=false;$('syncBtn').disabled=false;renderPicker();}}
+let activeDeckRequest=0;
+async function openDeck(deck,resume=null){const requestId=++activeDeckRequest;window.speechSynthesis?.cancel();state.active=deck;$('emptyLanding').classList.add('hidden');renderPicker();$('studySection').classList.remove('hidden');$('studyTitle').textContent=deck.title;$('studySubtitle').textContent=deck.subject+' › '+deck.topic;$('cardLayout').classList.add('hidden');$('filters').classList.add('hidden');setNotice('Loading '+deck.title+' from GitHub…');$('studyCount').textContent='Loading…';try{if(!deck.cards){const text=await(await fetchTimed(rawUrl(deck))).text();if(requestId!==activeDeckRequest)return;deck.cards=parseCSV(text);}if(requestId!==activeDeckRequest)return;if(!deck.cards.length)throw new Error('CSV contains no valid cards.');state.activeCards=deck.cards;state.index=0;state.shuffled=!!resume?.shuffled;state.frontVisible=resume?resume.frontVisible!==false:true;state.backVisible=resume?resume.backVisible!==false:true;
  fillFilters();
  if(resume){for(const [id,val] of [['levelFilter',resume.level],['typeFilter',resume.type]]){
   if(val&&[...$(id).options].some(option=>option.value===val))$(id).value=val;
  }}
- applyFilters(resume);$('shuffleBtn').textContent=state.shuffled?'Original order':'Shuffle';renderDecks();setNotice('Loaded '+deck.cards.length+' cards from GitHub.','ready');$('studySection').scrollIntoView({behavior:'smooth',block:'start'});}catch(e){state.activeCards=[];state.filtered=[];$('cardLayout').classList.remove('hidden');$('frontText').textContent='This deck could not be loaded';$('backText').textContent=e.message;setNotice('Could not open deck: '+e.message,'error');}}
+ applyFilters(resume);$('shuffleBtn').textContent=state.shuffled?'Original order':'Shuffle';renderDecks();renderPicker();setNotice('Loaded '+deck.cards.length+' cards from GitHub.','ready');}catch(e){state.activeCards=[];state.filtered=[];$('cardLayout').classList.remove('hidden');$('frontText').textContent='This deck could not be loaded';$('backText').textContent=e.message;setNotice('Could not open deck: '+e.message,'error');}}
 function fillFilters(){for(const [id,field,allText] of [['levelFilter','level','All levels'],['typeFilter','type','All types']]){const s=$(id);s.replaceChildren();const opt=document.createElement('option');opt.value='all';opt.textContent=allText;s.append(opt);const vals=[...new Set(state.activeCards.map(c=>c[field]).filter(Boolean))].sort();for(const v of vals){const option=document.createElement('option');option.value=v;option.textContent=v;s.append(option);}s.disabled=!vals.length;}}
 function applyFilters(resume=null){const lv=$('levelFilter').value,ty=$('typeFilter').value;
  const cards=state.activeCards.filter(c=>(lv==='all'||c.level===lv)&&(ty==='all'||c.type===ty));
@@ -305,7 +346,8 @@ function speak(example=false){const c=card();if(!c||!('speechSynthesis' in windo
 function applyTheme(){const dark=document.documentElement.dataset.theme==='dark';$('themeBtn').setAttribute('aria-label',dark?'Switch to light mode':'Switch to dark mode');}
 document.documentElement.dataset.theme=store.get('theme','light')==='dark'?'dark':'light';applyTheme();
 $('themeBtn').addEventListener('click',()=>{const next=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=next;store.set('theme',next);applyTheme();});
-$('syncBtn').addEventListener('click',sync);$('backSubjects').addEventListener('click',()=>{$('topicsPanel').classList.add('hidden');$('decksPanel').classList.add('hidden');$('studySection').classList.add('hidden');state.subject=null;state.topic=null;renderSubjects();});
+$('syncBtn').addEventListener('click',sync);
+for(const [id,which] of [['subjectSelect','subject'],['topicSelect','topic'],['deckSelect','deck']])$(id).addEventListener('change',()=>switchPicker(which));$('backSubjects').addEventListener('click',()=>{$('topicsPanel').classList.add('hidden');$('decksPanel').classList.add('hidden');$('studySection').classList.add('hidden');state.subject=null;state.topic=null;renderSubjects();});
 $('backTopics').addEventListener('click',()=>{$('decksPanel').classList.add('hidden');$('studySection').classList.add('hidden');state.topic=null;renderTopics();});$('deckSearch').addEventListener('input',renderDecks);
 $('frontEye').addEventListener('click',()=>toggle('front'));$('backEye').addEventListener('click',()=>toggle('back'));$('frontText').addEventListener('click',()=>{if(!state.frontVisible)toggle('front')});$('backText').addEventListener('click',()=>{if(!state.backVisible)toggle('back')});
 for(const id of ['frontText','backText'])$(id).addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();if(id==='frontText'&&!state.frontVisible)toggle('front');if(id==='backText'&&!state.backVisible)toggle('back');}});
@@ -313,7 +355,7 @@ $('speakFront').addEventListener('click',()=>speak(false));$('speakExample').add
 $('levelFilter').addEventListener('change',applyFilters);$('typeFilter').addEventListener('change',applyFilters);$('shuffleBtn').addEventListener('click',()=>{state.shuffled=!state.shuffled;$('shuffleBtn').textContent=state.shuffled?'Original order':'Shuffle';applyFilters()});
 function showSettings(open){$('settingsModal').classList.toggle('hidden',!open);if(open){$('repoInput').value=config.repo;$('branchInput').value=config.branch;$('repoInput').focus();}}
 $('settingsBtn').addEventListener('click',()=>showSettings(true));$('cancelSettings').addEventListener('click',()=>showSettings(false));$('settingsModal').addEventListener('click',e=>{if(e.target===$('settingsModal'))showSettings(false)});document.addEventListener('keydown',e=>{if(e.key==='Escape')showSettings(false)});
-$('saveSettings').addEventListener('click',()=>{let repo=$('repoInput').value.trim().replace(/^https?:\/\/github\.com\//i,'').replace(/\/$/,'');const branch=$('branchInput').value.trim();if(!/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(repo)||!branch||/[?#\s]/.test(branch)){alert('Enter a valid public GitHub repository (owner/repo) and branch.');return;}config.repo=repo;config.branch=branch;store.set('universalRepository',config);state.items=[];state.subject=null;state.topic=null;state.active=null;state.activeCards=[];for(const id of ['topicsPanel','decksPanel','studySection'])$(id).classList.add('hidden');showSettings(false);sync();});
+$('saveSettings').addEventListener('click',()=>{let repo=$('repoInput').value.trim().replace(/^https?:\/\/github\.com\//i,'').replace(/\/$/,'');const branch=$('branchInput').value.trim();if(!/^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(repo)||!branch||/[?#\s]/.test(branch)){alert('Enter a valid public GitHub repository (owner/repo) and branch.');return;}config.repo=repo;config.branch=branch;store.set('universalRepository',config);state.items=[];state.subject=null;state.topic=null;state.active=null;state.activeCards=[];for(const id of ['topicsPanel','decksPanel','studySection'])$(id).classList.add('hidden');$('emptyLanding').classList.remove('hidden');renderPicker();showSettings(false);sync();});
 let firstTouch=null;$('cardLayout').addEventListener('touchstart',e=>{if(e.touches.length===1&&!e.target.closest('button,a,select'))firstTouch={x:e.touches[0].clientX,y:e.touches[0].clientY};else firstTouch=null},{passive:true});$('cardLayout').addEventListener('touchend',e=>{if(!firstTouch||!e.changedTouches[0])return;const dx=e.changedTouches[0].clientX-firstTouch.x,dy=e.changedTouches[0].clientY-firstTouch.y;firstTouch=null;if(Math.abs(dx)>65&&Math.abs(dx)>Math.abs(dy)*1.5)move(dx<0?1:-1);},{passive:true});
 document.addEventListener('visibilitychange',()=>{if(document.hidden)saveSession();});
 window.addEventListener('pagehide',saveSession);
