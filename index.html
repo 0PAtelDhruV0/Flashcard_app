@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#f6f7fb">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Deckflow">
-<title>Deckflow · Learn anything</title>
+<title>Deckflow · Focus reader</title>
 <style>
 :root{color-scheme:light;--bg:#f6f7fb;--surface:#fff;--raised:#fbfcff;--ink:#18213a;--muted:#71809b;--line:#e5eaf4;--accent:#5957dc;--accentWash:#ededff;--good:#0d906c;--goodWash:#e2f7ef;--shadow:0 18px 55px rgba(30,42,84,.07)}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%;scroll-behavior:smooth}body{margin:0;min-height:100vh;min-height:100dvh;background:radial-gradient(ellipse at top right,rgba(203,205,255,.34),transparent 38%),var(--bg);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Arial,sans-serif}button,input,select{font:inherit}button{cursor:pointer;-webkit-tap-highlight-color:transparent;touch-action:manipulation}button:disabled{opacity:.42;cursor:not-allowed}button:focus-visible,input:focus-visible,select:focus-visible,.masked:focus-visible{outline:3px solid #a7a4ff;outline-offset:3px}button,input{transition:background .15s,border-color .15s,transform .15s}button:active:not(:disabled){transform:scale(.98)}a{color:var(--accent)}.hidden{display:none!important}
@@ -29,6 +29,148 @@ html[data-theme="dark"]{color-scheme:dark;--bg:#10182b;--surface:#1c2841;--raise
 .cardLayout.frontOnly{grid-template-columns:minmax(0,1fr)}.cardLayout.frontOnly .answer{display:none}
 @media(max-width:690px){.frontStack{gap:3px;margin:10px 0 15px}.translationText{font-size:13px;padding:0 5px}.questionButtons{gap:7px}.questionButtons .btn{font-size:12px;padding:9px 10px;min-width:0}}
 @media(max-width:365px){.questionButtons .btn{font-size:11px;padding:8px}.translationText{font-size:12px}}
+
+/* Deckflow 2.1: one screen, three deck selectors in a pinned header */
+html,body { width:100%;height:100%;overflow:hidden!important;overscroll-behavior:none!important; }
+body { min-height:0!important; }
+.layout { max-width:none!important; width:100%; height:100vh; height:100dvh; min-height:0; display:flex; flex-direction:column; overflow:hidden; margin:0;
+  padding:max(8px,env(safe-area-inset-top)) max(12px,env(safe-area-inset-right)) max(8px,env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left)); }
+.top { flex:0 0 auto; display:grid; grid-template-columns:auto minmax(0,1fr) auto; align-items:center; gap:clamp(8px,1.5vw,18px); margin:0; padding:2px 0 9px; }
+.brandGroup { gap:8px; min-width:0; }
+.brandMark { width:39px;height:39px;border-radius:12px; }
+.brandMark svg {width:22px;height:22px;}
+.brand {font-size:clamp(17px,2.3vw,22px);letter-spacing:-.7px;}
+.tagline {font-size:10px;white-space:nowrap;}
+.deckPicker {display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1.25fr);gap:8px;min-width:0;align-items:end;}
+.pickerItem {display:flex;flex-direction:column;gap:4px;min-width:0;}
+.pickerItem span {color:var(--muted);font-size:9px;letter-spacing:.10em;font-weight:840;padding-left:2px;white-space:nowrap;}
+.pickerItem select {display:block;width:100%;min-width:0; height:40px;padding:0 24px 0 10px; border:1px solid var(--line);border-radius:10px;
+ background:var(--surface);color:var(--ink);font-size:13px;font-weight:740;text-overflow:ellipsis;overflow:hidden;white-space:nowrap; }
+.pickerItem select:disabled {opacity:.56;}
+.topActions {gap:6px;}
+.topActions .btn {min-height:40px;height:40px;border-radius:10px;}
+.topActions .iconBtn {width:40px;}
+.topActions #syncBtn {padding:8px 11px;gap:5px;}
+.headerStatus {flex:0 0 auto;font-size:10px;color:var(--muted);line-height:1.25;min-height:17px;
+ overflow:hidden;text-overflow:ellipsis;white-space:nowrap;padding:0 2px 5px;}
+.headerStatus.ready {color:var(--good);}
+.headerStatus.error {color:#c94956;}
+.hero,.notice,#subjectsPanel,#topicsPanel,#decksPanel,.footer {display:none!important;}
+.emptyLanding {flex:1 1 auto;min-height:0;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;
+ padding:20px;background:var(--surface);border:1px solid var(--line);border-radius:20px;color:var(--ink);}
+.emptyLanding h1 {font-size:clamp(19px,3vw,30px);margin:13px 0 4px;}
+.emptyLanding p {font-size:13px;color:var(--muted);max-width:430px;margin:0;}
+.landingIcon {height:53px;width:53px;border-radius:17px;background:var(--accentWash);display:grid;place-items:center;color:var(--accent);}
+.landingIcon svg {width:28px;height:28px;}
+.study {flex:1 1 auto;min-height:0;min-width:0;display:flex;flex-direction:column;overflow:hidden; margin:0;border-radius:19px;}
+.studyTop {flex:0 0 auto;min-height:0;padding:11px 19px;gap:12px;}
+.studyName {font-size:clamp(15px,1.7vw,18px);line-height:1.15;}
+.studySub {font-size:10px;line-height:1.3;}
+.studyTags {flex-wrap:nowrap;flex:0 0 auto;}
+.studyTags .btn {min-height:32px;padding:6px 11px;font-size:12px;border-radius:9px;}
+.studyTags .pill {font-size:11px;padding:5px 10px;}
+.bar {flex:0 0 4px;height:4px;}
+.filterPanel {flex:0 0 auto;min-height:0;padding:7px 17px;gap:8px;}
+.filterPanel label {font-size:11px;}
+.filterPanel select {min-height:31px;height:31px;font-size:12px;padding:4px 26px 4px 9px;max-width:170px;}
+.cardLayout {flex:1 1 auto;min-height:0!important;min-width:0;display:grid;grid-template-columns:minmax(0,1.02fr) minmax(0,.98fr);overflow:hidden;}
+.cardLayout.frontOnly {grid-template-columns:minmax(0,1fr);}
+.question {min-height:0!important;min-width:0;overflow:hidden;padding:17px 19px 12px;justify-content:center;}
+.question:before {top:12px;left:16px;}
+.frontStack {min-height:0;width:100%;max-width:100%;gap:6px;margin:12px 0 14px;justify-content:center;overflow:hidden;}
+.frontText {font-size:clamp(21px,3.35vw,43px);line-height:1.18;margin:0;max-width:100%;overflow-wrap:anywhere;}
+.translationText {font-size:clamp(12px,1.45vw,17px);max-width:100%;line-height:1.38;margin:0;padding:0 7px;}
+.questionButtons {gap:6px;flex:0 0 auto;}
+.questionButtons .btn {min-height:34px;padding:7px 10px;border-radius:9px;font-size:12px;gap:5px;}
+.questionButtons .icon {width:15px;height:15px;}
+.answer {min-width:0;min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin;padding:15px 18px;}
+.answerTitle {margin-bottom:8px;}
+.answerTitle h3 {font-size:14px;}
+.field {padding:9px 11px;margin-top:7px;border-radius:9px;}
+.fieldLabel {font-size:9px;margin-bottom:4px;}
+.fieldText {font-size:clamp(12px,1.35vw,15px);line-height:1.34;}
+.fieldText.smaller {font-size:clamp(11px,1.2vw,13px);}
+#speakExample {margin-top:6px!important;min-height:29px!important;padding:4px 9px;font-size:11px!important;}
+.studyFooter {flex:0 0 auto;padding:9px 17px;min-height:55px;flex-wrap:nowrap;}
+.studyFooter .btn {min-height:37px;padding:7px 12px;font-size:12px;border-radius:10px;}
+.navGroup {gap:7px;flex:0 0 auto;}
+.navGroup .btn {min-width:95px;}
+@media (max-width:950px) {
+ .top {grid-template-columns:minmax(0,1fr) auto;gap:7px;padding-bottom:5px;}
+ .deckPicker {grid-column:1/-1;grid-row:2;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1.3fr);}
+ .topActions {grid-column:2;grid-row:1;}
+ .tagline {display:none;}
+ .deckPicker .pickerItem select {height:37px;}
+ .topActions .btn,.topActions .iconBtn {min-height:36px;height:36px;}
+ .topActions .iconBtn {width:36px;}
+ .studyTop {padding:10px 14px;}
+ .filterPanel {padding:6px 12px;}
+ .cardLayout {grid-template-columns:minmax(0,1fr) minmax(0,1fr);}
+ .question {padding:15px 12px 10px;}
+ .answer {padding:12px;}
+}
+@media (max-width:690px) {
+ .layout {padding-top:max(6px,env(safe-area-inset-top));padding-bottom:max(6px,env(safe-area-inset-bottom));}
+ .brandMark {height:32px;width:32px;border-radius:10px;}
+ .brand {font-size:20px;}
+ .deckPicker {gap:5px;}
+ .pickerItem span {font-size:8px;letter-spacing:0;}
+ .deckPicker .pickerItem select {height:34px;font-size:11px;padding-left:6px;padding-right:15px;border-radius:8px;}
+ .topActions .btn,.topActions .iconBtn {min-height:33px;height:33px;border-radius:8px;}
+ .topActions .iconBtn {width:33px;}
+ .topActions #syncBtn {width:33px;padding:0;}
+ .syncText {display:none;}
+ .headerStatus {padding-bottom:3px;}
+ .study {border-radius:12px;}
+ .studyTop {padding:8px 10px;}
+ .studyName {font-size:14px;}
+ .studySub {font-size:9px;}
+ .studyTags .btn {min-height:28px;padding:4px 7px;font-size:10px;}
+ .studyTags .pill {font-size:10px;padding:4px 7px;}
+ .filterPanel {padding:5px 9px;}
+ .filterPanel label {font-size:9px;}
+ .filterPanel select {min-height:28px;height:28px;font-size:10px;max-width:126px;}
+ .cardLayout {display:flex;flex-direction:column;}
+ .question {flex:0 1 49%;min-height:0!important;padding:10px 12px 6px;}
+ .question:before {font-size:8px;top:7px;left:10px;}
+ .frontStack {margin:12px 0 8px;gap:3px;}
+ .frontText {font-size:clamp(18px,5.5vw,29px);line-height:1.15;}
+ .translationText {font-size:clamp(11px,3.3vw,15px);line-height:1.2;}
+ .questionButtons .btn {min-height:29px;padding:4px 7px;font-size:10px;gap:4px;}
+ .questionButtons .icon {width:12px;height:12px;}
+ .answer {flex:1 1 51%;border-left:0;border-top:1px solid var(--line);padding:8px 10px;}
+ .answerTitle {margin-bottom:4px;}
+ .answerTitle h3 {font-size:12px;}
+ .field {padding:6px 8px;margin-top:5px;}
+ .fieldText {font-size:11px;line-height:1.25;}
+ .fieldText.smaller {font-size:10px;}
+ .fieldLabel {font-size:8px;margin-bottom:2px;}
+ #speakExample {margin-top:4px!important;min-height:26px!important;font-size:10px!important;}
+ .cardLayout.frontOnly .question {flex:1;}
+ .studyFooter {padding:7px;min-height:47px;gap:5px;}
+ .studyFooter .btn {min-height:33px;padding:5px 8px;font-size:11px;}
+ .navGroup {gap:5px;}
+ .navGroup .btn {min-width:0;}
+}
+@media (max-width:365px) {
+ .brand {font-size:17px;}
+ .studyTop {padding:6px;}
+ .studyTags {gap:4px;}
+ .studyFooter .btn {font-size:10px;}
+}
+@media (max-height:620px) and (min-width:691px) {
+ .top {padding-bottom:3px;}
+ .brandMark {height:30px;width:30px;}
+ .studyTop {padding:6px 13px;}
+ .filterPanel {padding-top:3px;padding-bottom:3px;}
+ .cardLayout .frontText {font-size:clamp(17px,2.7vw,32px);}
+ .answer {padding:8px 13px;}
+ .answerTitle {margin-bottom:4px;}
+ .field {padding:6px 9px;margin-top:5px;}
+ .fieldText {font-size:12px;line-height:1.23;}
+ .studyFooter {min-height:43px;padding:5px 12px;}
+ .studyFooter .btn {min-height:30px;}
+}
 </style>
 </head>
 <body>
@@ -43,12 +185,22 @@ html[data-theme="dark"]{color-scheme:dark;--bg:#10182b;--surface:#1c2841;--raise
 <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4.5 4.5L19 7"/></symbol>
 </svg>
 <div class="layout">
-<header class="top"><div class="brandGroup"><div class="brandMark"><svg><use href="#i-book"/></svg></div><div><div class="brand">deckflow<span style="color:var(--accent)">.</span></div><div class="tagline">Your GitHub-powered learning library</div></div></div><div class="topActions"><button id="themeBtn" class="btn iconBtn" title="Toggle light or dark mode" aria-label="Toggle light or dark mode"><svg class="icon"><use href="#i-sun"/></svg></button><button id="settingsBtn" class="btn iconBtn" title="GitHub repository settings" aria-label="GitHub repository settings"><svg class="icon"><use href="#i-settings"/></svg></button><button id="syncBtn" class="btn primary" title="Reload decks from GitHub"><svg class="icon"><use href="#i-refresh"/></svg><span class="syncText">Sync decks</span></button></div></header>
+<header class="top">
+  <div class="brandGroup"><div class="brandMark"><svg><use href="#i-book"/></svg></div><div><div class="brand">deckflow<span style="color:var(--accent)">.</span></div><div class="tagline">Flashcards, without distractions</div></div></div>
+  <div class="deckPicker" role="group" aria-label="Choose subject, topic and deck">
+    <label class="pickerItem" for="subjectSelect"><span>SUBJECT</span><select id="subjectSelect" aria-label="Subject" disabled><option>Loading…</option></select></label>
+    <label class="pickerItem" for="topicSelect"><span>TOPIC / LANGUAGE</span><select id="topicSelect" aria-label="Topic or language" disabled><option>Choose topic</option></select></label>
+    <label class="pickerItem" for="deckSelect"><span>DECK</span><select id="deckSelect" aria-label="Deck" disabled><option>Choose deck</option></select></label>
+  </div>
+  <div class="topActions"><button id="themeBtn" class="btn iconBtn" title="Toggle light or dark mode" aria-label="Toggle light or dark mode"><svg class="icon"><use href="#i-sun"/></svg></button><button id="settingsBtn" class="btn iconBtn" title="GitHub repository settings" aria-label="GitHub repository settings"><svg class="icon"><use href="#i-settings"/></svg></button><button id="syncBtn" class="btn primary" title="Reload decks from GitHub" aria-label="Reload decks from GitHub"><svg class="icon"><use href="#i-refresh"/></svg><span class="syncText">Sync</span></button></div>
+</header>
+<div id="headerStatus" class="headerStatus" role="status" aria-live="polite">Loading decks from GitHub…</div>
 <section class="hero"><div><div class="eyebrow">LEARN ANYTHING · ONE DECK AT A TIME</div><h1>What will you <span>learn today?</span></h1><p>Choose a subject, pick a topic or language, and study real decks directly from GitHub.</p></div><div class="heroMetrics"><div class="metric"><b id="subjectTotal">—</b><span>Subjects</span></div><div class="metric"><b id="deckTotal">—</b><span>Decks</span></div><div class="metric"><b id="knownTotal">0</b><span>Mastered</span></div></div></section>
 <div class="notice" id="notice" role="status" aria-live="polite"><span><span class="statusDot"></span><span id="noticeText">Loading decks from GitHub…</span></span><a id="sourceLink" target="_blank" rel="noopener noreferrer" href="https://github.com/0PAtelDhruV0/Flashcard_app">View repository ↗</a></div>
 <section class="panel" id="subjectsPanel"><div class="panelHead"><div><div class="stepLabel">STEP 01</div><h2>What do you want to learn?</h2><p>Subjects appear here automatically when CSV decks exist on GitHub.</p></div><span id="subjectsCount" class="countLabel"></span></div><div id="subjectsGrid" class="subjectGrid"><div class="panelEmpty">Connecting to GitHub…</div></div></section>
 <section id="topicsPanel" class="panel hidden"><div class="trail"><button id="backSubjects">All subjects</button><span>›</span><b id="subjectCrumb"></b></div><div class="panelHead"><div><div class="stepLabel">STEP 02</div><h2 id="topicHeading">Choose a topic</h2><p id="topicHint"></p></div><span id="topicCount" class="countLabel"></span></div><div class="topicGrid" id="topicGrid"></div></section>
 <section id="decksPanel" class="panel hidden"><div class="trail"><button id="backTopics">Back to topics</button><span>›</span><b id="topicCrumb"></b></div><div class="panelHead"><div><div class="stepLabel">STEP 03</div><h2>Choose your flashcard deck</h2><p id="deckHint">Select a deck to start studying.</p></div><span id="deckCount" class="countLabel"></span></div><div class="filterRow"><label for="deckSearch" class="visuallyHidden">Search decks</label><input id="deckSearch" class="search" type="search" autocomplete="off" placeholder="Search decks…"></div><div class="deckGrid" id="deckGrid"></div></section>
+<div id="emptyLanding" class="emptyLanding" role="status"><div class="landingIcon"><svg class="icon"><use href="#i-book"/></svg></div><h1>Your next flashcard awaits</h1><p>Choose a subject, topic, and deck in the top bar. Your most recent card will reopen automatically.</p></div>
 <section class="study hidden" id="studySection" aria-label="Flashcard study"><div class="studyTop"><div><div id="studyTitle" class="studyName">Flashcards</div><div id="studySubtitle" class="studySub"></div></div><div class="studyTags"><span id="studyCount" class="pill">0 / 0</span><button id="shuffleBtn" class="btn" title="Shuffle cards">Shuffle</button></div></div><div class="bar"><div id="progressFill" class="barFill"></div></div><div id="filters" class="filterPanel"><label for="levelFilter">Level</label><select id="levelFilter"><option value="all">All levels</option></select><label for="typeFilter">Type</label><select id="typeFilter"><option value="all">All types</option></select></div><div id="cardLayout" class="cardLayout"><div class="question"><div class="frontStack"><div id="frontText" class="frontText" tabindex="0"></div><div id="backText" class="translationText" tabindex="0"></div></div><div class="questionButtons"><button id="frontEye" class="btn subtle"><svg class="icon"><use id="frontEyeIcon" href="#i-eye"/></svg><span id="frontEyeLabel">Hide front</span></button><button id="backEye" class="btn subtle"><svg class="icon"><use id="backEyeIcon" href="#i-eye"/></svg><span id="backEyeLabel">Hide translation</span></button><button id="speakFront" class="btn"><svg class="icon"><use href="#i-volume"/></svg>Listen</button></div></div><div class="answer"><div class="answerTitle"><h3>Examples & notes</h3></div><div id="examplePanel" class="field hidden"><div class="fieldLabel">EXAMPLE</div><div id="exampleText" class="fieldText"></div><button id="speakExample" class="btn" style="margin-top:9px;min-height:36px;font-size:12px"><svg class="icon"><use href="#i-volume"/></svg>Listen to example</button></div><div id="exampleTranslationPanel" class="field hidden"><div class="fieldLabel">EXAMPLE MEANING</div><div id="exampleTranslation" class="fieldText"></div></div><div id="notePanel" class="field hidden"><div class="fieldLabel">LEARNING NOTE</div><div id="noteText" class="fieldText smaller"></div></div></div></div><div class="studyFooter"><div class="navGroup"><button id="previousBtn" class="btn">← Previous</button><button id="nextBtn" class="btn primary">Next →</button></div><div class="navGroup"><button id="learnBtn" class="btn good"><svg class="icon"><use href="#i-check"/></svg><span id="learnLabel">Mark learned</span></button></div></div></section>
 <div class="footer"><span>Content comes only from your GitHub CSV files. Your learning progress stays on this device.</span><span id="footerRepo"></span></div>
 </div>
