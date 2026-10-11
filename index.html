@@ -21,13 +21,13 @@ html[data-theme="dark"]{color-scheme:dark;--bg:#10182b;--surface:#1c2841;--raise
 @media(max-width:690px){.layout{padding:14px max(13px,env(safe-area-inset-right)) calc(27px + env(safe-area-inset-bottom)) max(13px,env(safe-area-inset-left))}.top{margin-bottom:13px}.brandMark{height:39px;width:39px;border-radius:12px}.brand{font-size:21px}.tagline{font-size:10px}.topActions{gap:5px}.btn{min-height:43px;padding:9px 12px}.iconBtn{width:41px;padding:0}.syncText{display:none}.hero{padding:24px 20px;border-radius:21px;display:block}.hero h1{font-size:33px;margin:9px 0}.hero p{font-size:12px}.heroMetrics{margin-top:19px}.metric{flex:1;min-width:0!important;padding:9px!important}.metric b{font-size:22px}.metric span{font-size:9px}.panel{padding:17px;border-radius:18px}.panelHead h2{font-size:17px}.subjectGrid,.topicGrid,.deckGrid{grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.subjectCard{min-height:115px;padding:12px}.subjectTitle{font-size:14px}.subjectIcon{width:33px;height:33px}.tile{min-height:76px;padding:12px}.study{border-radius:19px}.studyTop{padding:15px}.studyName{font-size:16px}.cardLayout{display:flex;flex-direction:column}.question{min-height:230px;padding:27px 18px 22px}.frontText{font-size:clamp(25px,7.4vw,35px);margin:23px 0}.answer{border-left:0;border-top:1px solid var(--line);padding:16px}.answerTitle{margin-bottom:10px}.field{margin-top:8px}.studyFooter{padding:13px;gap:7px;flex-wrap:wrap}.navGroup{flex:1}.navGroup .btn{min-width:0;flex:1}.filterPanel{padding:10px 14px}.notice{align-items:flex-start}.notice a{white-space:normal}}
 @media(max-width:365px){.tagline{display:none}.hero h1{font-size:29px}.subjectGrid,.topicGrid,.deckGrid{gap:7px}.subjectCard{padding:10px}.subjectTitle{font-size:13px}.metric b{font-size:19px}.navGroup .btn{font-size:12px;padding:8px}.filterPanel select{max-width:145px}.studyFooter{flex-direction:column}.navGroup{width:100%}.navGroup:last-child{justify-content:flex-end}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
-.frontStack{width:100%;max-width:100%;display:flex;flex-direction:column;align-items:center;gap:8px;margin:18px 0 22px}
-.frontStack .frontText{margin:0;max-width:100%}
-.translationText{max-width:100%;white-space:pre-line;overflow-wrap:anywhere;font-size:clamp(13px,1.5vw,16px);font-weight:520;line-height:1.55;color:var(--muted);padding:0 8px}
-.translationText.masked{font-size:13px;font-weight:700;letter-spacing:0;padding:9px 13px;border-radius:10px}
+.frontStack{width:100%;max-width:100%;display:flex;flex-direction:column;align-items:center;gap:3px;margin:12px 0 18px}
+.frontStack .frontText{margin:0;max-width:100%;line-height:1.22}
+.translationText{display:block;max-width:100%;white-space:pre-line;overflow-wrap:anywhere;font-size:clamp(12px,1.12vw,14px);font-weight:450;line-height:1.42;color:var(--muted);padding:0 8px;margin-top:3px;text-align:center}
+.translationText.masked{font-size:12px;font-weight:650;letter-spacing:0;padding:4px 8px;border:0;border-radius:7px;background:transparent}
 .questionButtons .btn{max-width:100%}
 .cardLayout.frontOnly{grid-template-columns:minmax(0,1fr)}.cardLayout.frontOnly .answer{display:none}
-@media(max-width:690px){.frontStack{gap:6px;margin:15px 0 18px}.translationText{font-size:13px;padding:0 5px}.questionButtons{gap:7px}.questionButtons .btn{font-size:12px;padding:9px 10px;min-width:0}}
+@media(max-width:690px){.frontStack{gap:3px;margin:10px 0 15px}.translationText{font-size:13px;padding:0 5px}.questionButtons{gap:7px}.questionButtons .btn{font-size:12px;padding:9px 10px;min-width:0}}
 @media(max-width:365px){.questionButtons .btn{font-size:11px;padding:8px}.translationText{font-size:12px}}
 </style>
 </head>
@@ -60,6 +60,12 @@ const PERSIST='parlez-simple-v1:';
 const store={get(key,fallback){try{const v=localStorage.getItem(PERSIST+key);return v===null?fallback:JSON.parse(v)}catch{return fallback}},set(key,value){try{localStorage.setItem(PERSIST+key,JSON.stringify(value))}catch{}}};
 const config=store.get('universalRepository',{repo:'0PAtelDhruV0/Flashcard_app',branch:'main'});
 const knownByDeck=store.get('known',{})||{};
+// One-time migration: reveal the new inline translation for previously saved decks without changing their card or filters.
+if(store.get('inlineTranslationLayoutVersion',0)<2){
+ const previous=store.get('lastSession',null);
+ if(previous&&typeof previous==='object'&&typeof previous.path==='string'){previous.backVisible=true;store.set('lastSession',previous);}
+ store.set('inlineTranslationLayoutVersion',2);
+}
 let restoreOnInitialSync=true;
 const state={items:[],subject:null,topic:null,active:null,activeCards:[],filtered:[],index:0,frontVisible:true,backVisible:true,shuffled:false,working:false};
 const LANGUAGES={'french':'fr-FR','spanish':'es-ES','english':'en-US','german':'de-DE','italian':'it-IT','portuguese':'pt-PT','brazilian portuguese':'pt-BR','japanese':'ja-JP','mandarin':'zh-CN','chinese':'zh-CN','korean':'ko-KR','hindi':'hi-IN','arabic':'ar-SA','russian':'ru-RU','dutch':'nl-NL','punjabi':'pa-IN','urdu':'ur-PK','turkish':'tr-TR','greek':'el-GR','swedish':'sv-SE','polish':'pl-PL','vietnamese':'vi-VN','thai':'th-TH','indonesian':'id-ID','hebrew':'he-IL','latin':'la','bengali':'bn-IN','tamil':'ta-IN','gujarati':'gu-IN','ukrainian':'uk-UA','cantonese':'zh-HK'};
