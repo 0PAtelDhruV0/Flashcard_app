@@ -1,0 +1,68 @@
+﻿category,level,french,meaning,example_fr,example_en,note
+Grammar,A1,Je suis fatigué.,I am tired (present: être).,Je suis fatigué après le travail.,I am tired after work.,"Présent: je suis, tu es, il est, nous sommes, vous êtes, ils sont."
+Grammar,A1,J'ai deux frères.,I have two brothers (present: avoir).,J'ai aussi une sœur.,I also have a sister.,"Présent: j'ai, tu as, il a, nous avons, vous avez, ils ont."
+Grammar,A1,Je vais au travail.,I go to work (present: aller).,Je vais au travail en bus.,I go to work by bus.,"Présent: je vais, tu vas, il va, nous allons, vous allez, ils vont."
+Grammar,A1,Nous faisons du sport.,We exercise (present: faire).,Nous faisons du sport le samedi.,We exercise on Saturdays.,"Présent: fais, fais, fait, faisons, faites, font."
+Grammar,A1,Elle habite à Lyon.,She lives in Lyon (present: regular -er).,Elle habite près de la gare.,She lives near the station.,"Regular -er verb: habite, habites, habite, habitons, habitez, habitent."
+Grammar,A1,Ils finissent à cinq heures.,They finish at five (present: -ir).,Ils finissent leur cours à cinq heures.,They finish their class at five.,"Regular finir: finis, finis, finit, finissons, finissez, finissent."
+Grammar,A2,Je prends le train.,I take the train (present: prendre).,Je prends le train tous les jours.,I take the train every day.,"Irregular present: prends, prends, prend, prenons, prenez, prennent."
+Grammar,A2,Elle se lève tôt.,She gets up early (present: reflexive).,Elle se lève à six heures.,She gets up at six o'clock.,"Reflexive pronoun agrees with subject: me, te, se, nous, vous, se."
+Grammar,A2,Nous pouvons venir.,We can come (present: pouvoir).,Nous pouvons venir après le déjeuner.,We can come after lunch.,"Pouvoir: peux, peux, peut, pouvons, pouvez, peuvent."
+Grammar,A2,Vous devez attendre.,You must wait (present: devoir).,Vous devez attendre votre tour.,You must wait your turn.,"Devoir: dois, dois, doit, devons, devez, doivent."
+Grammar,A2,Je veux apprendre.,I want to learn (present: vouloir).,Je veux apprendre le français.,I want to learn French.,"Vouloir: veux, veux, veut, voulons, voulez, veulent."
+Grammar,A2,Ils viennent demain.,They are coming tomorrow (present: venir).,Ils viennent chez nous demain.,They are coming to our place tomorrow.,Present can express a scheduled near-future event.
+Grammar,A2,J'ai mangé.,I ate / have eaten (passé composé).,J'ai mangé avant le cours.,I ate before class.,Passé composé with avoir: subject + avoir + past participle.
+Grammar,A2,Nous avons regardé un film.,We watched a movie (passé composé).,Nous avons regardé un film hier soir.,We watched a movie last night.,Past participle of regular -er verbs ends in -é.
+Grammar,A2,Elle a fini ses devoirs.,She finished her homework (passé composé).,Elle a fini ses devoirs à huit heures.,She finished her homework at eight.,Finir → fini; common -ir past participle.
+Grammar,A2,J'ai pris un taxi.,I took a taxi (passé composé).,J'ai pris un taxi pour arriver à l'heure.,I took a taxi to arrive on time.,Prendre → pris (irregular past participle).
+Grammar,A2,Ils ont vu le message.,They saw the message (passé composé).,Ils ont vu votre message ce matin.,They saw your message this morning.,Voir → vu (irregular past participle).
+Grammar,A2,Nous avons fait une réservation.,We made a reservation (passé composé).,Nous avons fait une réservation en ligne.,We made a reservation online.,Faire → fait (irregular past participle).
+Grammar,A2,Elle est arrivée tôt.,She arrived early (passé composé with être).,Elle est arrivée à la gare à neuf heures.,She arrived at the station at nine.,"With être, past participle agrees with subject: arrivé/arrivée."
+Grammar,A2,Ils sont partis hier.,They left yesterday (passé composé with être).,Ils sont partis hier matin.,They left yesterday morning.,"Partir uses être: parti, partie, partis, parties."
+Grammar,A2,Nous sommes allées au musée.,We went to the museum (female group).,Nous sommes allées au musée dimanche.,We went to the museum on Sunday.,"With être, -es shows all-female plural; mixed group: allés."
+Grammar,A2,Elle s'est réveillée tôt.,She woke up early (reflexive past).,Elle s'est réveillée à sept heures.,She woke up at seven.,Reflexive passé composé normally uses être; agreement depends on grammatical structure.
+Grammar,B1,Je travaillais le soir.,I used to work evenings (imparfait).,Je travaillais le soir quand j'étais étudiant.,I used to work evenings when I was a student.,"Imparfait of travailler: travaillais, travaillais, travaillait, travaillions, travailliez, travaillaient."
+Grammar,B1,Il faisait froid.,It was cold (imparfait).,Il faisait froid pendant notre voyage.,It was cold during our trip.,Imparfait describes weather and background conditions in the past.
+Grammar,B1,Nous avions une petite voiture.,We had a small car (imparfait).,Nous avions une petite voiture à l'époque.,We had a small car back then.,Avoir → avions in the nous form.
+Grammar,B1,Elle allait souvent au parc.,She often went to the park (imparfait).,Elle allait souvent au parc après l'école.,She often went to the park after school.,Imparfait often expresses repeated past habits.
+Grammar,B1,Je lisais quand tu as appelé.,I was reading when you called.,Je lisais quand tu as appelé hier soir.,I was reading when you called last night.,Imparfait = ongoing background; passé composé = completed interruption.
+Grammar,B1,Nous étions très occupés.,We were very busy (imparfait).,Nous étions très occupés la semaine dernière.,We were very busy last week.,Être has irregular imparfait stem ét-.
+Grammar,B1,Je ne savais pas.,I didn't know (imparfait).,Je ne savais pas que tu habitais ici.,I didn't know you lived here.,Imparfait can describe a past state of knowledge.
+Grammar,B1,"Avant, je prenais le bus.",I used to take the bus.,"Avant, je prenais le bus chaque matin.",I used to take the bus every morning.,Avant + imparfait often contrasts past and present habits.
+Grammar,A2,Je vais étudier.,I am going to study (futur proche).,Je vais étudier après le dîner.,I am going to study after dinner.,Futur proche: aller in the present + infinitive.
+Grammar,A2,Elle va acheter du pain.,She is going to buy bread.,Elle va acheter du pain en rentrant.,She is going to buy bread on her way home.,Use futur proche for an imminent action or current plan.
+Grammar,A2,Nous allons partir bientôt.,We are going to leave soon.,Nous allons partir dans dix minutes.,We are going to leave in ten minutes.,Negation surrounds conjugated aller: nous n'allons pas partir.
+Grammar,B1,Ils vont déménager.,They are going to move house.,Ils vont déménager le mois prochain.,They are going to move next month.,Futur proche for an intended future change.
+Grammar,B1,Je vais devoir attendre.,I am going to have to wait.,Je vais devoir attendre encore une heure.,I am going to have to wait another hour.,Can combine aller + devoir + infinitive.
+Grammar,B1,Je serai disponible demain.,I will be available tomorrow (futur simple).,Je serai disponible après seize heures.,I will be available after 4 p.m.,"Être future stem ser-: serai, seras, sera, serons, serez, seront."
+Grammar,B1,Nous aurons le temps.,We will have time (futur simple).,Nous aurons le temps de visiter le centre.,We will have time to visit downtown.,Avoir future stem aur-.
+Grammar,B1,Ils iront au Canada.,They will go to Canada (futur simple).,Ils iront au Canada l'année prochaine.,They will go to Canada next year.,Aller future stem ir-.
+Grammar,B1,Elle fera les courses.,She will do the shopping (futur simple).,Elle fera les courses après son travail.,She will do the shopping after work.,Faire future stem fer-.
+Grammar,B1,Tu pourras choisir.,You will be able to choose.,Tu pourras choisir une autre date.,You will be able to choose another date.,Pouvoir future stem pourr-.
+Grammar,B1,Nous viendrons ensemble.,We will come together.,Nous viendrons ensemble à la réunion.,We will come to the meeting together.,Venir future stem viendr-.
+Grammar,B1,Je finirai demain.,I will finish tomorrow.,Je finirai ce dossier demain matin.,I will finish this file tomorrow morning.,"Regular -ir future = infinitive + -ai, -as, -a, -ons, -ez, -ont."
+Grammar,B1,"Quand j'arriverai, je t'appellerai.","When I arrive, I'll call you.","Quand j'arriverai à la gare, je t'appellerai.","When I arrive at the station, I'll call you.","After quand referring to future, French uses futur simple, not present."
+Grammar,B1,Je voudrais des renseignements.,I would like some information (conditional).,Je voudrais des renseignements sur les horaires.,I'd like some information about the schedules.,Conditional makes a request more polite; vouloir stem voudr-.
+Grammar,B1,Pourriez-vous répéter ?,Could you repeat? (conditional).,Pourriez-vous répéter la dernière phrase ?,Could you repeat the last sentence?,Polite question with pouvoir: pourriez-vous.
+Grammar,B1,Nous aimerions participer.,We would like to take part.,Nous aimerions participer à votre atelier.,We would like to take part in your workshop.,Conditional of aimer softens a preference.
+Grammar,B1,"À ta place, je choisirais le train.","In your place, I would choose the train.","À ta place, je choisirais le train direct.","In your place, I'd choose the direct train.",Conditional expresses advice or an imagined choice.
+Grammar,B1,"Si j'avais le temps, je voyagerais.","If I had time, I would travel.","Si j'avais le temps, je voyagerais davantage.","If I had time, I would travel more.","Hypothetical present: si + imparfait, conditionnel présent."
+Grammar,B2,Cela coûterait moins cher.,That would cost less.,Cela coûterait moins cher si nous réservions tôt.,That would cost less if we booked early.,Conditionnel can express a hypothetical result.
+Grammar,B2,Il aurait plus de chances.,He would have a better chance.,Il aurait plus de chances s'il se préparait.,He'd have a better chance if he prepared.,Si + imparfait → conditional; not si + conditional.
+Grammar,B2,"Si j'avais su, je serais venu.","If I had known, I would have come.","Si j'avais su pour la réunion, je serais venu.","If I'd known about the meeting, I'd have come.","Past unreal condition: si + plus-que-parfait, conditionnel passé."
+Grammar,B2,J'avais déjà terminé.,I had already finished (plus-que-parfait).,J'avais déjà terminé quand il est arrivé.,I had already finished when he arrived.,Imparfait of avoir + past participle.
+Grammar,B2,Elle était partie.,She had left (plus-que-parfait).,Elle était partie avant notre arrivée.,She had left before we arrived.,"Imparfait of être + past participle, with agreement."
+Grammar,B2,Nous avions compris la situation.,We had understood the situation.,Nous avions compris la situation avant la réunion.,We had understood the situation before the meeting.,Plus-que-parfait describes an event earlier than another past event.
+Grammar,B2,Il s'était levé tard.,He had got up late.,Il s'était levé tard ce jour-là.,He had got up late that day.,Reflexive plus-que-parfait: imperfect of être + participle.
+Grammar,B2,Il faut que tu sois à l'heure.,You must be on time (subjunctive).,Il faut que tu sois à l'heure demain.,You must be on time tomorrow.,"After il faut que, use subjonctif: sois, sois, soit, soyons, soyez, soient."
+Grammar,B2,Je souhaite qu'elle réussisse.,I hope she succeeds (subjunctive).,Je souhaite qu'elle réussisse son examen.,I hope she passes her exam.,Souhaiter que usually introduces the subjunctive.
+Grammar,B2,"Bien qu'il pleuve, nous sortons.","Although it's raining, we're going out.","Bien qu'il pleuve, nous sortons marcher.","Although it's raining, we're going walking.",Bien que is followed by the subjunctive.
+Grammar,B2,Je doute qu'il puisse venir.,I doubt he can come.,Je doute qu'il puisse venir ce soir.,I doubt he can come tonight.,Douter que usually takes the subjunctive.
+Grammar,B2,Il est important que nous fassions attention.,It's important that we pay attention.,Il est important que nous fassions attention aux détails.,It's important that we pay attention to details.,"Faire in subjunctive: fasse, fasses, fasse, fassions, fassiez, fassent."
+Grammar,B2,Je veux que vous veniez.,I want you to come.,Je veux que vous veniez avant midi.,I want you to come before noon.,"Venir subjonctif: vienne, viennes, vienne, venions, veniez, viennent."
+Grammar,B2,"Pour qu'elle comprenne, explique lentement.",Explain slowly so she understands.,"Pour qu'elle comprenne, explique chaque étape lentement.",Explain each step slowly so she understands.,Pour que introduces a goal and requires the subjunctive.
+Grammar,A2,Écoutez attentivement !,Listen carefully! (imperative).,Écoutez attentivement les consignes.,Listen carefully to the instructions.,Imperative vous form of écouter; no explicit subject.
+Grammar,A2,Allons-y !,Let's go! (imperative).,"Le bus arrive, allons-y !",The bus is arriving; let's go!,Imperative nous form: allons.
+Grammar,A2,Ne t'inquiète pas !,Don't worry! (negative imperative).,"Ne t'inquiète pas, tout va bien.","Don't worry, everything is fine.",Negative imperative places ne…pas around the verb.
+Grammar,B1,Je viens de rentrer.,I have just returned (recent past).,Je viens de rentrer chez moi.,I've just come home.,Passé récent: venir de + infinitive.
+Grammar,B1,Nous sommes en train de discuter.,We are discussing right now.,Nous sommes en train de discuter du projet.,We're discussing the project right now.,Être en train de + infinitive highlights an ongoing action.

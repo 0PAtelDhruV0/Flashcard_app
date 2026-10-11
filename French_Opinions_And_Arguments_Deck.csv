@@ -1,0 +1,49 @@
+﻿category,level,french,meaning,example_fr,example_en,note
+Speaking,B1,À mon avis,in my opinion,"À mon avis, les transports publics devraient être gratuits.","In my opinion, public transportation should be free.",Basic opinion marker.
+Speaking,B1,Selon moi,as I see it,"Selon moi, apprendre une langue ouvre des portes.","As I see it, learning a language opens doors.",Introduces personal viewpoint.
+Speaking,B1,Je suis convaincu que,I am convinced that,Je suis convaincu que cette activité est utile.,I am convinced that this activity is useful.,Strong opinion; followed by indicative.
+Speaking,B1,Je pense que,I think that,Je pense que le télétravail a des avantages.,I think that remote work has benefits.,Usually indicative in affirmative.
+Speaking,B1,Je ne pense pas que,I don't think that,Je ne pense pas que ce soit une bonne idée.,I don't think that's a good idea.,Often followed by subjunctive.
+Speaking,B1,Il me semble que,it seems to me that,Il me semble que la situation s'améliore.,It seems to me the situation is improving.,Nuanced opinion.
+Speaking,B1,Je reconnais que,I acknowledge that,Je reconnais que le projet coûte cher.,I acknowledge the project is expensive.,Useful concession.
+Speaking,B1,Il faut admettre que,we must admit that,Il faut admettre que cette solution a des limites.,We must admit this solution has limitations.,Acknowledge competing view.
+Speaking,B1,D'une part... d'autre part...,on one hand... on the other...,"D'une part, c'est pratique ; d'autre part, c'est coûteux.","On one hand, it's practical; on the other, it's expensive.",Structure balanced argument.
+Speaking,B1,Tout d'abord,first of all,"Tout d'abord, il faut vérifier les informations.","First of all, we must verify the information.",Begin structured response.
+Speaking,B1,Ensuite,next; then,"Ensuite, nous pourrons comparer les options.","Next, we'll be able to compare the options.",Sequence of ideas.
+Speaking,B1,Enfin,finally,"Enfin, cette solution réduirait les coûts.","Finally, this solution would reduce costs.",Last point in argument.
+Speaking,B1,En outre,furthermore,"En outre, le programme est accessible à tous.","Furthermore, the program is accessible to everyone.",Formal addition.
+Speaking,B1,De plus,what's more,"De plus, cela permet de gagner du temps.","What's more, it saves time.",Adds a further point.
+Speaking,B1,Par ailleurs,moreover; besides,"Par ailleurs, les horaires sont flexibles.","Moreover, the hours are flexible.",Introduce another consideration.
+Speaking,B1,En revanche,on the other hand,"En revanche, les frais sont élevés.","On the other hand, the fees are high.",Contrast.
+Speaking,B1,Cependant,however,"Cependant, il faut considérer les risques.","However, we must consider the risks.",Formal contrast.
+Speaking,B1,Néanmoins,nevertheless,"Néanmoins, je reste favorable au projet.","Nevertheless, I remain in favor of the project.",Concession.
+Speaking,B1,Bien que,although,"Bien que ce soit difficile, il faut essayer.","Although it's difficult, we must try.",Requires subjunctive.
+Speaking,B1,Même si,even if; although,"Même si c'est cher, je voudrais participer.","Even if it's expensive, I'd like to participate.",Usually indicative.
+Speaking,B1,Malgré,despite,"Malgré le mauvais temps, nous sommes sortis.","Despite the bad weather, we went out.","Followed by noun, unlike bien que."
+Speaking,B1,Parce que,because,Je préfère le vélo parce que c'est écologique.,I prefer cycling because it's eco-friendly.,Direct cause.
+Speaking,B1,Puisque,since; given that,"Puisque tu es libre, viens avec nous.","Since you're free, come with us.",Reason known to listener.
+Speaking,B1,Étant donné que,given that,"Étant donné que le prix a augmenté, nous attendrons.","Given that the price went up, we'll wait.",Formal cause.
+Speaking,B1,C'est pourquoi,that's why,"Il manque de temps, c'est pourquoi il refuse.",He's short on time; that's why he refuses.,Conclusion/consequence.
+Speaking,B1,Par conséquent,consequently,"Le service est fermé ; par conséquent, il faut attendre.","The service is closed; consequently, we must wait.",Formal consequence.
+Speaking,B1,Ainsi,thus; in this way,"Ainsi, nous pourrions réduire les déchets.","Thus, we could reduce waste.",Logical consequence.
+Speaking,B1,Grâce à,thanks to,"Grâce au soutien de tous, le projet a réussi.","Thanks to everyone's support, the project succeeded.",Positive cause.
+Speaking,B1,À cause de,because of,"À cause des travaux, le bus est en retard.","Because of roadworks, the bus is late.",Usually negative cause.
+Speaking,B1,En effet,indeed; in fact,"Cette option est intéressante. En effet, elle coûte moins cher.","This option is interesting. Indeed, it costs less.",Introduces explanation.
+Speaking,B1,Par exemple,for example,"Par exemple, nous pourrions organiser un atelier.","For example, we could organize a workshop.",Introduce evidence.
+Speaking,B1,Prenons l'exemple de,let's take the example of,Prenons l'exemple de notre quartier.,Let's take the example of our neighborhood.,Develop concrete support.
+Speaking,B1,Cela montre que,this shows that,Cela montre que la prévention fonctionne.,This shows that prevention works.,Interpret evidence.
+Speaking,B1,Il est essentiel de,it is essential to,Il est essentiel de protéger notre environnement.,It is essential to protect our environment.,Impersonal + infinitive.
+Speaking,B2,Il faudrait,we should; it would be necessary to,Il faudrait améliorer l'accès aux soins.,We should improve access to healthcare.,Conditional for polite proposal.
+Speaking,B2,On devrait,we should,On devrait encourager les transports en commun.,We should encourage public transit.,Practical recommendation.
+Speaking,B2,Il vaudrait mieux,it would be better to,Il vaudrait mieux commencer plus tôt.,It would be better to start earlier.,Express preference/advice.
+Speaking,B2,Si j'étais à ta place,if I were you,"Si j'étais à ta place, je profiterais de cette occasion.","If I were you, I'd take this opportunity.",Imparfait + conditional.
+Speaking,B2,À condition que,provided that,J'accepte à condition que tout soit clair.,I agree provided everything is clear.,Requires subjunctive.
+Speaking,B2,À moins que,unless,Nous partirons demain à moins qu'il ne pleuve.,We'll leave tomorrow unless it rains.,Requires subjunctive; ne may be expletive.
+Speaking,B2,Dans la mesure où,insofar as; given that,C'est possible dans la mesure où chacun participe.,It's possible insofar as everyone participates.,Nuanced condition/cause.
+Speaking,B2,En résumé,in summary,"En résumé, cette activité présente plus d'avantages.","In summary, this activity has more advantages.",Closing summary.
+Speaking,B2,Pour conclure,to conclude,"Pour conclure, je soutiens cette proposition.","To conclude, I support this proposal.",Closing a TEF argument.
+Speaking,B2,Il ne faut pas oublier que,we must not forget that,Il ne faut pas oublier que le temps est limité.,We must not forget that time is limited.,Emphasize an important consideration.
+Speaking,B2,Le principal avantage est que,the main advantage is that,Le principal avantage est que c'est accessible.,The main advantage is that it's accessible.,Organize benefits.
+Speaking,B2,Le principal inconvénient est que,the main drawback is that,Le principal inconvénient est que cela prend du temps.,The main drawback is that it takes time.,Organize drawbacks.
+Speaking,B2,"Je comprends ton objection, mais...","I understand your objection, but...","Je comprends ton objection, mais on peut réduire les frais.","I understand your objection, but we can reduce costs.",Respond to a friend's concern.
+Speaking,B2,Cela dépend de plusieurs facteurs.,That depends on several factors.,"Cela dépend de plusieurs facteurs, notamment du budget.","That depends on several factors, especially the budget.",Study the expression and its example in context.

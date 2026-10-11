@@ -1,0 +1,50 @@
+﻿category,level,french,meaning,example_fr,example_en,note
+Grammar,A1,à,to; at; in,Je vais à Montréal demain.,I'm going to Montreal tomorrow.,Use à for cities and destinations.
+Grammar,A1,de,from; of,Je reviens de Québec.,I'm coming back from Quebec City.,Use de for origin and possession.
+Grammar,A1,chez,at the home or place of,Je vais chez le médecin.,I'm going to the doctor's.,Used for people and professionals.
+Grammar,A1,dans,in; inside,Les clés sont dans le sac.,The keys are in the bag.,Interior or time until an event.
+Grammar,A1,en,in; by,Je vais en France en train.,I'm going to France by train.,Feminine countries and transport.
+Grammar,A1,au,to the; at the (masculine),Nous allons au cinéma.,We're going to the cinema.,à + le = au.
+Grammar,A1,aux,to the; at the (plural),Ils vont aux États-Unis.,They're going to the United States.,à + les = aux.
+Grammar,A1,du,of the; from the (masculine),Je viens du Canada.,I'm from Canada.,de + le = du.
+Grammar,A1,des,of the; from the (plural),Elle revient des Pays-Bas.,She's coming back from the Netherlands.,de + les = des.
+Grammar,A1,sur,on; on top of,Le livre est sur la table.,The book is on the table.,Usually means on a surface.
+Grammar,A1,sous,under,Le chat dort sous la chaise.,The cat sleeps under the chair.,Opposite of sur in spatial contexts.
+Grammar,A1,devant,in front of,Je t'attends devant l'école.,I'm waiting for you in front of the school.,Location ahead of something.
+Grammar,A1,derrière,behind,Le parking est derrière l'immeuble.,The parking lot is behind the building.,Spatial relation.
+Grammar,A1,à côté de,next to,La pharmacie est à côté de la banque.,The pharmacy is next to the bank.,Followed by a noun.
+Grammar,A1,près de,near,J'habite près de la gare.,I live near the train station.,Opposite of loin de.
+Grammar,A1,loin de,far from,Mon bureau est loin de chez moi.,My office is far from home.,Opposite of près de.
+Grammar,A1,en face de,opposite; across from,Le restaurant est en face de la mairie.,The restaurant is across from city hall.,Spatial relation.
+Grammar,A1,entre,between,Le café est entre deux magasins.,The café is between two shops.,For two points or people.
+Grammar,A1,parmi,among,Elle a choisi un livre parmi plusieurs.,She chose a book from among several.,Selection within a group.
+Grammar,A1,avec,with,Je travaille avec mon frère.,I work with my brother.,Indicates accompaniment.
+Grammar,A1,sans,without,Je prends mon thé sans sucre.,I drink my tea without sugar.,Opposite of avec.
+Grammar,A1,pour,for; in order to,J'étudie pour réussir l'examen.,I'm studying to pass the exam.,Expresses purpose.
+Grammar,A1,contre,against,L'équipe joue contre ses voisins.,The team is playing against its neighbors.,Opposition or physical contact.
+Grammar,A1,pendant,during; for,J'ai travaillé pendant deux heures.,I worked for two hours.,A completed duration.
+Grammar,B1,depuis,since; for (continuing),J'apprends le français depuis un an.,I've been learning French for one year.,Continuing situation uses present tense.
+Grammar,B1,il y a,ago,Je suis arrivé il y a deux jours.,I arrived two days ago.,Placed before a duration for past time.
+Grammar,B1,dans deux jours,in two days,Je pars dans deux jours.,I'm leaving in two days.,Time until a future event.
+Grammar,B1,en deux heures,in two hours (time taken),J'ai fini le projet en deux heures.,I finished the project in two hours.,Time needed to complete an action.
+Grammar,B1,à partir de,starting from,Le magasin ouvre à partir de neuf heures.,The store opens from nine o'clock.,Beginning of a period.
+Grammar,B1,jusqu'à,until; up to,Je reste ici jusqu'à vendredi.,I'm staying here until Friday.,Endpoint in time or space.
+Grammar,B1,avant,before,Appelle-moi avant le dîner.,Call me before dinner.,Before a noun; avant de + infinitive.
+Grammar,B1,après,after,Nous sortirons après le cours.,We'll go out after class.,After a noun; après avoir + past participle.
+Grammar,B1,vers,around; toward,Rendez-vous vers quinze heures.,Let's meet around three p.m.,Approximate time or direction.
+Grammar,B1,malgré,despite,Il sort malgré la pluie.,He's going out despite the rain.,"Followed by a noun, not a finite clause."
+Grammar,B1,grâce à,thanks to,J'ai réussi grâce à ton aide.,I succeeded thanks to your help.,Generally positive cause.
+Grammar,B1,à cause de,because of,Le train est annulé à cause de la neige.,The train is cancelled because of the snow.,Often negative cause.
+Grammar,B1,au lieu de,instead of,Je vais marcher au lieu de prendre le bus.,I'll walk instead of taking the bus.,Followed by infinitive or noun.
+Grammar,B1,en raison de,due to,Le spectacle est reporté en raison du vent.,The show is postponed due to wind.,Formal reason phrase.
+Grammar,B1,au sujet de,about; regarding,Je vous écris au sujet de votre annonce.,I'm writing about your advertisement.,Useful for formal TEF inquiries.
+Grammar,B1,à propos de,about; concerning,J’ai une question à propos du voyage.,I have a question about the trip.,Used to introduce a topic.
+Grammar,B1,en cas de,in case of,"En cas de pluie, le match sera reporté.","In case of rain, the match will be postponed.",Followed by a noun.
+Grammar,B1,à travers,through; across,Nous avons marché à travers la forêt.,We walked through the forest.,Movement through a space.
+Grammar,B1,le long de,along,Ils se promènent le long de la rivière.,They're walking along the river.,Movement following a line.
+Grammar,B1,selon,according to; depending on,"Selon la météo, nous partirons demain.","Depending on the weather, we'll leave tomorrow.",Use for source or variable condition.
+Grammar,B1,par rapport à,compared with; in relation to,Le prix a augmenté par rapport à l'an dernier.,The price increased compared with last year.,Comparison or reference.
+Grammar,B1,à l'intérieur de,inside,Il y a un jardin à l'intérieur du bâtiment.,There's a garden inside the building.,Space within boundaries.
+Grammar,B1,à l'extérieur de,outside,Les vélos sont à l'extérieur de la maison.,The bikes are outside the house.,Opposite of à l'intérieur de.
+Grammar,B1,au-dessus de,above,L'étagère est au-dessus du bureau.,The shelf is above the desk.,No physical contact implied.
+Grammar,B1,au-dessous de,below,Le parking est au-dessous du bâtiment.,The parking lot is below the building.,"Lower location, not necessarily contact."

@@ -1,0 +1,27 @@
+Parlez GitHub deck pack
+=======================
+
+Repository: https://github.com/0PAtelDhruV0/Flashcard_app
+
+1. Open repository; on main, choose Add file > Upload files.
+2. Upload the individual 14 French_*_Deck.csv files from this ZIP.
+3. Do not upload French_All_New_Decks.csv (it is a backup, and the app ignores all-decks filenames).
+4. Commit changes to main.
+5. Open https://0pateldhruv0.github.io/Flashcard_app/ and tap Refresh decks.
+
+Your existing index.html should remain unchanged. The app discovers new CSV files automatically.
+
+French_Conjunctions_Deck.csv: 53 cards
+French_Liaison_Deck.csv: 50 cards
+French_Pronunciation_Deck.csv: 63 cards
+French_Tenses_Deck.csv: 67 cards
+French_Verbs_Deck.csv: 83 cards
+French_Vocabulary_Deck.csv: 95 cards
+French_TEF_Section_A_Questions_Deck.csv: 48 cards
+French_TEF_Section_B_Persuasion_Deck.csv: 48 cards
+French_Everyday_Dialogues_Deck.csv: 48 cards
+French_Prepositions_Deck.csv: 49 cards
+French_Pronouns_Deck.csv: 49 cards
+French_Opinions_And_Arguments_Deck.csv: 48 cards
+French_False_Friends_And_Confusions_Deck.csv: 48 cards
+French_TEF_Listening_Cues_Deck.csv: 50 cards

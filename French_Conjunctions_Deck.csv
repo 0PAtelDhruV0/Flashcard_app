@@ -1,0 +1,54 @@
+﻿category,level,french,meaning,example_fr,example_en,note
+Grammar,A1,et,and,Je parle français et anglais.,I speak French and English.,Coordinating conjunction: adds elements.
+Grammar,A1,mais,but,"C'est intéressant, mais c'est cher.","It's interesting, but it's expensive.",Connects contrasting ideas.
+Grammar,A1,ou,or,Tu préfères le thé ou le café ?,Do you prefer tea or coffee?,Alternative; without accent. Où means where.
+Grammar,A1,parce que,because,Je reste chez moi parce que je suis malade.,I'm staying home because I'm sick.,Introduces a reason; parce qu' before a vowel.
+Grammar,A1,quand,when,Je t'appelle quand je rentre.,I'll call you when I get home.,Can link actions in the present or future.
+Grammar,A2,donc,so; therefore,"Il pleut, donc je prends un parapluie.","It's raining, so I'm taking an umbrella.",Consequence; can follow a comma.
+Grammar,A2,car,because; for,"Je pars tôt, car j'ai un rendez-vous.",I'm leaving early because I have an appointment.,A coordinating connector used before a reason.
+Grammar,A2,puis,then,"Nous mangeons, puis nous partons.",We eat and then leave.,Orders actions or events.
+Grammar,A2,ensuite,next; afterward,"Nous visitons le musée, ensuite nous déjeunons.",We visit the museum and then have lunch.,"Sequencing adverb, not strictly a conjunction."
+Grammar,A2,alors,so; then,"Le bus est en retard, alors je marche.","The bus is late, so I'm walking.",Conversational result connector; also temporal.
+Grammar,A2,comme (cause),since; as,"Comme il neige, nous restons ici.","Since it's snowing, we're staying here.",Cause clause frequently comes first.
+Grammar,A2,si (condition),if,"Si tu as le temps, appelle-moi.","If you have time, call me.","Real possibility: si + présent, present/future/imperative."
+Grammar,A2,lorsque,when,"Lorsque je travaille, je coupe mon téléphone.","When I work, I turn off my phone.",A slightly more formal alternative to quand.
+Grammar,A2,pendant que,while,Je cuisine pendant que tu mets la table.,I'm cooking while you set the table.,Two actions happening at the same time.
+Grammar,A2,avant que,before (subordinate),Ferme la fenêtre avant qu'il pleuve.,Close the window before it rains.,Avant que + subjonctif (unlike avant de + infinitive).
+Grammar,A2,après que,after (subordinate),Je sortirai après qu'il aura terminé.,I'll go out after he has finished.,"In standard formal French après que takes the indicative, not subjunctive."
+Grammar,B1,même si,even if; even though,"Même s'il pleut, nous irons au parc.","Even if it rains, we'll go to the park.",Usually indicative; useful concession.
+Grammar,B1,bien que,although,"Bien qu'il soit fatigué, il continue.","Although he is tired, he carries on.",Bien que + subjonctif.
+Grammar,B1,quoique,although,"Quoique ce soit difficile, elle essaie.","Although it is difficult, she tries.",Quoique (one word) + subjonctif; quoi que (two words) differs.
+Grammar,B1,pour que,so that,Je répète pour que vous compreniez.,I repeat so that you understand.,Purpose + subjonctif.
+Grammar,B1,afin que,in order that,J'explique la règle afin que chacun comprenne.,I explain the rule so everyone understands.,More formal purpose + subjonctif.
+Grammar,B1,à condition que,provided that,Tu peux venir à condition que tu sois à l'heure.,You can come provided you're on time.,Condition + subjonctif.
+Grammar,B1,à moins que,unless,Nous sortirons à moins qu'il pleuve.,We'll go out unless it rains.,Usually subjonctif; ne explétif possible in formal use.
+Grammar,B1,dès que,as soon as,"Dès que j'arriverai, je t'écrirai.","As soon as I arrive, I'll write to you.","For future events, French often uses future tense in this clause."
+Grammar,B1,aussitôt que,as soon as,"Aussitôt que le train arrivera, nous partirons.","As soon as the train arrives, we'll leave.",Temporal conjunction; future event → future in French.
+Grammar,B1,tant que,as long as; while,Tu peux rester tant que tu veux.,You can stay as long as you want.,Duration/condition; followed by indicative.
+Grammar,B1,depuis que,since (the time when),"Depuis qu'elle habite ici, elle marche plus.","Since she's lived here, she walks more.",Introduces a starting point in time.
+Grammar,B1,jusqu'à ce que,until,Attends jusqu'à ce que je revienne.,Wait until I come back.,Jusqu'à ce que + subjonctif.
+Grammar,B1,alors que,whereas; while,"Il adore la ville, alors que je préfère la campagne.","He loves the city, whereas I prefer the countryside.",Contrasts two clauses or indicates simultaneous events.
+Grammar,B1,tandis que,whereas; while,"Elle travaille, tandis que je me repose.",She is working while I rest.,Contrast or simultaneous actions.
+Grammar,B1,puisque,since; given that,"Puisque tu es libre, viens avec nous.","Since you're free, come with us.",Assumes the reason is known or accepted.
+Grammar,B1,grâce à,thanks to,"Grâce à ce cours, je progresse.","Thanks to this course, I'm improving.","Preposition, not conjunction; followed by noun group."
+Grammar,B1,à cause de,because of,"À cause du bruit, je n'ai pas dormi.","Because of the noise, I didn't sleep.",Preposition + noun group; often a negative cause.
+Grammar,B1,en revanche,on the other hand,"Le trajet est rapide. En revanche, il coûte cher.","The journey is fast. On the other hand, it's expensive.","Discourse connector, not a conjunction."
+Grammar,B1,pourtant,however; yet,"Il faisait froid, pourtant nous sommes sortis.","It was cold, yet we went out.",Concession or unexpected result.
+Grammar,B1,cependant,however,"C'est pratique. Cependant, ce n'est pas gratuit.","It's practical. However, it isn't free.",More formal contrast connector.
+Grammar,B1,par conséquent,consequently,"Le magasin est fermé. Par conséquent, je reviendrai.","The shop is closed. Consequently, I'll come back.",Formal consequence connector.
+Grammar,B1,en effet,indeed; in fact,"Ce cours est utile. En effet, il couvre les bases.","This course is useful. Indeed, it covers the basics.",Gives confirmation or an explanation.
+Grammar,B1,d'ailleurs,besides; moreover,"Je connais cette région. D'ailleurs, j'y ai vécu.","I know this region. In fact, I lived there.",Adds supporting information.
+Grammar,B2,non seulement… mais aussi,not only… but also,"Il est non seulement rapide, mais aussi fiable.",It's not only fast but also reliable.,Pairs two characteristics or ideas.
+Grammar,B2,soit… soit,either… or,"On peut partir soit lundi, soit mardi.",We can leave either Monday or Tuesday.,Paired alternative; often repeated.
+Grammar,B2,ni… ni,neither… nor,Je ne bois ni café ni thé.,I drink neither coffee nor tea.,Negative coordinator; normally with ne.
+Grammar,B2,de sorte que,so that; with the result that,"Il a parlé lentement, de sorte que tous ont compris.","He spoke slowly, so everyone understood.","Can express result (indicative) or purpose (subjunctive), depending on context."
+Grammar,B2,si bien que,so that; consequently,"La route était bloquée, si bien que nous avons attendu.","The road was blocked, so we waited.",Result/consequence; followed by indicative.
+Grammar,B2,de peur que,for fear that,Je parle bas de peur qu'il se réveille.,I speak quietly for fear he'll wake up.,Subjonctif; formal grammar sometimes adds ne explétif.
+Grammar,B2,sans que,without (someone doing),Elle est partie sans que je le sache.,She left without my knowing.,Sans que + subjonctif.
+Grammar,B2,pourvu que,provided that; as long as,"Tu peux choisir, pourvu que ce soit raisonnable.","You can choose, as long as it's reasonable.",Condition or hope + subjunctive.
+Grammar,B2,en supposant que,assuming that,"En supposant que vous ayez raison, que ferons-nous ?","Assuming you're right, what will we do?",Often followed by subjunctive.
+Grammar,B2,à supposer que,supposing that,"À supposer qu'il accepte, nous commencerons lundi.","Supposing he accepts, we'll start Monday.",Hypothetical expression + subjunctive.
+Grammar,B2,quoique… néanmoins,although… nevertheless,"Quoiqu'il soit tard, nous pouvons néanmoins discuter.","Although it's late, we can nevertheless talk.",Pairs a concessive subordinate clause with an adverb.
+Grammar,C1,d'autant plus que,all the more so because,"Ce choix est judicieux, d'autant plus qu'il est économique.","This choice is sensible, all the more so because it is economical.",Strengthens an argument with an additional reason.
+Grammar,C1,dans la mesure où,insofar as; given that,Cette solution convient dans la mesure où elle reste abordable.,This solution works insofar as it remains affordable.,"Expresses extent or causal justification, depending on context."
+Grammar,C1,encore faut-il que,but it is still necessary that,Le projet semble intéressant. Encore faut-il qu'il soit financé.,The project seems interesting. But it still needs funding.,Inversion-like set expression; followed by subjunctive.

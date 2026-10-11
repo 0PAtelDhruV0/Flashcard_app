@@ -1,0 +1,51 @@
+﻿category,level,french,meaning,example_fr,example_en,note
+Grammar,A1,les amis,the friends,Les amis arrivent à midi.,The friends arrive at noon.,Required liaison: les amis → /le.za.mi/; final s sounds /z/.
+Grammar,A1,des enfants,some children,Des enfants jouent dehors.,Some children are playing outside.,Required: des enfants → /de.zɑ̃.fɑ̃/; s → /z/.
+Grammar,A1,mes idées,my ideas,Mes idées sont différentes.,My ideas are different.,Required: mes idées → /me.zi.de/.
+Grammar,A1,tes affaires,your things,Prends tes affaires avant de partir.,Take your things before leaving.,Required determiner + vowel: tes affaires → /te.za.fɛʁ/.
+Grammar,A1,un ami,a (male) friend,Un ami m'a appelé.,A friend called me.,Required: un ami → /œ̃.na.mi/; n is pronounced at the link.
+Grammar,A1,mon amie,my (female) friend,Mon amie habite à Ottawa.,My friend lives in Ottawa.,Required: mon amie → /mɔ̃.na.mi/.
+Grammar,A1,deux étudiants,two students,Deux étudiants attendent devant la classe.,Two students wait in front of class.,Required: deux étudiants → /dø.ze.ty.djɑ̃/.
+Grammar,A1,trois heures,three o'clock,Le rendez-vous est à trois heures.,The appointment is at three.,Required: trois heures → /tʁwa.zœʁ/.
+Grammar,A1,vous avez,you have,Vous avez une question ?,Do you have a question?,Required: vous avez → /vu.za.ve/.
+Grammar,A1,nous allons,we are going,Nous allons commencer.,We are going to start.,Required: nous allons → /nu.za.lɔ̃/.
+Grammar,A1,ils ont,they have,Ils ont une voiture.,They have a car.,Required: ils ont → /il.zɔ̃/.
+Grammar,A1,elles arrivent,they arrive (feminine),Elles arrivent dans dix minutes.,They arrive in ten minutes.,Required: elles arrivent → /ɛl.za.ʁiv/.
+Grammar,A1,vous êtes,you are,Vous êtes très gentil.,You are very kind.,Required: vous êtes → /vu.zɛt/.
+Grammar,A2,petit enfant,small child,Ce petit enfant sourit.,This small child is smiling.,Required adjective-before-noun: petit enfant → /pə.ti.tɑ̃.fɑ̃/.
+Grammar,A2,grand homme,great man,C'est un grand homme.,He is a great man.,Required adjective-before-noun: grand homme → /gʁɑ̃.tɔm/; d sounds /t/.
+Grammar,A2,très utile,very useful,Ce conseil est très utile.,This advice is very useful.,Commonly required: très utile → /tʁɛ.zy.til/.
+Grammar,A2,trop aimable,too kind,Vous êtes trop aimable.,You are too kind.,Commonly required: trop aimable → /tʁo.pɛ.mabl/; p pronounced.
+Grammar,A2,bien entendu,of course; understood,"Bien entendu, vous pouvez venir.","Of course, you can come.",Common fixed-phrase liaison: bien entendu → /bjɛ̃.nɑ̃.tɑ̃.dy/.
+Grammar,A2,tout à fait,absolutely; completely,Je suis tout à fait d'accord.,I completely agree.,Required in set expression: tout à fait → /tu.ta.fɛ/.
+Grammar,A2,tout est prêt,everything is ready,Tout est prêt pour la fête.,Everything is ready for the party.,Pronoun tout + vowel: /tu.tɛ.pʁɛ/.
+Grammar,A2,c'est intéressant,that's interesting,C'est intéressant comme sujet.,That's an interesting topic.,Required after c'est: /sɛ.tɛ̃.te.ʁe.sɑ̃/.
+Grammar,A2,on a,we have; one has,On a beaucoup de temps.,We have plenty of time.,Required: on a → /ɔ̃.na/.
+Grammar,A2,on est,we are; one is,On est déjà en retard.,We're already late.,Required: on est → /ɔ̃.nɛ/.
+Grammar,A2,chez eux,at their place,Nous allons chez eux samedi.,We're going to their place Saturday.,Liaison: chez eux → /ʃe.zø/.
+Grammar,A2,dans un,in a,Il est dans un café.,He is in a café.,Required: dans un → /dɑ̃.zœ̃/.
+Grammar,A2,sans hésiter,without hesitating,Elle a répondu sans hésiter.,She answered without hesitating.,Required: sans hésiter → /sɑ̃.ze.zi.te/.
+Grammar,A2,les hommes,the men,Les hommes sont arrivés.,The men arrived.,H muet permits liaison: les hommes → /le.zɔm/.
+Grammar,A2,les hôtels,the hotels,Les hôtels sont complets.,The hotels are fully booked.,H muet permits liaison: les hôtels → /le.zo.tɛl/.
+Grammar,B1,les haricots,the beans,J'ai acheté des haricots verts.,I bought green beans.,Forbidden liaison: haricots has h aspiré; say /le a.ʁi.ko/.
+Grammar,B1,les héros,the heroes,Les héros reviennent à la maison.,The heroes come home.,Forbidden liaison: héros has h aspiré; /le e.ʁo/.
+Grammar,B1,les hiboux,the owls,Les hiboux chassent la nuit.,Owls hunt at night.,Forbidden liaison: hibou has h aspiré; /le i.bu/.
+Grammar,B1,et elle,and she,Paul vient et elle aussi.,"Paul is coming, and she is too.",Forbidden liaison after the conjunction et: /e ɛl/.
+Grammar,B1,mais elle,but she,"Il est prêt, mais elle hésite.","He is ready, but she's hesitating.",Optional/variable liaison after mais; often /mɛ ɛl/ in careful modern speech.
+Grammar,B1,un grand ami,a great friend,C'est un grand ami de la famille.,He's a great friend of the family.,Adjective grand before vowel noun: d → /t/: /gʁɑ̃.ta.mi/.
+Grammar,B1,un ancien élève,a former student,Cet ancien élève revient nous voir.,This former student comes back to visit us.,Required: ancien élève → /ɑ̃.sjɛ̃.ne.lɛv/.
+Grammar,B1,les anciens étudiants,the former students,Les anciens étudiants se retrouvent.,The former students get together.,Two links: les anciens → /le.zɑ̃.sjɛ̃/; anciens étudiants → /ɑ̃.sjɛ̃.ze.ty.djɑ̃/.
+Grammar,B1,ils sont arrivés,they have arrived,Ils sont arrivés très tard.,They arrived very late.,Liaison sont arrivés is often optional; liaison ils ont is required.
+Grammar,B1,nous sommes allés,we went,Nous sommes allés au parc.,We went to the park.,The liaison sommes allés is often optional in everyday speech.
+Grammar,B1,pas encore,not yet,Je n'ai pas encore terminé.,I haven't finished yet.,Liaison after pas is optional and more frequent in careful speech.
+Grammar,B1,assez intéressant,interesting enough,"C'est assez intéressant, en fait.","It's quite interesting, actually.",Liaison after assez before vowel is common; /a.se.zɛ̃.te.ʁe.sɑ̃/.
+Grammar,B1,moins important,less important,Ce détail est moins important.,This detail is less important.,Usually liaison before vowel: moins important → /mwɛ̃.zɛ̃.pɔʁ.tɑ̃/.
+Grammar,B1,avec elle,with her,Je vais au cinéma avec elle.,I'm going to the movies with her.,Not a liaison: final c /k/ is always pronounced; consonant enchaînement.
+Grammar,B1,il arrive,he arrives,Il arrive à dix heures.,He arrives at ten.,Not a liaison: /l/ is pronounced even before consonants.
+Grammar,B1,une amie,a (female) friend,Une amie m'a envoyé un message.,A friend sent me a message.,Not a liaison: final n is pronounced in une; this is enchaînement.
+Grammar,B1,quand il vient,when he comes,"Quand il vient, nous dînons ensemble.","When he comes, we have dinner together.",Liaison quand il → /kɑ̃.til/ is required in standard speech.
+Grammar,B2,vingt et un,twenty-one,J'ai vingt et un ans.,I am twenty-one.,Vingt et un: liaison /t/ belongs to vingt before et; never add liaison after et.
+Grammar,B2,quatre-vingts euros,eighty euros,Le billet coûte quatre-vingts euros.,The ticket costs eighty euros.,Final s in quatre-vingts links as /z/ before euro: /katʁə.vɛ̃.zø.ʁo/.
+Grammar,B2,un bon exemple,a good example,C'est un bon exemple de cette règle.,That's a good example of this rule.,Liaison: bon exemple → /bɔ.nɛɡ.zɑ̃pl/; note nasal quality may change.
+Grammar,B2,les premiers arrivés,the first arrivals,Les premiers arrivés ont choisi leurs places.,The first arrivals chose their seats.,Adjective premiers → /pʁə.mje.z/ before arrivés.
+Grammar,B2,comment allez-vous ?,how are you?,"Bonjour, comment allez-vous ?","Hello, how are you?",Fixed formal inversion: comment allez → /kɔ.mɑ̃.ta.le/; allez-vous → /a.le.vu/.

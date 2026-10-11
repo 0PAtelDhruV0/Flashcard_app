@@ -1,0 +1,50 @@
+﻿category,level,french,meaning,example_fr,example_en,note
+Grammar,A1,je,I,Je travaille demain.,I work tomorrow.,Subject pronoun: first-person singular.
+Grammar,A1,tu,you (informal singular),Tu vas bien ?,Are you doing well?,Subject pronoun: friends/family.
+Grammar,A1,il,he; it,Il habite ici.,He lives here.,Subject pronoun: masculine singular.
+Grammar,A1,elle,she; it,Elle parle trois langues.,She speaks three languages.,Subject pronoun: feminine singular.
+Grammar,A1,on,we; people; one,On va au marché.,We're going to the market.,Informal 'we' uses third-person singular verb.
+Grammar,A1,nous,we,Nous partons demain.,We're leaving tomorrow.,Formal/plural subject pronoun.
+Grammar,A1,vous,you (formal or plural),Vous avez une question ?,Do you have a question?,Formal singular or any plural.
+Grammar,A1,ils,they (masculine or mixed),Ils jouent au football.,They play soccer.,Plural masculine/mixed subject.
+Grammar,A1,elles,they (feminine),Elles arrivent ce soir.,They're arriving tonight.,Plural feminine subject.
+Grammar,A1,moi,me,"Moi, je préfère le thé.","As for me, I prefer tea.",Stressed pronoun.
+Grammar,A1,toi,you,Je pense à toi.,I'm thinking about you.,Stressed pronoun.
+Grammar,A1,lui (tonique),him,Je viens avec lui.,I'm coming with him.,Stressed masculine pronoun.
+Grammar,A1,elle (tonique),her,Il parle d'elle.,He talks about her.,Stressed feminine pronoun.
+Grammar,A1,eux,them (masculine/mixed),Je pars avec eux.,I'm leaving with them.,Stressed plural pronoun.
+Grammar,A1,elles (tonique),them (feminine),Nous restons chez elles.,We're staying at their place.,Stressed feminine plural.
+Grammar,A1,me / m',me (direct or indirect object),Il m'appelle chaque soir.,He calls me every evening.,Object pronoun comes before the conjugated verb.
+Grammar,A1,te / t',you (direct or indirect object),Je te réponds ce soir.,I'll reply to you tonight.,Object pronoun before verb.
+Grammar,A1,le / l',him; it (direct object),Je le connais bien.,I know him well.,Direct-object pronoun (COD).
+Grammar,A1,la / l',her; it (direct object),Je la vois demain.,I'll see her tomorrow.,Direct-object pronoun (COD).
+Grammar,A1,les,them (direct object),Je les attends dehors.,I'm waiting for them outside.,Direct-object pronoun plural.
+Grammar,A1,lui (COI),to him; to her,Je lui téléphone demain.,I'll call him or her tomorrow.,Indirect-object pronoun replaces à + person.
+Grammar,A1,leur (COI),to them,Je leur écris chaque semaine.,I write to them every week.,Indirect-object pronoun plural.
+Grammar,A1,nous (COD/COI),us; to us,Elle nous invite.,She invites us.,Object pronoun: direct or indirect.
+Grammar,A1,vous (COD/COI),you; to you,Je vous remercie.,I thank you.,Object pronoun: formal/plural.
+Grammar,B1,y (lieu),there,J'y vais souvent.,I go there often.,Replaces à + place.
+Grammar,B1,y (chose),to it; about it,J'y pense beaucoup.,I think about it a lot.,Replaces à + thing.
+Grammar,B1,en (quantité),some; of them,J'en voudrais deux.,I'd like two of them.,Replaces de + quantity/noun.
+Grammar,B1,en (origine),from there,J'en reviens demain.,I'm coming back from there tomorrow.,Replaces de + place.
+Grammar,B1,Je l'ai vu.,I saw him.,Je l'ai vu hier à la gare.,I saw him yesterday at the station.,COD pronoun before auxiliary in passé composé.
+Grammar,B1,Je lui ai parlé.,I spoke to him or her.,Je lui ai parlé après le cours.,I spoke to him or her after class.,COI pronoun before auxiliary.
+Grammar,B1,Je ne le sais pas.,I don't know it.,Je ne le sais pas encore.,I don't know it yet.,Negation surrounds pronoun + verb in simple tense.
+Grammar,B1,Donne-le-moi.,Give it to me.,Donne-le-moi avant ce soir.,Give it to me before this evening.,Affirmative imperative: pronouns after verb.
+Grammar,B1,Ne me le donne pas.,Don't give it to me.,Ne me le donne pas maintenant.,Don't give it to me now.,Negative imperative: pronouns before verb.
+Grammar,B1,qui,who; that (subject),La femme qui parle est ma collègue.,The woman who is speaking is my coworker.,Relative pronoun: subject.
+Grammar,B1,que / qu',that; whom (object),Le livre que je lis est intéressant.,The book I'm reading is interesting.,Relative pronoun: direct object.
+Grammar,B1,où,where; when,Le jour où je suis arrivé était pluvieux.,The day I arrived was rainy.,Relative pronoun: place or time.
+Grammar,B1,dont,whose; of which; about whom,C'est le film dont je t'ai parlé.,It's the film I told you about.,Relative pronoun replaces de + noun.
+Grammar,B2,ce qui,what (subject),"Ce qui m'intéresse, c'est la musique.",What interests me is music.,Indefinite relative subject.
+Grammar,B2,ce que,what (object),Je comprends ce que tu dis.,I understand what you're saying.,Indefinite relative object.
+Grammar,B2,lequel,which one (masculine),Lequel préfères-tu ?,Which one do you prefer?,Interrogative pronoun.
+Grammar,B2,laquelle,which one (feminine),Laquelle de ces robes choisis-tu ?,Which of these dresses are you choosing?,Interrogative feminine.
+Grammar,B2,celui-ci,this one (masculine),Je préfère celui-ci.,I prefer this one.,Demonstrative pronoun near speaker.
+Grammar,B2,celle-là,that one (feminine),Je vais prendre celle-là.,I'll take that one.,Demonstrative pronoun farther away.
+Grammar,B2,le mien,mine (masculine),Ce stylo est le mien.,This pen is mine.,Possessive pronoun agrees with owned item.
+Grammar,B2,la tienne,yours (feminine informal),Cette veste est la tienne.,This jacket is yours.,Possessive pronoun agrees with owned item.
+Grammar,B2,les nôtres,ours (plural),Ces places sont les nôtres.,These seats are ours.,Plural possessive pronoun.
+Grammar,B2,quelqu'un,someone,Quelqu'un t'attend à l'accueil.,Someone is waiting for you at reception.,Indefinite person pronoun.
+Grammar,B2,personne,nobody,Personne ne répond.,Nobody is answering.,Negative indefinite pronoun.
+Grammar,B2,rien,nothing,Rien n'a changé.,Nothing has changed.,Negative indefinite pronoun.
