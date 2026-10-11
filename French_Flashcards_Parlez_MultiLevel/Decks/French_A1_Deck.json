@@ -1,0 +1,454 @@
+{
+  "cards": [
+    {
+      "id": "base-091",
+      "category": "Vocabulary",
+      "level": "A1",
+      "french": "bonjour",
+      "meaning": "hello; good morning",
+      "example_fr": "Bonjour, madame. Comment allez-vous ?",
+      "example_en": "Hello, ma'am. How are you?",
+      "note": "A polite greeting during the day."
+    },
+    {
+      "id": "base-092",
+      "category": "Vocabulary",
+      "level": "A1",
+      "french": "bonsoir",
+      "meaning": "good evening",
+      "example_fr": "Bonsoir, monsieur. Entrez, s'il vous plaît.",
+      "example_en": "Good evening, sir. Please come in.",
+      "note": "Use when greeting someone in the evening."
+    },
+    {
+      "id": "base-093",
+      "category": "Vocabulary",
+      "level": "A1",
+      "french": "merci",
+      "meaning": "thank you",
+      "example_fr": "Merci beaucoup pour votre aide.",
+      "example_en": "Thank you very much for your help.",
+      "note": "Merci beaucoup means thank you very much."
+    },
+    {
+      "id": "base-094",
+      "category": "Vocabulary",
+      "level": "A1",
+      "french": "s'il vous plaît",
+      "meaning": "please (formal)",
+      "example_fr": "Un café, s'il vous plaît.",
+      "example_en": "A coffee, please.",
+      "note": "Use s'il te plaît with a friend."
+    },
+    {
+      "id": "base-095",
+      "category": "Vocabulary",
+      "level": "A1",
+      "french": "au revoir",
+      "meaning": "goodbye",
+      "example_fr": "Au revoir et à demain !",
+      "example_en": "Goodbye and see you tomorrow!",
+      "note": "A neutral and polite farewell."
+    },
+    {
+      "id": "base-096",
+      "category": "Vocabulary",
+      "level": "A1",
+      "french": "la maison",
+      "meaning": "the house; home",
+      "example_fr": "Ma maison est près du parc.",
+      "example_en": "My house is near the park.",
+      "note": "Feminine noun: une maison."
+    },
+    {
+      "id": "base-097",
+      "category": "Vocabulary",
+      "level": "A1",
+      "french": "la famille",
+      "meaning": "the family",
+      "example_fr": "Ma famille habite en France.",
+      "example_en": "My family lives in France.",
+      "note": "Feminine noun: une famille."
+    },
+    {
+      "id": "base-098",
+      "category": "Vocabulary",
+      "level": "A1",
+      "french": "un ami; une amie",
+      "meaning": "a friend",
+      "example_fr": "Mon amie parle français.",
+      "example_en": "My friend speaks French.",
+      "note": "The feminine form is une amie."
+    },
+    {
+      "id": "base-099",
+      "category": "Vocabulary",
+      "level": "A1",
+      "french": "le travail",
+      "meaning": "work; job",
+      "example_fr": "Je vais au travail à huit heures.",
+      "example_en": "I go to work at eight o'clock.",
+      "note": "Masculine noun: le travail."
+    },
+    {
+      "id": "base-100",
+      "category": "Vocabulary",
+      "level": "A1",
+      "french": "le matin",
+      "meaning": "the morning",
+      "example_fr": "Je bois du thé le matin.",
+      "example_en": "I drink tea in the morning.",
+      "note": "Le matin expresses a regular habit."
+    },
+    {
+      "id": "base-101",
+      "category": "Vocabulary",
+      "level": "A1",
+      "french": "aujourd'hui",
+      "meaning": "today",
+      "example_fr": "Aujourd'hui, il fait beau.",
+      "example_en": "Today, the weather is nice.",
+      "note": "Time expression used without a preposition."
+    },
+    {
+      "id": "base-102",
+      "category": "Vocabulary",
+      "level": "A1",
+      "french": "demain",
+      "meaning": "tomorrow",
+      "example_fr": "Demain, nous avons cours.",
+      "example_en": "Tomorrow, we have class.",
+      "note": "Can mean the next day."
+    },
+    {
+      "id": "base-103",
+      "category": "Vocabulary",
+      "level": "A1",
+      "french": "un magasin",
+      "meaning": "a shop; store",
+      "example_fr": "Le magasin ouvre à neuf heures.",
+      "example_en": "The store opens at nine.",
+      "note": "Masculine noun: un magasin."
+    },
+    {
+      "id": "base-104",
+      "category": "Vocabulary",
+      "level": "A1",
+      "french": "de l'eau",
+      "meaning": "some water",
+      "example_fr": "Je voudrais de l'eau, s'il vous plaît.",
+      "example_en": "I'd like some water, please.",
+      "note": "Eau is feminine; use de l' before a vowel."
+    },
+    {
+      "id": "base-105",
+      "category": "Vocabulary",
+      "level": "A1",
+      "french": "combien ?",
+      "meaning": "how much?; how many?",
+      "example_fr": "Combien coûte ce livre ?",
+      "example_en": "How much does this book cost?",
+      "note": "Useful when asking about prices or quantities."
+    },
+    {
+      "id": "base-106",
+      "category": "Grammar",
+      "level": "A1",
+      "french": "Je suis étudiant.",
+      "meaning": "I am a student.",
+      "example_fr": "Nous sommes étudiants.",
+      "example_en": "We are students.",
+      "note": "Être in the present: je suis, tu es, il est, nous sommes, vous êtes, ils sont."
+    },
+    {
+      "id": "base-107",
+      "category": "Grammar",
+      "level": "A1",
+      "french": "J'ai vingt ans.",
+      "meaning": "I am twenty years old.",
+      "example_fr": "Elle a trente ans.",
+      "example_en": "She is thirty years old.",
+      "note": "French uses avoir, not être, for age."
+    },
+    {
+      "id": "base-108",
+      "category": "Grammar",
+      "level": "A1",
+      "french": "Je vais à l'école.",
+      "meaning": "I go to school.",
+      "example_fr": "Nous allons au cinéma.",
+      "example_en": "We are going to the cinema.",
+      "note": "Aller: je vais, tu vas, il va, nous allons, vous allez, ils vont."
+    },
+    {
+      "id": "base-109",
+      "category": "Grammar",
+      "level": "A1",
+      "french": "Tu parles français.",
+      "meaning": "You speak French.",
+      "example_fr": "Vous parlez anglais ?",
+      "example_en": "Do you speak English?",
+      "note": "Regular -er verbs: tu parles, vous parlez."
+    },
+    {
+      "id": "base-110",
+      "category": "Grammar",
+      "level": "A1",
+      "french": "Il y a un chat.",
+      "meaning": "There is a cat.",
+      "example_fr": "Il y a deux chaises dans la pièce.",
+      "example_en": "There are two chairs in the room.",
+      "note": "Il y a works with singular and plural."
+    },
+    {
+      "id": "base-111",
+      "category": "Grammar",
+      "level": "A1",
+      "french": "C'est un livre.",
+      "meaning": "It is a book.",
+      "example_fr": "C'est mon professeur.",
+      "example_en": "This is my teacher.",
+      "note": "C'est introduces or identifies someone or something."
+    },
+    {
+      "id": "base-112",
+      "category": "Grammar",
+      "level": "A1",
+      "french": "Ce sont mes parents.",
+      "meaning": "These are my parents.",
+      "example_fr": "Ce sont des photos de Paris.",
+      "example_en": "These are photos of Paris.",
+      "note": "Ce sont is plural; c'est is singular."
+    },
+    {
+      "id": "base-113",
+      "category": "Grammar",
+      "level": "A1",
+      "french": "Je ne comprends pas.",
+      "meaning": "I don't understand.",
+      "example_fr": "Elle ne travaille pas aujourd'hui.",
+      "example_en": "She isn't working today.",
+      "note": "Put ne and pas around the conjugated verb."
+    },
+    {
+      "id": "base-114",
+      "category": "Grammar",
+      "level": "A1",
+      "french": "Est-ce que tu viens ?",
+      "meaning": "Are you coming?",
+      "example_fr": "Est-ce que vous aimez le café ?",
+      "example_en": "Do you like coffee?",
+      "note": "Est-ce que is a simple way to form a yes/no question."
+    },
+    {
+      "id": "base-115",
+      "category": "Grammar",
+      "level": "A1",
+      "french": "Mon frère est grand.",
+      "meaning": "My brother is tall.",
+      "example_fr": "Ma sœur est grande.",
+      "example_en": "My sister is tall.",
+      "note": "Many adjectives add -e in the feminine."
+    },
+    {
+      "id": "base-116",
+      "category": "Grammar",
+      "level": "A1",
+      "french": "Je mange une pomme.",
+      "meaning": "I eat an apple.",
+      "example_fr": "Il achète un sandwich.",
+      "example_en": "He buys a sandwich.",
+      "note": "Un and une are indefinite articles."
+    },
+    {
+      "id": "base-117",
+      "category": "Grammar",
+      "level": "A1",
+      "french": "J'aime le chocolat.",
+      "meaning": "I like chocolate.",
+      "example_fr": "Elle aime les fruits.",
+      "example_en": "She likes fruit.",
+      "note": "After aimer for general likes, use le, la, l' or les."
+    },
+    {
+      "id": "base-118",
+      "category": "Grammar",
+      "level": "A1",
+      "french": "Nous avons des livres.",
+      "meaning": "We have books.",
+      "example_fr": "Ils ont des vélos.",
+      "example_en": "They have bicycles.",
+      "note": "Des is a plural indefinite article."
+    },
+    {
+      "id": "base-119",
+      "category": "Grammar",
+      "level": "A1",
+      "french": "Il est huit heures.",
+      "meaning": "It is eight o'clock.",
+      "example_fr": "Il est midi et demi.",
+      "example_en": "It is half past twelve.",
+      "note": "Use il est when telling the time."
+    },
+    {
+      "id": "base-120",
+      "category": "Grammar",
+      "level": "A1",
+      "french": "Je suis français; je suis française.",
+      "meaning": "I am French (masculine; feminine).",
+      "example_fr": "Mon voisin est français et ma voisine est française.",
+      "example_en": "My male neighbor is French, and my female neighbor is French.",
+      "note": "Nationality adjectives often change with gender."
+    },
+    {
+      "id": "base-121",
+      "category": "Sentences",
+      "level": "A1",
+      "french": "Comment vous appelez-vous ?",
+      "meaning": "What is your name? (formal)",
+      "example_fr": "Je m'appelle Marie. Et vous ?",
+      "example_en": "My name is Marie. And you?",
+      "note": "Formal self-introduction question."
+    },
+    {
+      "id": "base-122",
+      "category": "Sentences",
+      "level": "A1",
+      "french": "Je m'appelle Paul.",
+      "meaning": "My name is Paul.",
+      "example_fr": "Bonjour, je m'appelle Paul et je suis étudiant.",
+      "example_en": "Hello, my name is Paul, and I'm a student.",
+      "note": "Je m'appelle literally means I call myself."
+    },
+    {
+      "id": "base-123",
+      "category": "Sentences",
+      "level": "A1",
+      "french": "Je viens du Canada.",
+      "meaning": "I come from Canada.",
+      "example_fr": "Je viens du Canada, mais j'habite à Paris.",
+      "example_en": "I'm from Canada, but I live in Paris.",
+      "note": "Use de + le = du for masculine countries."
+    },
+    {
+      "id": "base-124",
+      "category": "Sentences",
+      "level": "A1",
+      "french": "J'habite à Vancouver.",
+      "meaning": "I live in Vancouver.",
+      "example_fr": "J'habite à Vancouver avec ma famille.",
+      "example_en": "I live in Vancouver with my family.",
+      "note": "Use à before most city names."
+    },
+    {
+      "id": "base-125",
+      "category": "Sentences",
+      "level": "A1",
+      "french": "Je voudrais un café.",
+      "meaning": "I would like a coffee.",
+      "example_fr": "Je voudrais un café et un croissant.",
+      "example_en": "I'd like a coffee and a croissant.",
+      "note": "Je voudrais is more polite than je veux."
+    },
+    {
+      "id": "base-126",
+      "category": "Sentences",
+      "level": "A1",
+      "french": "Où sont les toilettes ?",
+      "meaning": "Where is the bathroom?",
+      "example_fr": "Excusez-moi, où sont les toilettes ?",
+      "example_en": "Excuse me, where is the bathroom?",
+      "note": "Toilettes is usually plural."
+    },
+    {
+      "id": "base-127",
+      "category": "Sentences",
+      "level": "A1",
+      "french": "Quelle heure est-il ?",
+      "meaning": "What time is it?",
+      "example_fr": "Pardon, quelle heure est-il, s'il vous plaît ?",
+      "example_en": "Excuse me, what time is it, please?",
+      "note": "Standard question for the time."
+    },
+    {
+      "id": "base-128",
+      "category": "Sentences",
+      "level": "A1",
+      "french": "Je ne sais pas.",
+      "meaning": "I don't know.",
+      "example_fr": "Désolé, je ne sais pas où il est.",
+      "example_en": "Sorry, I don't know where he is.",
+      "note": "Very common phrase in conversation."
+    },
+    {
+      "id": "base-129",
+      "category": "Sentences",
+      "level": "A1",
+      "french": "Pouvez-vous répéter ?",
+      "meaning": "Can you repeat?",
+      "example_fr": "Je ne comprends pas. Pouvez-vous répéter ?",
+      "example_en": "I don't understand. Can you repeat?",
+      "note": "Useful when learning French."
+    },
+    {
+      "id": "base-130",
+      "category": "Sentences",
+      "level": "A1",
+      "french": "Parlez-vous anglais ?",
+      "meaning": "Do you speak English?",
+      "example_fr": "Excusez-moi, parlez-vous anglais ?",
+      "example_en": "Excuse me, do you speak English?",
+      "note": "Inversion makes a formal question."
+    },
+    {
+      "id": "base-131",
+      "category": "Sentences",
+      "level": "A1",
+      "french": "J'aime écouter de la musique.",
+      "meaning": "I like listening to music.",
+      "example_fr": "Le soir, j'aime écouter de la musique.",
+      "example_en": "In the evening, I like listening to music.",
+      "note": "Aimer + infinitive describes an activity you enjoy."
+    },
+    {
+      "id": "base-132",
+      "category": "Sentences",
+      "level": "A1",
+      "french": "Je suis fatigué.",
+      "meaning": "I am tired.",
+      "example_fr": "Après le travail, je suis fatigué.",
+      "example_en": "After work, I'm tired.",
+      "note": "Feminine: je suis fatiguée."
+    },
+    {
+      "id": "base-133",
+      "category": "Sentences",
+      "level": "A1",
+      "french": "C'est combien ?",
+      "meaning": "How much is it?",
+      "example_fr": "Ce sandwich, c'est combien ?",
+      "example_en": "How much is this sandwich?",
+      "note": "Common informal shopping question."
+    },
+    {
+      "id": "base-134",
+      "category": "Sentences",
+      "level": "A1",
+      "french": "À quelle heure commence le cours ?",
+      "meaning": "What time does class start?",
+      "example_fr": "À quelle heure commence le cours de français ?",
+      "example_en": "What time does French class start?",
+      "note": "À quelle heure asks for a specific clock time."
+    },
+    {
+      "id": "base-135",
+      "category": "Sentences",
+      "level": "A1",
+      "french": "Je prends le bus.",
+      "meaning": "I take the bus.",
+      "example_fr": "Chaque matin, je prends le bus pour aller au travail.",
+      "example_en": "Every morning, I take the bus to work.",
+      "note": "Prendre is an irregular verb: je prends."
+    }
+  ]
+}

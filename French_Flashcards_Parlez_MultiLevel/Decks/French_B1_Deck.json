@@ -1,0 +1,634 @@
+{
+  "cards": [
+    {
+      "id": "base-001",
+      "category": "Vocabulary",
+      "level": "B1",
+      "french": "pourtant",
+      "meaning": "however, yet",
+      "example_fr": "Il pleut, pourtant nous allons nous promener.",
+      "example_en": "It is raining, yet we are going for a walk.",
+      "note": "Useful contrast connector."
+    },
+    {
+      "id": "base-002",
+      "category": "Vocabulary",
+      "level": "B1",
+      "french": "en revanche",
+      "meaning": "on the other hand",
+      "example_fr": "Ce quartier est calme. En revanche, il est assez loin du centre.",
+      "example_en": "This neighborhood is quiet. On the other hand, it is quite far from downtown.",
+      "note": "Contrast two situations."
+    },
+    {
+      "id": "base-003",
+      "category": "Vocabulary",
+      "level": "B1",
+      "french": "d'ailleurs",
+      "meaning": "besides; moreover; in fact",
+      "example_fr": "J'aime ce restaurant. D'ailleurs, j'y retourne demain.",
+      "example_en": "I like this restaurant. In fact, I'm going back tomorrow.",
+      "note": "Adds supporting information."
+    },
+    {
+      "id": "base-005",
+      "category": "Vocabulary",
+      "level": "B1",
+      "french": "grâce à",
+      "meaning": "thanks to",
+      "example_fr": "Grâce à ce cours, j'ai amélioré mon français.",
+      "example_en": "Thanks to this course, I improved my French.",
+      "note": "Usually introduces a positive cause."
+    },
+    {
+      "id": "base-006",
+      "category": "Vocabulary",
+      "level": "B1",
+      "french": "à cause de",
+      "meaning": "because of",
+      "example_fr": "Le match a été annulé à cause de la pluie.",
+      "example_en": "The match was canceled because of the rain.",
+      "note": "Often introduces a negative cause."
+    },
+    {
+      "id": "base-007",
+      "category": "Vocabulary",
+      "level": "B1",
+      "french": "afin de",
+      "meaning": "in order to",
+      "example_fr": "Je révise tous les jours afin de réussir mon examen.",
+      "example_en": "I review every day in order to pass my exam.",
+      "note": "Follow with an infinitive verb."
+    },
+    {
+      "id": "base-010",
+      "category": "Vocabulary",
+      "level": "B1",
+      "french": "pendant",
+      "meaning": "during; for (a limited period)",
+      "example_fr": "J'ai travaillé à Montréal pendant trois mois.",
+      "example_en": "I worked in Montreal for three months.",
+      "note": "Often describes a completed duration."
+    },
+    {
+      "id": "base-011",
+      "category": "Vocabulary",
+      "level": "B1",
+      "french": "se renseigner",
+      "meaning": "to inquire; to get information",
+      "example_fr": "Je voudrais me renseigner sur vos cours du soir.",
+      "example_en": "I'd like to inquire about your evening classes.",
+      "note": "Common in TEF Section A."
+    },
+    {
+      "id": "base-012",
+      "category": "Vocabulary",
+      "level": "B1",
+      "french": "s'inscrire",
+      "meaning": "to register; to sign up",
+      "example_fr": "Vous pouvez vous inscrire en ligne avant vendredi.",
+      "example_en": "You can register online before Friday.",
+      "note": "Reflexive verb: je m'inscris."
+    },
+    {
+      "id": "base-014",
+      "category": "Vocabulary",
+      "level": "B1",
+      "french": "reporter",
+      "meaning": "to postpone",
+      "example_fr": "Est-il possible de reporter notre rendez-vous ?",
+      "example_en": "Is it possible to postpone our appointment?",
+      "note": "Not the same as annuler."
+    },
+    {
+      "id": "base-016",
+      "category": "Vocabulary",
+      "level": "B1",
+      "french": "un renseignement",
+      "meaning": "a piece of information",
+      "example_fr": "J'aimerais obtenir un renseignement sur les tarifs.",
+      "example_en": "I'd like to get some information about the prices.",
+      "note": "Plural: des renseignements."
+    },
+    {
+      "id": "base-018",
+      "category": "Vocabulary",
+      "level": "B1",
+      "french": "des frais",
+      "meaning": "fees; charges",
+      "example_fr": "Y a-t-il des frais d'inscription ?",
+      "example_en": "Are there registration fees?",
+      "note": "Usually used in the plural."
+    },
+    {
+      "id": "base-019",
+      "category": "Vocabulary",
+      "level": "B1",
+      "french": "un abonnement",
+      "meaning": "a subscription; a membership",
+      "example_fr": "Mon abonnement à la salle de sport se termine bientôt.",
+      "example_en": "My gym membership ends soon.",
+      "note": "Useful for services and transport."
+    },
+    {
+      "id": "base-020",
+      "category": "Vocabulary",
+      "level": "B1",
+      "french": "un remboursement",
+      "meaning": "a refund",
+      "example_fr": "Puis-je demander un remboursement si j'annule ?",
+      "example_en": "Can I request a refund if I cancel?",
+      "note": "Noun from rembourser."
+    },
+    {
+      "id": "base-021",
+      "category": "Vocabulary",
+      "level": "B1",
+      "french": "un délai",
+      "meaning": "a deadline; a time frame",
+      "example_fr": "Quel est le délai pour recevoir une réponse ?",
+      "example_en": "How long does it take to receive an answer?",
+      "note": "Plural: des délais."
+    },
+    {
+      "id": "base-024",
+      "category": "Vocabulary",
+      "level": "B1",
+      "french": "être à l'aise",
+      "meaning": "to feel comfortable; at ease",
+      "example_fr": "Je suis plus à l'aise quand je parle avec mes amis.",
+      "example_en": "I feel more comfortable when I speak with my friends.",
+      "note": "Often used for language confidence."
+    },
+    {
+      "id": "base-025",
+      "category": "Vocabulary",
+      "level": "B1",
+      "french": "valoir la peine",
+      "meaning": "to be worth it",
+      "example_fr": "Le voyage est cher, mais il en vaut la peine.",
+      "example_en": "The trip is expensive, but it is worth it.",
+      "note": "Also: ça vaut la peine."
+    },
+    {
+      "id": "base-029",
+      "category": "Vocabulary",
+      "level": "B1",
+      "french": "en moyenne",
+      "meaning": "on average",
+      "example_fr": "En moyenne, je lis pendant trente minutes par jour.",
+      "example_en": "On average, I read for thirty minutes a day.",
+      "note": "Useful for giving statistics."
+    },
+    {
+      "id": "base-030",
+      "category": "Vocabulary",
+      "level": "B1",
+      "french": "une amélioration",
+      "meaning": "an improvement",
+      "example_fr": "J'ai remarqué une amélioration de ma prononciation.",
+      "example_en": "I've noticed an improvement in my pronunciation.",
+      "note": "Noun from améliorer."
+    },
+    {
+      "id": "base-033",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "Quand j'étais petit, je jouais dehors.",
+      "meaning": "When I was little, I used to play outside.",
+      "example_fr": "Avant, nous habitions près de la mer.",
+      "example_en": "Before, we lived near the sea.",
+      "note": "Imparfait for habits or background in the past."
+    },
+    {
+      "id": "base-034",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "Je lisais quand il a appelé.",
+      "meaning": "I was reading when he called.",
+      "example_fr": "Je préparais le dîner quand elle est arrivée.",
+      "example_en": "I was making dinner when she arrived.",
+      "note": "Imparfait for background; passé composé for a completed event."
+    },
+    {
+      "id": "base-035",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "Demain, je partirai plus tôt.",
+      "meaning": "Tomorrow, I will leave earlier.",
+      "example_fr": "La semaine prochaine, nous visiterons Québec.",
+      "example_en": "Next week, we will visit Quebec.",
+      "note": "Futur simple: formal future prediction or intention."
+    },
+    {
+      "id": "base-037",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "Je voudrais un renseignement.",
+      "meaning": "I would like some information.",
+      "example_fr": "Pourriez-vous répéter votre question ?",
+      "example_en": "Could you repeat your question?",
+      "note": "Conditionnel for polite requests."
+    },
+    {
+      "id": "base-038",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "Si j'avais le temps, je voyagerais davantage.",
+      "meaning": "If I had time, I would travel more.",
+      "example_fr": "Si j'étais libre, je viendrais avec toi.",
+      "example_en": "If I were free, I would come with you.",
+      "note": "Si + imparfait, then conditionnel for hypothetical situations."
+    },
+    {
+      "id": "base-039",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "Si tu viens, nous sortirons.",
+      "meaning": "If you come, we'll go out.",
+      "example_fr": "Si j'ai du temps, je t'appellerai.",
+      "example_en": "If I have time, I'll call you.",
+      "note": "Si + present, then future for real possibilities."
+    },
+    {
+      "id": "base-044",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "Je ne vois personne.",
+      "meaning": "I don't see anyone.",
+      "example_fr": "Nous n'avons rencontré personne.",
+      "example_en": "We didn't meet anyone.",
+      "note": "Ne ... personne means nobody or not anyone."
+    },
+    {
+      "id": "base-045",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "J'en ai besoin.",
+      "meaning": "I need some; I need it.",
+      "example_fr": "Tu veux du café ? Oui, j'en veux.",
+      "example_en": "Do you want some coffee? Yes, I want some.",
+      "note": "En can replace de + noun or an unspecified quantity."
+    },
+    {
+      "id": "base-046",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "J'y vais demain.",
+      "meaning": "I'm going there tomorrow.",
+      "example_fr": "Tu penses à ce projet ? Oui, j'y pense.",
+      "example_en": "Are you thinking about that project? Yes, I'm thinking about it.",
+      "note": "Y can replace a place or à + thing."
+    },
+    {
+      "id": "base-047",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "Je lui ai téléphoné.",
+      "meaning": "I called him or her.",
+      "example_fr": "Nous leur avons envoyé un message.",
+      "example_en": "We sent them a message.",
+      "note": "Lui and leur are indirect-object pronouns."
+    },
+    {
+      "id": "base-050",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "Elle s'est levée tôt.",
+      "meaning": "She got up early.",
+      "example_fr": "Ils se sont réveillés à huit heures.",
+      "example_en": "They woke up at eight o'clock.",
+      "note": "Pronominal passé composé uses être; agreement may depend on syntax."
+    },
+    {
+      "id": "base-051",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "C'est le livre que j'ai acheté.",
+      "meaning": "It's the book that I bought.",
+      "example_fr": "Voici la photo que tu m'as envoyée.",
+      "example_en": "Here's the photo that you sent me.",
+      "note": "Que introduces a relative clause as a direct object."
+    },
+    {
+      "id": "base-052",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "Voilà la personne qui m'a aidé.",
+      "meaning": "There is the person who helped me.",
+      "example_fr": "C'est le professeur qui explique bien.",
+      "example_en": "He's the teacher who explains well.",
+      "note": "Qui is the subject of the relative clause."
+    },
+    {
+      "id": "base-053",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "C'est l'endroit où j'habite.",
+      "meaning": "It's the place where I live.",
+      "example_fr": "Je me souviens du jour où nous nous sommes rencontrés.",
+      "example_en": "I remember the day when we met.",
+      "note": "Où can refer to place or time."
+    },
+    {
+      "id": "base-054",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "J'ai plus de temps que toi.",
+      "meaning": "I have more time than you.",
+      "example_fr": "Ce livre est aussi intéressant que l'autre.",
+      "example_en": "This book is as interesting as the other.",
+      "note": "Comparisons: plus / moins / aussi ... que."
+    },
+    {
+      "id": "base-055",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "C'est la meilleure solution.",
+      "meaning": "It's the best solution.",
+      "example_fr": "C'est le film le plus drôle que j'aie vu.",
+      "example_en": "It's the funniest movie I've seen.",
+      "note": "Superlatives: le plus, la moins, le meilleur."
+    },
+    {
+      "id": "base-056",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "Je viens de rentrer.",
+      "meaning": "I have just come back.",
+      "example_fr": "Elle vient de finir son examen.",
+      "example_en": "She has just finished her exam.",
+      "note": "Passé récent: venir de + infinitive."
+    },
+    {
+      "id": "base-057",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "Je suis en train d'étudier.",
+      "meaning": "I am studying right now.",
+      "example_fr": "Ils sont en train de préparer le repas.",
+      "example_en": "They are preparing the meal right now.",
+      "note": "Être en train de stresses that an action is in progress."
+    },
+    {
+      "id": "base-058",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "Cela fait deux ans que j'apprends le français.",
+      "meaning": "I have been learning French for two years.",
+      "example_fr": "Ça fait une heure que je t'attends.",
+      "example_en": "I've been waiting for you for an hour.",
+      "note": "Ongoing duration: ça fait ... que + present."
+    },
+    {
+      "id": "base-060",
+      "category": "Grammar",
+      "level": "B1",
+      "french": "Cette voiture est moins chère que l'autre.",
+      "meaning": "This car is less expensive than the other.",
+      "example_fr": "Mon appartement est plus grand que le tien.",
+      "example_en": "My apartment is bigger than yours.",
+      "note": "Adjective comparisons use plus / moins ... que."
+    },
+    {
+      "id": "base-061",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Bonjour, je vous appelle au sujet de votre annonce.",
+      "meaning": "Hello, I'm calling about your advertisement.",
+      "example_fr": "Je vous contacte au sujet du cours annoncé sur votre site.",
+      "example_en": "I'm contacting you about the course advertised on your website.",
+      "note": "TEF Section A: formal introduction."
+    },
+    {
+      "id": "base-062",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Pourriez-vous me donner quelques renseignements supplémentaires ?",
+      "meaning": "Could you give me some additional information?",
+      "example_fr": "Pourriez-vous m'expliquer comment fonctionne le service ?",
+      "example_en": "Could you explain how the service works?",
+      "note": "TEF Section A: polite information request."
+    },
+    {
+      "id": "base-064",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Est-ce que le prix comprend tout ?",
+      "meaning": "Does the price include everything?",
+      "example_fr": "Est-ce que le matériel est compris dans le tarif ?",
+      "example_en": "Is the equipment included in the price?",
+      "note": "TEF Section A: check what is included."
+    },
+    {
+      "id": "base-065",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Y a-t-il des frais supplémentaires ?",
+      "meaning": "Are there additional fees?",
+      "example_fr": "Dois-je payer des frais de réservation ?",
+      "example_en": "Do I have to pay booking fees?",
+      "note": "TEF Section A: pricing details."
+    },
+    {
+      "id": "base-067",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Est-il possible de payer en plusieurs fois ?",
+      "meaning": "Is it possible to pay in installments?",
+      "example_fr": "Proposez-vous un paiement mensuel ?",
+      "example_en": "Do you offer monthly payments?",
+      "note": "TEF Section A: payment options."
+    },
+    {
+      "id": "base-068",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Faut-il réserver à l'avance ?",
+      "meaning": "Do I need to book in advance?",
+      "example_fr": "Combien de jours à l'avance dois-je réserver ?",
+      "example_en": "How many days in advance do I need to book?",
+      "note": "TEF Section A: reservations."
+    },
+    {
+      "id": "base-069",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Pourriez-vous m'expliquer les conditions d'annulation ?",
+      "meaning": "Could you explain the cancellation policy?",
+      "example_fr": "Puis-je annuler sans frais jusqu'à la veille ?",
+      "example_en": "Can I cancel without fees until the day before?",
+      "note": "TEF Section A: cancellation."
+    },
+    {
+      "id": "base-070",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Offrez-vous une réduction aux étudiants ?",
+      "meaning": "Do you offer a student discount?",
+      "example_fr": "Y a-t-il un tarif réduit pour les familles ?",
+      "example_en": "Is there a reduced rate for families?",
+      "note": "TEF Section A: discounts."
+    },
+    {
+      "id": "base-071",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Le cours est-il adapté aux débutants ?",
+      "meaning": "Is the course suitable for beginners?",
+      "example_fr": "Existe-t-il un groupe pour les personnes sans expérience ?",
+      "example_en": "Is there a group for people without experience?",
+      "note": "TEF Section A: eligibility."
+    },
+    {
+      "id": "base-073",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Où se trouve exactement votre établissement ?",
+      "meaning": "Where exactly is your establishment located?",
+      "example_fr": "Êtes-vous près d'une station de métro ?",
+      "example_en": "Are you near a subway station?",
+      "note": "TEF Section A: location."
+    },
+    {
+      "id": "base-076",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "À mon avis, cette activité serait intéressante pour nous.",
+      "meaning": "In my opinion, this activity would be interesting for us.",
+      "example_fr": "Je pense que cette sortie nous ferait du bien.",
+      "example_en": "I think this outing would do us good.",
+      "note": "TEF Section B: open with an opinion."
+    },
+    {
+      "id": "base-077",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Je comprends ton point de vue, mais je ne suis pas tout à fait d'accord.",
+      "meaning": "I understand your point of view, but I don't entirely agree.",
+      "example_fr": "Je vois ce que tu veux dire, cependant je pense autrement.",
+      "example_en": "I see what you mean, but I think differently.",
+      "note": "TEF Section B: politely disagree."
+    },
+    {
+      "id": "base-078",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Je te propose d'essayer une seule fois.",
+      "meaning": "I suggest we try it just once.",
+      "example_fr": "On pourrait participer à une séance pour voir.",
+      "example_en": "We could take part in one session to see.",
+      "note": "TEF Section B: make a low-pressure proposal."
+    },
+    {
+      "id": "base-079",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Ça nous permettrait de passer du temps ensemble.",
+      "meaning": "That would allow us to spend time together.",
+      "example_fr": "Ce serait une occasion de nous retrouver.",
+      "example_en": "It would be a chance for us to get together.",
+      "note": "TEF Section B: give a personal benefit."
+    },
+    {
+      "id": "base-080",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Ce serait une bonne occasion de découvrir quelque chose de nouveau.",
+      "meaning": "It would be a good chance to discover something new.",
+      "example_fr": "On pourrait apprendre une nouvelle compétence.",
+      "example_en": "We could learn a new skill.",
+      "note": "TEF Section B: benefit and opportunity."
+    },
+    {
+      "id": "base-081",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Même si tu es occupé, on pourrait y aller samedi.",
+      "meaning": "Even if you're busy, we could go on Saturday.",
+      "example_fr": "Même s'il pleut, l'activité aura lieu à l'intérieur.",
+      "example_en": "Even if it rains, the activity will take place inside.",
+      "note": "TEF Section B: answer an objection."
+    },
+    {
+      "id": "base-082",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Tu n'as pas besoin d'avoir de l'expérience.",
+      "meaning": "You don't need any experience.",
+      "example_fr": "Les débutants sont aussi les bienvenus.",
+      "example_en": "Beginners are welcome too.",
+      "note": "TEF Section B: reassure a hesitant friend."
+    },
+    {
+      "id": "base-083",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "De plus, le prix est assez raisonnable.",
+      "meaning": "Furthermore, the price is quite reasonable.",
+      "example_fr": "En plus, le transport ne coûte presque rien.",
+      "example_en": "Besides, transportation costs almost nothing.",
+      "note": "TEF Section B: add an argument."
+    },
+    {
+      "id": "base-084",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Nous pourrions partager les frais.",
+      "meaning": "We could split the costs.",
+      "example_fr": "Si tu veux, on peut payer chacun la moitié.",
+      "example_en": "If you want, we can each pay half.",
+      "note": "TEF Section B: offer a practical solution."
+    },
+    {
+      "id": "base-085",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Je suis sûr que tu vas apprécier cette expérience.",
+      "meaning": "I'm sure you'll enjoy this experience.",
+      "example_fr": "Je pense vraiment que ça va te plaire.",
+      "example_en": "I really think you're going to like it.",
+      "note": "TEF Section B: encourage a friend."
+    },
+    {
+      "id": "base-086",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Pourquoi ne pas essayer avant de décider ?",
+      "meaning": "Why not try it before deciding?",
+      "example_fr": "On peut d'abord regarder une séance ensemble.",
+      "example_en": "We can watch a session together first.",
+      "note": "TEF Section B: invitation to try."
+    },
+    {
+      "id": "base-087",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Si ça ne te plaît pas, on ne recommencera pas.",
+      "meaning": "If you don't like it, we won't do it again.",
+      "example_fr": "Si tu te sens mal à l'aise, nous partirons.",
+      "example_en": "If you feel uncomfortable, we will leave.",
+      "note": "TEF Section B: reduce perceived risk."
+    },
+    {
+      "id": "base-088",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Je préfère prendre les transports en commun.",
+      "meaning": "I prefer taking public transportation.",
+      "example_fr": "Le métro est pratique et coûte moins cher.",
+      "example_en": "The subway is convenient and costs less.",
+      "note": "Everyday discussion: preferences."
+    },
+    {
+      "id": "base-089",
+      "category": "Sentences",
+      "level": "B1",
+      "french": "Depuis que j'habite ici, j'ai fait beaucoup de progrès.",
+      "meaning": "Since I started living here, I've made a lot of progress.",
+      "example_fr": "Depuis que je travaille ici, je parle plus souvent français.",
+      "example_en": "Since I started working here, I speak French more often.",
+      "note": "Everyday discussion: progress over time."
+    }
+  ]
+}

@@ -1,0 +1,454 @@
+{
+  "cards": [
+    {
+      "id": "base-226",
+      "category": "Vocabulary",
+      "level": "C1",
+      "french": "il n'en demeure pas moins que",
+      "meaning": "nevertheless; it remains true that",
+      "example_fr": "Il n'en demeure pas moins que le problème persiste.",
+      "example_en": "Nevertheless, the problem persists.",
+      "note": "Formal concession followed by an indicative clause."
+    },
+    {
+      "id": "base-227",
+      "category": "Vocabulary",
+      "level": "C1",
+      "french": "à cet égard",
+      "meaning": "in this regard",
+      "example_fr": "À cet égard, plusieurs études sont instructives.",
+      "example_en": "In this regard, several studies are informative.",
+      "note": "Useful for precise transitions."
+    },
+    {
+      "id": "base-228",
+      "category": "Vocabulary",
+      "level": "C1",
+      "french": "a fortiori",
+      "meaning": "all the more so",
+      "example_fr": "Cette tâche est difficile pour un expert, a fortiori pour un débutant.",
+      "example_en": "This task is difficult for an expert, all the more so for a beginner.",
+      "note": "A logical intensifier used in formal arguments."
+    },
+    {
+      "id": "base-229",
+      "category": "Vocabulary",
+      "level": "C1",
+      "french": "pour autant",
+      "meaning": "for all that; nevertheless",
+      "example_fr": "Les progrès sont réels. Pour autant, tout n'est pas résolu.",
+      "example_en": "The progress is real. Nevertheless, not everything is resolved.",
+      "note": "Signals a reservation after acknowledging a point."
+    },
+    {
+      "id": "base-230",
+      "category": "Vocabulary",
+      "level": "C1",
+      "french": "en l'occurrence",
+      "meaning": "in this particular case",
+      "example_fr": "En l'occurrence, nous devons examiner les chiffres.",
+      "example_en": "In this particular case, we need to examine the figures.",
+      "note": "Specifies the case under discussion."
+    },
+    {
+      "id": "base-231",
+      "category": "Vocabulary",
+      "level": "C1",
+      "french": "un écueil",
+      "meaning": "a pitfall; an obstacle",
+      "example_fr": "L'un des principaux écueils est le manque de coordination.",
+      "example_en": "One of the main pitfalls is the lack of coordination.",
+      "note": "Frequently used in analytical writing."
+    },
+    {
+      "id": "base-232",
+      "category": "Vocabulary",
+      "level": "C1",
+      "french": "une portée",
+      "meaning": "scope; significance",
+      "example_fr": "Cette décision a une portée symbolique importante.",
+      "example_en": "This decision has considerable symbolic significance.",
+      "note": "Portée depends on context."
+    },
+    {
+      "id": "base-233",
+      "category": "Vocabulary",
+      "level": "C1",
+      "french": "un constat",
+      "meaning": "a finding; an observation",
+      "example_fr": "Ce constat mérite une analyse plus approfondie.",
+      "example_en": "This finding deserves more in-depth analysis.",
+      "note": "Often introduces an assessment."
+    },
+    {
+      "id": "base-234",
+      "category": "Vocabulary",
+      "level": "C1",
+      "french": "sous-tendre",
+      "meaning": "to underpin; to underlie",
+      "example_fr": "Plusieurs hypothèses sous-tendent cette étude.",
+      "example_en": "Several assumptions underpin this study.",
+      "note": "Formal analytical verb."
+    },
+    {
+      "id": "base-235",
+      "category": "Vocabulary",
+      "level": "C1",
+      "french": "étayer",
+      "meaning": "to substantiate; to support",
+      "example_fr": "Il faut étayer cette affirmation par des preuves.",
+      "example_en": "We need to support this claim with evidence.",
+      "note": "Often paired with faits, données or preuves."
+    },
+    {
+      "id": "base-236",
+      "category": "Vocabulary",
+      "level": "C1",
+      "french": "découler de",
+      "meaning": "to stem from; to result from",
+      "example_fr": "Cette décision découle d'une longue réflexion.",
+      "example_en": "This decision stems from careful consideration.",
+      "note": "Expresses causal derivation."
+    },
+    {
+      "id": "base-237",
+      "category": "Vocabulary",
+      "level": "C1",
+      "french": "se heurter à",
+      "meaning": "to run up against",
+      "example_fr": "Le projet se heurte à plusieurs obstacles juridiques.",
+      "example_en": "The project is running up against several legal obstacles.",
+      "note": "Pronominal verb + à."
+    },
+    {
+      "id": "base-238",
+      "category": "Vocabulary",
+      "level": "C1",
+      "french": "une remise en cause",
+      "meaning": "a challenge; a questioning",
+      "example_fr": "Cette découverte entraîne une remise en cause des méthodes actuelles.",
+      "example_en": "This discovery calls current methods into question.",
+      "note": "Common in debates about established ideas."
+    },
+    {
+      "id": "base-239",
+      "category": "Vocabulary",
+      "level": "C1",
+      "french": "mettre en exergue",
+      "meaning": "to highlight; to bring to the fore",
+      "example_fr": "Le rapport met en exergue des disparités régionales.",
+      "example_en": "The report highlights regional disparities.",
+      "note": "Formal synonym of souligner."
+    },
+    {
+      "id": "base-240",
+      "category": "Vocabulary",
+      "level": "C1",
+      "french": "faire abstraction de",
+      "meaning": "to disregard; to set aside",
+      "example_fr": "On ne peut pas faire abstraction du contexte historique.",
+      "example_en": "We cannot disregard the historical context.",
+      "note": "Follow with de + noun."
+    },
+    {
+      "id": "base-241",
+      "category": "Grammar",
+      "level": "C1",
+      "french": "Encore faut-il que les moyens soient disponibles.",
+      "meaning": "The necessary resources still need to be available.",
+      "example_fr": "Encore faut-il que chacun accepte de coopérer.",
+      "example_en": "Everyone still needs to agree to cooperate.",
+      "note": "Encore faut-il que introduces an essential condition; subjunctive."
+    },
+    {
+      "id": "base-242",
+      "category": "Grammar",
+      "level": "C1",
+      "french": "Ce n'est pas tant le coût que le délai qui m'inquiète.",
+      "meaning": "It's not so much the cost as the delay that worries me.",
+      "example_fr": "Ce n'est pas tant la distance que la durée qui pose problème.",
+      "example_en": "It's not so much the distance as the time that is a problem.",
+      "note": "Ce n'est pas tant X que Y adds a nuanced contrast."
+    },
+    {
+      "id": "base-243",
+      "category": "Grammar",
+      "level": "C1",
+      "french": "À supposer qu'il accepte, que ferions-nous ?",
+      "meaning": "Assuming he agreed, what would we do?",
+      "example_fr": "À supposer que le budget augmente, quel serait notre plan ?",
+      "example_en": "Assuming the budget increased, what would our plan be?",
+      "note": "À supposer que triggers the subjunctive."
+    },
+    {
+      "id": "base-244",
+      "category": "Grammar",
+      "level": "C1",
+      "french": "Quoi qu'il arrive, nous respecterons notre engagement.",
+      "meaning": "Whatever happens, we will honor our commitment.",
+      "example_fr": "Quoi qu'il en soit, il faut agir rapidement.",
+      "example_en": "Be that as it may, we need to act quickly.",
+      "note": "Quoi que + subjunctive expresses regardless of what happens."
+    },
+    {
+      "id": "base-245",
+      "category": "Grammar",
+      "level": "C1",
+      "french": "Eût-il été prévenu, il n'aurait rien changé.",
+      "meaning": "Even if he had been warned, he wouldn't have changed anything.",
+      "example_fr": "Eût-elle su la vérité, elle aurait réagi autrement.",
+      "example_en": "Had she known the truth, she would have reacted differently.",
+      "note": "Literary inversion with pluperfect subjunctive; rare in speech."
+    },
+    {
+      "id": "base-246",
+      "category": "Grammar",
+      "level": "C1",
+      "french": "Si complexe soit-il, ce dossier mérite notre attention.",
+      "meaning": "However complex it may be, this file deserves our attention.",
+      "example_fr": "Si coûteuse soit-elle, la réforme est nécessaire.",
+      "example_en": "However costly it may be, the reform is necessary.",
+      "note": "Si + adjective + subjunctive + inversion is a formal concessive structure."
+    },
+    {
+      "id": "base-247",
+      "category": "Grammar",
+      "level": "C1",
+      "french": "C'est ce à quoi je faisais allusion.",
+      "meaning": "That's what I was referring to.",
+      "example_fr": "Voici ce à quoi nous devons réfléchir.",
+      "example_en": "Here is what we must think about.",
+      "note": "Ce à quoi refers to something introduced by à."
+    },
+    {
+      "id": "base-248",
+      "category": "Grammar",
+      "level": "C1",
+      "french": "Les données, dont certaines restent confidentielles, ont été publiées.",
+      "meaning": "The data, some of which remain confidential, have been published.",
+      "example_fr": "Les candidats, dont plusieurs viennent de l'étranger, sont arrivés.",
+      "example_en": "The candidates, several of whom come from abroad, have arrived.",
+      "note": "Dont can introduce a partitive relative clause."
+    },
+    {
+      "id": "base-249",
+      "category": "Grammar",
+      "level": "C1",
+      "french": "Il aurait fallu consulter les habitants.",
+      "meaning": "The residents should have been consulted.",
+      "example_fr": "Nous aurions dû examiner ces risques.",
+      "example_en": "We should have considered these risks.",
+      "note": "Conditionnel passé expresses regret or criticism of past actions."
+    },
+    {
+      "id": "base-250",
+      "category": "Grammar",
+      "level": "C1",
+      "french": "Faute d'avoir anticipé la demande, l'équipe a pris du retard.",
+      "meaning": "Because it failed to anticipate demand, the team fell behind.",
+      "example_fr": "Faute d'avoir prévu les coûts, le budget a explosé.",
+      "example_en": "Because the costs hadn't been anticipated, the budget ballooned.",
+      "note": "Faute de + perfect infinitive expresses lack of a past action."
+    },
+    {
+      "id": "base-251",
+      "category": "Grammar",
+      "level": "C1",
+      "french": "Non seulement il a réussi, mais il a aussi aidé les autres.",
+      "meaning": "Not only did he succeed, but he also helped the others.",
+      "example_fr": "Non seulement elle travaille, mais elle étudie aussi.",
+      "example_en": "Not only does she work, but she also studies.",
+      "note": "Non seulement ... mais aussi emphasizes two linked points."
+    },
+    {
+      "id": "base-252",
+      "category": "Grammar",
+      "level": "C1",
+      "french": "Loin de résoudre le problème, cela l'a aggravé.",
+      "meaning": "Far from solving the problem, that made it worse.",
+      "example_fr": "Loin de nous rassurer, cette annonce nous inquiète.",
+      "example_en": "Far from reassuring us, this announcement worries us.",
+      "note": "Loin de + infinitive highlights an opposite result."
+    },
+    {
+      "id": "base-253",
+      "category": "Grammar",
+      "level": "C1",
+      "french": "La décision prise, il ne restait qu'à agir.",
+      "meaning": "Once the decision was made, all that remained was to act.",
+      "example_fr": "Le travail terminé, nous sommes partis.",
+      "example_en": "Once the work was finished, we left.",
+      "note": "Absolute participial construction, common in writing."
+    },
+    {
+      "id": "base-254",
+      "category": "Grammar",
+      "level": "C1",
+      "french": "Les mesures ayant été adoptées, leur effet reste à évaluer.",
+      "meaning": "Now that the measures have been adopted, their effect remains to be assessed.",
+      "example_fr": "Le projet ayant été approuvé, les travaux peuvent commencer.",
+      "example_en": "Now that the project has been approved, work can begin.",
+      "note": "Compound participle can express prior action in formal writing."
+    },
+    {
+      "id": "base-255",
+      "category": "Grammar",
+      "level": "C1",
+      "french": "Il importe que chacun puisse s'exprimer.",
+      "meaning": "It is important that everyone be able to speak.",
+      "example_fr": "Il est souhaitable que le débat reste ouvert.",
+      "example_en": "It is desirable that the debate remain open.",
+      "note": "Impersonal expressions of importance often take subjunctive."
+    },
+    {
+      "id": "base-256",
+      "category": "Sentences",
+      "level": "C1",
+      "french": "Il serait réducteur de ramener ce débat à une simple question de coût.",
+      "meaning": "It would be reductive to frame this debate as merely a matter of cost.",
+      "example_fr": "Il serait réducteur de ramener la transition écologique à une question de coût.",
+      "example_en": "It would be reductive to frame the ecological transition as simply a cost issue.",
+      "note": "Formal way to challenge an oversimplification."
+    },
+    {
+      "id": "base-257",
+      "category": "Sentences",
+      "level": "C1",
+      "french": "Cette analyse mérite d'être replacée dans son contexte.",
+      "meaning": "This analysis needs to be put into context.",
+      "example_fr": "Cette statistique mérite d'être replacée dans son contexte historique.",
+      "example_en": "This statistic needs to be placed in its historical context.",
+      "note": "Useful for critical interpretation."
+    },
+    {
+      "id": "base-258",
+      "category": "Sentences",
+      "level": "C1",
+      "french": "Force est de constater que les résultats demeurent mitigés.",
+      "meaning": "We must acknowledge that the results remain mixed.",
+      "example_fr": "Après six mois, force est de constater que les résultats demeurent mitigés.",
+      "example_en": "After six months, we must acknowledge that the results remain mixed.",
+      "note": "Fixed formal formula introducing a finding."
+    },
+    {
+      "id": "base-259",
+      "category": "Sentences",
+      "level": "C1",
+      "french": "La question n'est pas de savoir si, mais plutôt comment.",
+      "meaning": "The question is not whether, but rather how.",
+      "example_fr": "La question n'est pas de savoir s'il faut agir, mais plutôt comment le faire.",
+      "example_en": "The question is not whether to act, but rather how to do it.",
+      "note": "Reframes a debate constructively."
+    },
+    {
+      "id": "base-260",
+      "category": "Sentences",
+      "level": "C1",
+      "french": "Il convient de distinguer les objectifs affichés des effets observés.",
+      "meaning": "We should distinguish stated objectives from observed effects.",
+      "example_fr": "Il convient de distinguer les objectifs affichés des effets réellement observés.",
+      "example_en": "We should distinguish stated objectives from effects actually observed.",
+      "note": "Precision in evidence-based arguments."
+    },
+    {
+      "id": "base-261",
+      "category": "Sentences",
+      "level": "C1",
+      "french": "À première vue, cette hypothèse semble plausible; elle exige néanmoins des preuves.",
+      "meaning": "At first glance, this hypothesis seems plausible; it nonetheless requires evidence.",
+      "example_fr": "À première vue, cette explication est cohérente; elle exige néanmoins des preuves.",
+      "example_en": "At first glance, this explanation is coherent; it nonetheless requires evidence.",
+      "note": "Balances initial impression and verification."
+    },
+    {
+      "id": "base-262",
+      "category": "Sentences",
+      "level": "C1",
+      "french": "Cela soulève une question de fond que nous ne pouvons éluder.",
+      "meaning": "That raises a fundamental issue we cannot evade.",
+      "example_fr": "La réforme soulève une question de fond que nous ne pouvons éluder.",
+      "example_en": "The reform raises a fundamental issue that we cannot evade.",
+      "note": "Use question de fond for underlying issues."
+    },
+    {
+      "id": "base-263",
+      "category": "Sentences",
+      "level": "C1",
+      "french": "Il n'est pas exclu que cette tendance s'accentue.",
+      "meaning": "It is possible that this trend may intensify.",
+      "example_fr": "Il n'est pas exclu que cette tendance s'accentue dans les prochaines années.",
+      "example_en": "It is possible that this trend may intensify in the coming years.",
+      "note": "Il n'est pas exclu que takes the subjunctive."
+    },
+    {
+      "id": "base-264",
+      "category": "Sentences",
+      "level": "C1",
+      "french": "La pertinence de cette solution dépend des critères retenus.",
+      "meaning": "The relevance of this solution depends on the criteria chosen.",
+      "example_fr": "La pertinence de cette solution dépend des critères retenus par l'équipe.",
+      "example_en": "The relevance of this solution depends on the criteria selected by the team.",
+      "note": "Highlights methodological choices."
+    },
+    {
+      "id": "base-265",
+      "category": "Sentences",
+      "level": "C1",
+      "french": "Il serait prématuré d'en tirer des conclusions définitives.",
+      "meaning": "It would be premature to draw definitive conclusions.",
+      "example_fr": "Au vu des premières données, il serait prématuré d'en tirer des conclusions définitives.",
+      "example_en": "Given the initial data, it would be premature to draw definitive conclusions.",
+      "note": "Shows analytical caution."
+    },
+    {
+      "id": "base-266",
+      "category": "Sentences",
+      "level": "C1",
+      "french": "Ce raisonnement se heurte toutefois à une objection majeure.",
+      "meaning": "However, this line of reasoning faces a major objection.",
+      "example_fr": "Ce raisonnement se heurte toutefois à une objection majeure concernant le financement.",
+      "example_en": "However, this reasoning faces a major objection concerning financing.",
+      "note": "Formal structure for counterarguments."
+    },
+    {
+      "id": "base-267",
+      "category": "Sentences",
+      "level": "C1",
+      "french": "Sans remettre en cause le principe, je m'interroge sur sa mise en œuvre.",
+      "meaning": "Without challenging the principle, I question how it will be implemented.",
+      "example_fr": "Sans remettre en cause le principe, je m'interroge sur sa mise en œuvre concrète.",
+      "example_en": "Without challenging the principle, I question its practical implementation.",
+      "note": "Respectful disagreement at an advanced level."
+    },
+    {
+      "id": "base-268",
+      "category": "Sentences",
+      "level": "C1",
+      "french": "Il faut garder à l'esprit que les situations varient considérablement.",
+      "meaning": "We must bear in mind that situations vary considerably.",
+      "example_fr": "Il faut garder à l'esprit que les situations varient considérablement selon les régions.",
+      "example_en": "We must bear in mind that situations vary considerably by region.",
+      "note": "Useful for qualifying generalizations."
+    },
+    {
+      "id": "base-269",
+      "category": "Sentences",
+      "level": "C1",
+      "french": "À défaut de solution idéale, nous devons privilégier l'option la plus viable.",
+      "meaning": "In the absence of a perfect solution, we must favor the most viable option.",
+      "example_fr": "À défaut de solution idéale, nous devons privilégier l'option la plus viable financièrement.",
+      "example_en": "In the absence of a perfect solution, we must favor the most financially viable option.",
+      "note": "À défaut de expresses the lack of an alternative."
+    },
+    {
+      "id": "base-270",
+      "category": "Sentences",
+      "level": "C1",
+      "french": "En somme, la prudence s'impose, sans pour autant freiner toute initiative.",
+      "meaning": "In short, caution is necessary without holding back every initiative.",
+      "example_fr": "En somme, la prudence s'impose, sans pour autant freiner les innovations utiles.",
+      "example_en": "In short, caution is necessary without obstructing useful innovations.",
+      "note": "Sophisticated balanced conclusion."
+    }
+  ]
+}

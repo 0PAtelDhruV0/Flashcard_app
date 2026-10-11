@@ -1,0 +1,654 @@
+{
+  "cards": [
+    {
+      "id": "base-008",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "depuis",
+      "meaning": "since; for (ongoing duration)",
+      "example_fr": "J'étudie le français depuis six mois.",
+      "example_en": "I have been studying French for six months.",
+      "note": "With an ongoing action, French usually uses the present tense."
+    },
+    {
+      "id": "base-009",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "il y a (temps)",
+      "meaning": "ago",
+      "example_fr": "J'ai commencé ce travail il y a deux ans.",
+      "example_en": "I started this job two years ago.",
+      "note": "Time elapsed before the present."
+    },
+    {
+      "id": "base-013",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "annuler",
+      "meaning": "to cancel",
+      "example_fr": "Je dois annuler ma réservation de demain.",
+      "example_en": "I have to cancel my reservation for tomorrow.",
+      "note": "Verb used for bookings and appointments."
+    },
+    {
+      "id": "base-015",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "réserver",
+      "meaning": "to reserve; to book",
+      "example_fr": "Nous avons réservé une table pour quatre personnes.",
+      "example_en": "We booked a table for four people.",
+      "note": "Common with tables, hotels and activities."
+    },
+    {
+      "id": "base-017",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "une réduction",
+      "meaning": "a discount",
+      "example_fr": "Offrez-vous une réduction aux étudiants ?",
+      "example_en": "Do you offer students a discount?",
+      "note": "Useful when asking about prices."
+    },
+    {
+      "id": "base-023",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "être disponible",
+      "meaning": "to be available",
+      "example_fr": "Êtes-vous disponible samedi après-midi ?",
+      "example_en": "Are you available Saturday afternoon?",
+      "note": "Handy for scheduling."
+    },
+    {
+      "id": "base-026",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "avoir envie de",
+      "meaning": "to feel like; to want to",
+      "example_fr": "J'ai envie de découvrir un nouveau quartier.",
+      "example_en": "I feel like exploring a new neighborhood.",
+      "note": "Follow with an infinitive or noun."
+    },
+    {
+      "id": "base-027",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "avoir besoin de",
+      "meaning": "to need",
+      "example_fr": "J'ai besoin de plus de temps pour réfléchir.",
+      "example_en": "I need more time to think.",
+      "note": "Follow with de + noun or infinitive."
+    },
+    {
+      "id": "base-031",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "Je suis allé au marché.",
+      "meaning": "I went to the market.",
+      "example_fr": "Elle est allée au marché hier.",
+      "example_en": "She went to the market yesterday.",
+      "note": "Passé composé with être; the participle agrees with the subject."
+    },
+    {
+      "id": "base-032",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "J'ai terminé mon travail.",
+      "meaning": "I finished my work.",
+      "example_fr": "Nous avons terminé le projet à temps.",
+      "example_en": "We finished the project on time.",
+      "note": "Passé composé: avoir + past participle."
+    },
+    {
+      "id": "base-036",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "Je vais commencer demain.",
+      "meaning": "I am going to start tomorrow.",
+      "example_fr": "Nous allons regarder un film ce soir.",
+      "example_en": "We are going to watch a movie tonight.",
+      "note": "Futur proche: aller + infinitive."
+    },
+    {
+      "id": "base-042",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "Je ne mange plus de viande.",
+      "meaning": "I no longer eat meat.",
+      "example_fr": "Il ne travaille plus ici.",
+      "example_en": "He no longer works here.",
+      "note": "Ne ... plus means no longer or not anymore."
+    },
+    {
+      "id": "base-043",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "Je n'ai jamais visité Lyon.",
+      "meaning": "I have never visited Lyon.",
+      "example_fr": "Elle ne prend jamais le bus.",
+      "example_en": "She never takes the bus.",
+      "note": "Ne ... jamais means never."
+    },
+    {
+      "id": "base-048",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "Je la connais bien.",
+      "meaning": "I know her well.",
+      "example_fr": "Je le vois tous les jours.",
+      "example_en": "I see him every day.",
+      "note": "Le, la, les are direct-object pronouns."
+    },
+    {
+      "id": "base-049",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "Je me lève à sept heures.",
+      "meaning": "I get up at seven o'clock.",
+      "example_fr": "Elle se couche tôt pendant la semaine.",
+      "example_en": "She goes to bed early during the week.",
+      "note": "Reflexive verb: me, te, se, nous, vous, se."
+    },
+    {
+      "id": "base-063",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Quels sont les horaires d'ouverture ?",
+      "meaning": "What are the opening hours?",
+      "example_fr": "À quelle heure ouvrez-vous le samedi ?",
+      "example_en": "What time do you open on Saturdays?",
+      "note": "TEF Section A: ask about schedules."
+    },
+    {
+      "id": "base-066",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Comment puis-je m'inscrire ?",
+      "meaning": "How can I register?",
+      "example_fr": "Est-ce que l'inscription se fait en ligne ?",
+      "example_en": "Is registration done online?",
+      "note": "TEF Section A: registration."
+    },
+    {
+      "id": "base-072",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Combien de temps dure chaque séance ?",
+      "meaning": "How long does each session last?",
+      "example_fr": "L'activité dure-t-elle une heure ou deux ?",
+      "example_en": "Does the activity last one or two hours?",
+      "note": "TEF Section A: duration."
+    },
+    {
+      "id": "base-074",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Puis-je venir avec un ami ?",
+      "meaning": "Can I come with a friend?",
+      "example_fr": "Est-ce que je peux amener ma sœur ?",
+      "example_en": "Can I bring my sister?",
+      "note": "TEF Section A: accompanying guests."
+    },
+    {
+      "id": "base-075",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Quelles sont les dates disponibles ?",
+      "meaning": "Which dates are available?",
+      "example_fr": "Y a-t-il encore des places pour dimanche ?",
+      "example_en": "Are there still places available for Sunday?",
+      "note": "TEF Section A: availability."
+    },
+    {
+      "id": "base-136",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "un rendez-vous",
+      "meaning": "an appointment",
+      "example_fr": "J'ai un rendez-vous chez le médecin mardi.",
+      "example_en": "I have a doctor's appointment on Tuesday.",
+      "note": "Plural: des rendez-vous."
+    },
+    {
+      "id": "base-137",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "les courses",
+      "meaning": "grocery shopping; errands",
+      "example_fr": "Je fais les courses le samedi.",
+      "example_en": "I do the grocery shopping on Saturday.",
+      "note": "Faire les courses is a common expression."
+    },
+    {
+      "id": "base-138",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "le quartier",
+      "meaning": "the neighborhood",
+      "example_fr": "J'habite dans un quartier calme.",
+      "example_en": "I live in a quiet neighborhood.",
+      "note": "Masculine noun: un quartier."
+    },
+    {
+      "id": "base-139",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "un trajet",
+      "meaning": "a journey; commute",
+      "example_fr": "Mon trajet dure vingt minutes.",
+      "example_en": "My commute takes twenty minutes.",
+      "note": "Often used for daily transport."
+    },
+    {
+      "id": "base-140",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "la météo",
+      "meaning": "the weather forecast",
+      "example_fr": "Je regarde la météo avant de sortir.",
+      "example_en": "I check the weather forecast before going out.",
+      "note": "Feminine noun: la météo."
+    },
+    {
+      "id": "base-141",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "emprunter",
+      "meaning": "to borrow; to take (a route)",
+      "example_fr": "Puis-je emprunter ton stylo ?",
+      "example_en": "Can I borrow your pen?",
+      "note": "Can refer to an object or a route."
+    },
+    {
+      "id": "base-142",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "essayer",
+      "meaning": "to try; to try on",
+      "example_fr": "Je voudrais essayer cette veste.",
+      "example_en": "I'd like to try on this jacket.",
+      "note": "Common in clothing stores."
+    },
+    {
+      "id": "base-143",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "oublier",
+      "meaning": "to forget",
+      "example_fr": "J'ai oublié mes clés à la maison.",
+      "example_en": "I forgot my keys at home.",
+      "note": "Regular -er verb with spelling changes in some forms."
+    },
+    {
+      "id": "base-144",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "se dépêcher",
+      "meaning": "to hurry up",
+      "example_fr": "Dépêche-toi, le bus arrive !",
+      "example_en": "Hurry up, the bus is arriving!",
+      "note": "Reflexive verb."
+    },
+    {
+      "id": "base-145",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "avoir faim",
+      "meaning": "to be hungry",
+      "example_fr": "J'ai faim, on mange bientôt ?",
+      "example_en": "I'm hungry. Are we eating soon?",
+      "note": "French uses avoir for hunger."
+    },
+    {
+      "id": "base-146",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "avoir soif",
+      "meaning": "to be thirsty",
+      "example_fr": "Après la marche, j'ai très soif.",
+      "example_en": "After the walk, I'm very thirsty.",
+      "note": "French uses avoir for thirst."
+    },
+    {
+      "id": "base-147",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "un billet",
+      "meaning": "a ticket",
+      "example_fr": "J'ai acheté un billet de train.",
+      "example_en": "I bought a train ticket.",
+      "note": "Can also mean a banknote."
+    },
+    {
+      "id": "base-148",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "une gare",
+      "meaning": "a train station",
+      "example_fr": "La gare est à dix minutes d'ici.",
+      "example_en": "The train station is ten minutes from here.",
+      "note": "Use gare for train station."
+    },
+    {
+      "id": "base-149",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "une ordonnance",
+      "meaning": "a prescription",
+      "example_fr": "Le médecin m'a donné une ordonnance.",
+      "example_en": "The doctor gave me a prescription.",
+      "note": "Usually for medicine."
+    },
+    {
+      "id": "base-150",
+      "category": "Vocabulary",
+      "level": "A2",
+      "french": "une invitation",
+      "meaning": "an invitation",
+      "example_fr": "Merci pour ton invitation à dîner.",
+      "example_en": "Thanks for your dinner invitation.",
+      "note": "Feminine noun: une invitation."
+    },
+    {
+      "id": "base-151",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "J'ai acheté du pain.",
+      "meaning": "I bought some bread.",
+      "example_fr": "Elle a préparé le petit-déjeuner.",
+      "example_en": "She prepared breakfast.",
+      "note": "Passé composé with avoir for a completed past action."
+    },
+    {
+      "id": "base-152",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "Je suis arrivé à midi.",
+      "meaning": "I arrived at noon.",
+      "example_fr": "Nous sommes partis tôt ce matin.",
+      "example_en": "We left early this morning.",
+      "note": "Some movement verbs use être in the passé composé."
+    },
+    {
+      "id": "base-153",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "Je vais appeler demain.",
+      "meaning": "I'm going to call tomorrow.",
+      "example_fr": "Ils vont voyager en août.",
+      "example_en": "They are going to travel in August.",
+      "note": "Futur proche: aller + infinitive."
+    },
+    {
+      "id": "base-154",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "Je faisais du sport chaque samedi.",
+      "meaning": "I used to exercise every Saturday.",
+      "example_fr": "Quand j'étais jeune, je jouais au tennis.",
+      "example_en": "When I was young, I used to play tennis.",
+      "note": "Imparfait can describe repeated past habits."
+    },
+    {
+      "id": "base-155",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "Il faut prendre le bus.",
+      "meaning": "You need to take the bus.",
+      "example_fr": "Il faut réserver avant vendredi.",
+      "example_en": "You need to book before Friday.",
+      "note": "Il faut + infinitive expresses general necessity."
+    },
+    {
+      "id": "base-156",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "Je dois étudier ce soir.",
+      "meaning": "I must study tonight.",
+      "example_fr": "Nous devons partir à huit heures.",
+      "example_en": "We have to leave at eight.",
+      "note": "Devoir + infinitive expresses obligation."
+    },
+    {
+      "id": "base-157",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "Je peux venir samedi.",
+      "meaning": "I can come Saturday.",
+      "example_fr": "Vous pouvez payer par carte.",
+      "example_en": "You can pay by card.",
+      "note": "Pouvoir + infinitive expresses ability or permission."
+    },
+    {
+      "id": "base-158",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "Je veux apprendre le français.",
+      "meaning": "I want to learn French.",
+      "example_fr": "Elle veut travailler demain.",
+      "example_en": "She wants to work tomorrow.",
+      "note": "Vouloir + infinitive expresses desire."
+    },
+    {
+      "id": "base-159",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "J'ai moins de temps aujourd'hui.",
+      "meaning": "I have less time today.",
+      "example_fr": "Ce train est plus rapide que le bus.",
+      "example_en": "This train is faster than the bus.",
+      "note": "Comparisons: plus / moins ... que."
+    },
+    {
+      "id": "base-160",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "Je prends du fromage.",
+      "meaning": "I'm having some cheese.",
+      "example_fr": "Nous buvons de l'eau.",
+      "example_en": "We drink some water.",
+      "note": "Partitive articles: du, de la, de l'."
+    },
+    {
+      "id": "base-161",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "Je n'ai pas de voiture.",
+      "meaning": "I don't have a car.",
+      "example_fr": "Nous n'avons pas de pain.",
+      "example_en": "We don't have any bread.",
+      "note": "After negation, un, une, du and de la often become de/d'."
+    },
+    {
+      "id": "base-162",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "Je me suis réveillé tôt.",
+      "meaning": "I woke up early.",
+      "example_fr": "Elle s'est couchée tard.",
+      "example_en": "She went to bed late.",
+      "note": "Reflexive verbs usually use être in the passé composé."
+    },
+    {
+      "id": "base-163",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "Je lui parle souvent.",
+      "meaning": "I often speak to him or her.",
+      "example_fr": "Il leur écrit chaque semaine.",
+      "example_en": "He writes to them every week.",
+      "note": "Lui and leur can replace à + person."
+    },
+    {
+      "id": "base-164",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "C'est le restaurant où nous mangeons.",
+      "meaning": "It's the restaurant where we eat.",
+      "example_fr": "Voici la ville où j'ai grandi.",
+      "example_en": "Here is the city where I grew up.",
+      "note": "Où introduces a relative clause about a place."
+    },
+    {
+      "id": "base-165",
+      "category": "Grammar",
+      "level": "A2",
+      "french": "Je suis plus grand que lui.",
+      "meaning": "I am taller than him.",
+      "example_fr": "Elle est aussi grande que sa sœur.",
+      "example_en": "She is as tall as her sister.",
+      "note": "Plus ... que / aussi ... que compare people or things."
+    },
+    {
+      "id": "base-166",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Je cherche un appartement à louer.",
+      "meaning": "I'm looking for an apartment to rent.",
+      "example_fr": "Je cherche un petit appartement près du métro.",
+      "example_en": "I'm looking for a small apartment near the subway.",
+      "note": "Useful for housing conversations."
+    },
+    {
+      "id": "base-167",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Est-ce que le petit-déjeuner est compris ?",
+      "meaning": "Is breakfast included?",
+      "example_fr": "Est-ce que le petit-déjeuner est compris dans le prix ?",
+      "example_en": "Is breakfast included in the price?",
+      "note": "Useful for hotels and travel."
+    },
+    {
+      "id": "base-168",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Je préfère prendre le train.",
+      "meaning": "I prefer to take the train.",
+      "example_fr": "Pour aller à Montréal, je préfère prendre le train.",
+      "example_en": "To go to Montreal, I prefer taking the train.",
+      "note": "Préférer + infinitive."
+    },
+    {
+      "id": "base-169",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Hier, je suis allé au cinéma.",
+      "meaning": "Yesterday, I went to the movies.",
+      "example_fr": "Hier soir, je suis allé au cinéma avec mes amis.",
+      "example_en": "Last night, I went to the movies with my friends.",
+      "note": "Useful past-tense sentence; feminine: allée."
+    },
+    {
+      "id": "base-170",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Je travaille ici depuis un an.",
+      "meaning": "I've been working here for a year.",
+      "example_fr": "Je travaille dans cette entreprise depuis un an.",
+      "example_en": "I've worked at this company for a year.",
+      "note": "Depuis + present describes an action still continuing."
+    },
+    {
+      "id": "base-171",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Je voudrais changer ma réservation.",
+      "meaning": "I'd like to change my reservation.",
+      "example_fr": "Bonjour, je voudrais changer ma réservation pour samedi.",
+      "example_en": "Hello, I'd like to change my reservation to Saturday.",
+      "note": "Polite request for booking changes."
+    },
+    {
+      "id": "base-172",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Combien de temps dure le trajet ?",
+      "meaning": "How long does the trip take?",
+      "example_fr": "Combien de temps dure le trajet jusqu'à Québec ?",
+      "example_en": "How long does the trip to Quebec take?",
+      "note": "Combien de temps asks about duration."
+    },
+    {
+      "id": "base-173",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Pourriez-vous parler plus lentement ?",
+      "meaning": "Could you speak more slowly?",
+      "example_fr": "Je débute en français. Pourriez-vous parler plus lentement ?",
+      "example_en": "I'm a beginner in French. Could you speak more slowly?",
+      "note": "Polite conditional for a request."
+    },
+    {
+      "id": "base-174",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Je suis désolé d'être en retard.",
+      "meaning": "I'm sorry to be late.",
+      "example_fr": "Je suis désolé d'être en retard à cause du trafic.",
+      "example_en": "I'm sorry to be late because of traffic.",
+      "note": "Feminine: désolée."
+    },
+    {
+      "id": "base-175",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Nous avons passé un bon week-end.",
+      "meaning": "We had a good weekend.",
+      "example_fr": "Nous avons passé un bon week-end à la campagne.",
+      "example_en": "We had a good weekend in the countryside.",
+      "note": "Passer un bon moment / week-end is idiomatic."
+    },
+    {
+      "id": "base-176",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Pouvez-vous me montrer le chemin ?",
+      "meaning": "Can you show me the way?",
+      "example_fr": "Excusez-moi, pouvez-vous me montrer le chemin vers la gare ?",
+      "example_en": "Excuse me, can you show me the way to the station?",
+      "note": "Useful for asking directions."
+    },
+    {
+      "id": "base-177",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Ce produit est trop cher pour moi.",
+      "meaning": "This product is too expensive for me.",
+      "example_fr": "Cette veste est jolie, mais elle est trop chère pour moi.",
+      "example_en": "This jacket is nice, but it's too expensive for me.",
+      "note": "Trop + adjective means too."
+    },
+    {
+      "id": "base-178",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Je vais rendre visite à mes parents.",
+      "meaning": "I'm going to visit my parents.",
+      "example_fr": "Le mois prochain, je vais rendre visite à mes parents.",
+      "example_en": "Next month, I'm going to visit my parents.",
+      "note": "Rendre visite à quelqu'un means to visit someone."
+    },
+    {
+      "id": "base-179",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Est-il possible de payer en plusieurs fois ?",
+      "meaning": "Is it possible to pay in installments?",
+      "example_fr": "Est-il possible de payer ce cours en plusieurs fois ?",
+      "example_en": "Is it possible to pay for this course in installments?",
+      "note": "Useful when discussing fees."
+    },
+    {
+      "id": "base-180",
+      "category": "Sentences",
+      "level": "A2",
+      "french": "Je ne peux pas venir ce soir.",
+      "meaning": "I can't come tonight.",
+      "example_fr": "Désolé, je ne peux pas venir ce soir, car je travaille.",
+      "example_en": "Sorry, I can't come tonight because I'm working.",
+      "note": "Car gives a reason, similar to parce que."
+    }
+  ]
+}

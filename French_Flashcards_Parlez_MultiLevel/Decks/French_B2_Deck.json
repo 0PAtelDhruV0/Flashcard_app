@@ -1,0 +1,524 @@
+{
+  "cards": [
+    {
+      "id": "base-004",
+      "category": "Vocabulary",
+      "level": "B2",
+      "french": "néanmoins",
+      "meaning": "nevertheless",
+      "example_fr": "Le trajet est long. Néanmoins, le voyage en vaut la peine.",
+      "example_en": "The journey is long. Nevertheless, the trip is worth it.",
+      "note": "A formal alternative to pourtant."
+    },
+    {
+      "id": "base-022",
+      "category": "Vocabulary",
+      "level": "B2",
+      "french": "une démarche",
+      "meaning": "a procedure; an administrative step",
+      "example_fr": "Cette démarche administrative peut se faire en ligne.",
+      "example_en": "This administrative procedure can be done online.",
+      "note": "Often used for official paperwork."
+    },
+    {
+      "id": "base-028",
+      "category": "Vocabulary",
+      "level": "B2",
+      "french": "tenir compte de",
+      "meaning": "to take into account",
+      "example_fr": "Il faut tenir compte du budget avant de décider.",
+      "example_en": "We must take the budget into account before deciding.",
+      "note": "Strong phrase for arguments."
+    },
+    {
+      "id": "base-040",
+      "category": "Grammar",
+      "level": "B2",
+      "french": "Il faut que tu sois à l'heure.",
+      "meaning": "You must be on time.",
+      "example_fr": "Il faut que nous fassions attention.",
+      "example_en": "We have to be careful.",
+      "note": "Il faut que + subjonctif."
+    },
+    {
+      "id": "base-041",
+      "category": "Grammar",
+      "level": "B2",
+      "french": "Bien qu'il soit fatigué, il continue.",
+      "meaning": "Although he is tired, he keeps going.",
+      "example_fr": "Bien qu'elle ait peur, elle essaie.",
+      "example_en": "Although she is afraid, she tries.",
+      "note": "Bien que + subjonctif."
+    },
+    {
+      "id": "base-059",
+      "category": "Grammar",
+      "level": "B2",
+      "french": "Je fais réparer mon ordinateur.",
+      "meaning": "I'm having my computer repaired.",
+      "example_fr": "Nous faisons nettoyer la maison.",
+      "example_en": "We are having the house cleaned.",
+      "note": "Faire + infinitive can mean having someone else do an action."
+    },
+    {
+      "id": "base-090",
+      "category": "Sentences",
+      "level": "B2",
+      "french": "Pour conclure, je pense que les avantages l'emportent sur les inconvénients.",
+      "meaning": "To conclude, I think the advantages outweigh the disadvantages.",
+      "example_fr": "Dans l'ensemble, cette solution me semble la plus adaptée.",
+      "example_en": "Overall, this solution seems the most suitable to me.",
+      "note": "TEF Section B: conclude a persuasive argument."
+    },
+    {
+      "id": "base-181",
+      "category": "Vocabulary",
+      "level": "B2",
+      "french": "toutefois",
+      "meaning": "however; nevertheless",
+      "example_fr": "Le tarif est élevé. Toutefois, le service est excellent.",
+      "example_en": "The price is high. However, the service is excellent.",
+      "note": "Useful in formal contrast."
+    },
+    {
+      "id": "base-182",
+      "category": "Vocabulary",
+      "level": "B2",
+      "french": "en dépit de",
+      "meaning": "despite; in spite of",
+      "example_fr": "En dépit du mauvais temps, le festival a eu lieu.",
+      "example_en": "Despite the bad weather, the festival took place.",
+      "note": "Follow with a noun or noun phrase."
+    },
+    {
+      "id": "base-183",
+      "category": "Vocabulary",
+      "level": "B2",
+      "french": "voire",
+      "meaning": "even; or even",
+      "example_fr": "Ce projet pourrait prendre des semaines, voire des mois.",
+      "example_en": "This project could take weeks, or even months.",
+      "note": "Introduces a stronger possibility."
+    },
+    {
+      "id": "base-184",
+      "category": "Vocabulary",
+      "level": "B2",
+      "french": "par conséquent",
+      "meaning": "consequently; therefore",
+      "example_fr": "La demande augmente; par conséquent, les prix montent.",
+      "example_en": "Demand is rising; consequently, prices go up.",
+      "note": "Logical consequence connector."
+    },
+    {
+      "id": "base-185",
+      "category": "Vocabulary",
+      "level": "B2",
+      "french": "au préalable",
+      "meaning": "beforehand",
+      "example_fr": "Il faut s'inscrire au préalable.",
+      "example_en": "You must register beforehand.",
+      "note": "Common in procedures and instructions."
+    },
+    {
+      "id": "base-186",
+      "category": "Vocabulary",
+      "level": "B2",
+      "french": "mettre en œuvre",
+      "meaning": "to implement; to put into practice",
+      "example_fr": "La ville veut mettre en œuvre de nouvelles mesures.",
+      "example_en": "The city wants to implement new measures.",
+      "note": "Common in professional contexts."
+    },
+    {
+      "id": "base-187",
+      "category": "Vocabulary",
+      "level": "B2",
+      "french": "une contrainte",
+      "meaning": "a constraint; limitation",
+      "example_fr": "Le manque de temps est une contrainte importante.",
+      "example_en": "Lack of time is a significant constraint.",
+      "note": "Often used in problem-solving."
+    },
+    {
+      "id": "base-188",
+      "category": "Vocabulary",
+      "level": "B2",
+      "french": "un enjeu",
+      "meaning": "an issue; a major challenge",
+      "example_fr": "La protection des données est un enjeu majeur.",
+      "example_en": "Data protection is a major issue.",
+      "note": "Usually implies importance or stakes."
+    },
+    {
+      "id": "base-189",
+      "category": "Vocabulary",
+      "level": "B2",
+      "french": "une pénurie",
+      "meaning": "a shortage",
+      "example_fr": "La région fait face à une pénurie de logements.",
+      "example_en": "The region faces a housing shortage.",
+      "note": "Use une pénurie de + noun."
+    },
+    {
+      "id": "base-190",
+      "category": "Vocabulary",
+      "level": "B2",
+      "french": "un compromis",
+      "meaning": "a compromise",
+      "example_fr": "Nous avons trouvé un compromis satisfaisant.",
+      "example_en": "We found a satisfactory compromise.",
+      "note": "Useful for negotiating."
+    },
+    {
+      "id": "base-191",
+      "category": "Vocabulary",
+      "level": "B2",
+      "french": "un atout",
+      "meaning": "an asset; an advantage",
+      "example_fr": "Parler plusieurs langues est un atout professionnel.",
+      "example_en": "Speaking several languages is a professional asset.",
+      "note": "Often describes a strength."
+    },
+    {
+      "id": "base-192",
+      "category": "Vocabulary",
+      "level": "B2",
+      "french": "remettre en question",
+      "meaning": "to challenge; to call into question",
+      "example_fr": "Les résultats remettent cette idée en question.",
+      "example_en": "The results call this idea into question.",
+      "note": "Means reconsidering an assumption."
+    },
+    {
+      "id": "base-193",
+      "category": "Vocabulary",
+      "level": "B2",
+      "french": "s'avérer",
+      "meaning": "to turn out to be; to prove",
+      "example_fr": "Cette solution s'est avérée efficace.",
+      "example_en": "This solution proved effective.",
+      "note": "Often used in formal assessments."
+    },
+    {
+      "id": "base-194",
+      "category": "Vocabulary",
+      "level": "B2",
+      "french": "à long terme",
+      "meaning": "in the long term",
+      "example_fr": "À long terme, cette formation peut être rentable.",
+      "example_en": "In the long term, this training may pay off.",
+      "note": "Contrast with à court terme."
+    },
+    {
+      "id": "base-195",
+      "category": "Vocabulary",
+      "level": "B2",
+      "french": "nuancer",
+      "meaning": "to qualify; to add nuance",
+      "example_fr": "Il faut nuancer cette conclusion.",
+      "example_en": "We need to qualify this conclusion.",
+      "note": "Important for balanced arguments."
+    },
+    {
+      "id": "base-196",
+      "category": "Grammar",
+      "level": "B2",
+      "french": "Il est essentiel que nous puissions participer.",
+      "meaning": "It is essential that we be able to participate.",
+      "example_fr": "Il est important qu'elle puisse venir.",
+      "example_en": "It's important that she be able to come.",
+      "note": "Expressions of necessity often trigger the subjunctive."
+    },
+    {
+      "id": "base-197",
+      "category": "Grammar",
+      "level": "B2",
+      "french": "Je doute qu'il ait raison.",
+      "meaning": "I doubt that he is right.",
+      "example_fr": "Je ne pense pas qu'il soit disponible.",
+      "example_en": "I don't think he is available.",
+      "note": "Doubt or negated opinion commonly triggers the subjunctive."
+    },
+    {
+      "id": "base-198",
+      "category": "Grammar",
+      "level": "B2",
+      "french": "Bien qu'elle ait travaillé, elle n'a pas réussi.",
+      "meaning": "Although she worked, she didn't succeed.",
+      "example_fr": "Bien qu'il soit tard, nous continuons.",
+      "example_en": "Although it is late, we continue.",
+      "note": "Bien que is followed by the subjunctive."
+    },
+    {
+      "id": "base-199",
+      "category": "Grammar",
+      "level": "B2",
+      "french": "À condition que vous soyez prêts, nous partirons.",
+      "meaning": "Provided that you are ready, we will leave.",
+      "example_fr": "Je viendrai à condition que tu m'invites.",
+      "example_en": "I'll come provided that you invite me.",
+      "note": "À condition que requires the subjunctive."
+    },
+    {
+      "id": "base-200",
+      "category": "Grammar",
+      "level": "B2",
+      "french": "Pourvu qu'il fasse beau !",
+      "meaning": "Let's hope the weather is nice!",
+      "example_fr": "Pourvu que tout se passe bien !",
+      "example_en": "Let's hope everything goes well!",
+      "note": "Pourvu que + subjunctive expresses a wish."
+    },
+    {
+      "id": "base-201",
+      "category": "Grammar",
+      "level": "B2",
+      "french": "Si j'avais su, je serais venu.",
+      "meaning": "If I had known, I would have come.",
+      "example_fr": "Si nous avions réservé, nous aurions eu une place.",
+      "example_en": "If we'd booked, we'd have had a seat.",
+      "note": "Si + plus-que-parfait and conditionnel passé for an unreal past."
+    },
+    {
+      "id": "base-202",
+      "category": "Grammar",
+      "level": "B2",
+      "french": "Elle aurait oublié notre rendez-vous.",
+      "meaning": "She apparently forgot our appointment.",
+      "example_fr": "Selon ses collègues, elle aurait quitté l'entreprise.",
+      "example_en": "According to her colleagues, she reportedly left the company.",
+      "note": "Conditionnel passé can report unconfirmed information."
+    },
+    {
+      "id": "base-203",
+      "category": "Grammar",
+      "level": "B2",
+      "french": "Après avoir terminé, je suis sorti.",
+      "meaning": "After finishing, I went out.",
+      "example_fr": "Après être arrivée, elle a téléphoné.",
+      "example_en": "After arriving, she called.",
+      "note": "Après + perfect infinitive indicates completed prior action."
+    },
+    {
+      "id": "base-204",
+      "category": "Grammar",
+      "level": "B2",
+      "french": "Ce problème doit être résolu.",
+      "meaning": "This problem must be solved.",
+      "example_fr": "Les documents seront envoyés demain.",
+      "example_en": "The documents will be sent tomorrow.",
+      "note": "Passive voice: être + past participle."
+    },
+    {
+      "id": "base-205",
+      "category": "Grammar",
+      "level": "B2",
+      "french": "Il s'est fait voler son téléphone.",
+      "meaning": "His phone was stolen.",
+      "example_fr": "Elle s'est fait couper les cheveux.",
+      "example_en": "She had her hair cut.",
+      "note": "Se faire + infinitive can express experiencing or arranging an action."
+    },
+    {
+      "id": "base-206",
+      "category": "Grammar",
+      "level": "B2",
+      "french": "C'est une question dont il faut parler.",
+      "meaning": "It's an issue that needs to be discussed.",
+      "example_fr": "Voilà le sujet dont je me souviens.",
+      "example_en": "That's the topic I remember.",
+      "note": "Dont replaces de + noun in a relative clause."
+    },
+    {
+      "id": "base-207",
+      "category": "Grammar",
+      "level": "B2",
+      "french": "Je m'attends à ce qu'il arrive tôt.",
+      "meaning": "I expect him to arrive early.",
+      "example_fr": "Nous tenons à ce que chacun participe.",
+      "example_en": "We insist that everyone participate.",
+      "note": "À ce que can introduce a subjunctive clause after some verbs."
+    },
+    {
+      "id": "base-208",
+      "category": "Grammar",
+      "level": "B2",
+      "french": "Quoiqu'il soit compétent, il manque d'expérience.",
+      "meaning": "Although he is capable, he lacks experience.",
+      "example_fr": "Quoiqu'elle soit pressée, elle reste polie.",
+      "example_en": "Although she's in a hurry, she remains polite.",
+      "note": "Quoique (one word) means although; quoi que means whatever."
+    },
+    {
+      "id": "base-209",
+      "category": "Grammar",
+      "level": "B2",
+      "french": "Il parle comme s'il connaissait la réponse.",
+      "meaning": "He speaks as if he knew the answer.",
+      "example_fr": "Elle agit comme si rien ne s'était passé.",
+      "example_en": "She acts as if nothing had happened.",
+      "note": "Comme si is generally followed by imperfect or pluperfect."
+    },
+    {
+      "id": "base-210",
+      "category": "Grammar",
+      "level": "B2",
+      "french": "Plus on pratique, plus on progresse.",
+      "meaning": "The more we practice, the more we improve.",
+      "example_fr": "Plus tu écoutes, mieux tu comprends.",
+      "example_en": "The more you listen, the better you understand.",
+      "note": "Correlative structure: plus ... plus / mieux."
+    },
+    {
+      "id": "base-211",
+      "category": "Sentences",
+      "level": "B2",
+      "french": "Il convient d'examiner les deux points de vue.",
+      "meaning": "Both perspectives should be examined.",
+      "example_fr": "Avant de décider, il convient d'examiner les avantages et les risques.",
+      "example_en": "Before deciding, both benefits and risks should be examined.",
+      "note": "Formal introduction to a balanced opinion."
+    },
+    {
+      "id": "base-212",
+      "category": "Sentences",
+      "level": "B2",
+      "french": "Je comprends votre point de vue, mais je reste réservé.",
+      "meaning": "I understand your viewpoint, but I still have reservations.",
+      "example_fr": "Je comprends votre point de vue, mais je reste réservé quant au coût.",
+      "example_en": "I understand your viewpoint, but I still have reservations about the cost.",
+      "note": "Polite disagreement for debates."
+    },
+    {
+      "id": "base-213",
+      "category": "Sentences",
+      "level": "B2",
+      "french": "Cette solution présente des avantages non négligeables.",
+      "meaning": "This solution has significant advantages.",
+      "example_fr": "Le télétravail présente des avantages non négligeables pour les familles.",
+      "example_en": "Remote work has significant advantages for families.",
+      "note": "Non négligeable means significant."
+    },
+    {
+      "id": "base-214",
+      "category": "Sentences",
+      "level": "B2",
+      "french": "Il serait préférable de trouver un compromis.",
+      "meaning": "It would be preferable to find a compromise.",
+      "example_fr": "Pour satisfaire tout le monde, il serait préférable de trouver un compromis.",
+      "example_en": "To satisfy everyone, it would be preferable to find a compromise.",
+      "note": "Conditional softens a recommendation."
+    },
+    {
+      "id": "base-215",
+      "category": "Sentences",
+      "level": "B2",
+      "french": "Rien ne garantit que cette mesure sera efficace.",
+      "meaning": "Nothing guarantees that this measure will work.",
+      "example_fr": "Rien ne garantit que cette mesure réduira les dépenses.",
+      "example_en": "Nothing guarantees that this measure will reduce expenses.",
+      "note": "Use to question an unproven claim."
+    },
+    {
+      "id": "base-216",
+      "category": "Sentences",
+      "level": "B2",
+      "french": "À mon sens, le problème est plus complexe qu'il n'y paraît.",
+      "meaning": "In my view, the problem is more complex than it seems.",
+      "example_fr": "À mon sens, le problème du logement est plus complexe qu'il n'y paraît.",
+      "example_en": "In my view, the housing problem is more complex than it seems.",
+      "note": "Useful to introduce nuance."
+    },
+    {
+      "id": "base-217",
+      "category": "Sentences",
+      "level": "B2",
+      "french": "Je tiens à souligner un point essentiel.",
+      "meaning": "I would like to stress one essential point.",
+      "example_fr": "Je tiens à souligner un point essentiel : la sécurité doit rester prioritaire.",
+      "example_en": "I'd like to stress an essential point: safety must remain the priority.",
+      "note": "Formal emphasis in discussions."
+    },
+    {
+      "id": "base-218",
+      "category": "Sentences",
+      "level": "B2",
+      "french": "Cela dépend largement des circonstances.",
+      "meaning": "That depends largely on the circumstances.",
+      "example_fr": "Choisir entre le train et l'avion dépend largement des circonstances.",
+      "example_en": "Choosing between train and plane largely depends on the circumstances.",
+      "note": "Avoids oversimplifying a claim."
+    },
+    {
+      "id": "base-219",
+      "category": "Sentences",
+      "level": "B2",
+      "french": "Il faudrait envisager d'autres possibilités.",
+      "meaning": "We should consider other possibilities.",
+      "example_fr": "Si le budget est insuffisant, il faudrait envisager d'autres possibilités.",
+      "example_en": "If the budget is insufficient, we should consider other possibilities.",
+      "note": "Suggestion with conditional + infinitive."
+    },
+    {
+      "id": "base-220",
+      "category": "Sentences",
+      "level": "B2",
+      "french": "Les conséquences pourraient être importantes à long terme.",
+      "meaning": "The long-term consequences could be significant.",
+      "example_fr": "Sans entretien, les conséquences pourraient être importantes à long terme.",
+      "example_en": "Without maintenance, the long-term consequences could be significant.",
+      "note": "Useful for risk evaluation."
+    },
+    {
+      "id": "base-221",
+      "category": "Sentences",
+      "level": "B2",
+      "french": "Je ne suis pas entièrement convaincu par cet argument.",
+      "meaning": "I'm not entirely convinced by that argument.",
+      "example_fr": "Je ne suis pas entièrement convaincu par cet argument sur les coûts.",
+      "example_en": "I'm not entirely convinced by that argument about costs.",
+      "note": "Expresses respectful skepticism."
+    },
+    {
+      "id": "base-222",
+      "category": "Sentences",
+      "level": "B2",
+      "french": "D'une part, le coût est élevé; d'autre part, le service est fiable.",
+      "meaning": "On one hand, the cost is high; on the other, the service is reliable.",
+      "example_fr": "D'une part, c'est cher; d'autre part, nous gagnons du temps.",
+      "example_en": "On the one hand, it's expensive; on the other, we save time.",
+      "note": "Paired connectors structure arguments."
+    },
+    {
+      "id": "base-223",
+      "category": "Sentences",
+      "level": "B2",
+      "french": "Même si cette idée paraît séduisante, elle comporte des risques.",
+      "meaning": "Even if this idea seems appealing, it involves risks.",
+      "example_fr": "Même si cette idée paraît séduisante, elle comporte des risques financiers.",
+      "example_en": "Even if this idea seems appealing, it involves financial risks.",
+      "note": "Même si takes the indicative, not the subjunctive."
+    },
+    {
+      "id": "base-224",
+      "category": "Sentences",
+      "level": "B2",
+      "french": "Je vous propose de réfléchir à une solution commune.",
+      "meaning": "I suggest we think about a shared solution.",
+      "example_fr": "Je vous propose de réfléchir ensemble à une solution commune.",
+      "example_en": "I suggest we think together about a shared solution.",
+      "note": "Collaborative proposal for persuasion."
+    },
+    {
+      "id": "base-225",
+      "category": "Sentences",
+      "level": "B2",
+      "french": "En définitive, tout dépend de nos priorités.",
+      "meaning": "Ultimately, everything depends on our priorities.",
+      "example_fr": "En définitive, tout dépend de nos priorités et de notre budget.",
+      "example_en": "Ultimately, everything depends on our priorities and budget.",
+      "note": "Strong concluding sentence."
+    }
+  ]
+}
