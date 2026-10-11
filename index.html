@@ -8,177 +8,230 @@
 <meta name="apple-mobile-web-app-title" content="Parlez">
 <title>Parlez · French flashcards</title>
 <style>
-:root{color-scheme:light;--page:#fcfaf5;--paper:#fff;--ink:#222c35;--muted:#69727c;--line:#e9e6df;--blue:#2563eb;--blue-soft:#eff5ff;--green:#16834a;--radius:20px;--shadow:0 14px 50px rgba(49,53,59,.055)}
-*{box-sizing:border-box}body{margin:0;min-height:100vh;background:var(--page);color:var(--ink);font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-size:15px;line-height:1.5}button,select{font:inherit}button{cursor:pointer}button:disabled{opacity:.38;cursor:not-allowed}button:focus-visible,select:focus-visible,.revealable:focus-visible{outline:3px solid #93b4ff;outline-offset:3px}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}.wrap{max-width:1080px;margin:0 auto;padding:25px 24px 65px}
-.top{display:flex;justify-content:space-between;align-items:center;gap:16px;padding-bottom:24px;border-bottom:1px solid var(--line)}.identity{display:flex;align-items:center;gap:13px}.mark{display:grid;place-items:center;width:43px;height:43px;border-radius:14px;background:var(--blue);color:white;font-size:26px;font-weight:800;letter-spacing:-2px}.brand{font-size:25px;letter-spacing:-1.1px;font-weight:760;line-height:1.08}.subtitle{margin-top:5px;font-size:12px;color:var(--muted)}.top-right{display:flex;align-items:center;gap:9px;flex-wrap:wrap;justify-content:flex-end}
-button,.chip,select{border:1px solid var(--line);background:white;border-radius:11px;color:var(--ink);min-height:41px;padding:9px 14px}button:hover:not(:disabled){border-color:#bfcdec;background:#f9fbff}.primary{background:var(--blue);border-color:var(--blue);color:white;font-weight:660}.primary:hover:not(:disabled){background:#194ed0;color:white}.small{font-size:13px;min-height:36px;padding:7px 11px}.quiet{background:transparent}.small-icon{font-size:17px;vertical-align:-1px;margin-right:5px}.status{display:flex;gap:7px;align-items:center;color:var(--muted);font-size:12px}.dot{height:7px;width:7px;background:#b0b9c6;border-radius:50%;flex-shrink:0}.status.good .dot{background:#22a65d}.status.warn .dot{background:#d39728}
-.hero{padding:32px 0 24px}.eyebrow{font-size:12px;letter-spacing:.12em;font-weight:750;color:var(--blue);text-transform:uppercase}.hero h1{margin:5px 0 5px;font-size:clamp(27px,4vw,37px);font-weight:760;letter-spacing:-1.5px;line-height:1.2}.hero p{color:var(--muted);margin:0;font-size:14px}.controls{display:grid;grid-template-columns:minmax(195px,1.8fr) minmax(150px,1fr) minmax(150px,1fr);gap:12px;margin-bottom:20px}.selectfield{display:flex;flex-direction:column;gap:6px}.selectfield label{color:#64717d;font-size:12px;font-weight:650}.selectfield select{width:100%;text-overflow:ellipsis;min-height:45px;padding:8px 35px 8px 12px;background-color:#fff}.controlnote{margin-top:4px;font-size:12px;color:var(--muted)}
-.shell{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden}.study-top{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:18px 23px;border-bottom:1px solid var(--line)}.pill{background:var(--blue-soft);color:#255dbb;font-size:12px;font-weight:710;padding:5px 10px;border-radius:99px}.pill.secondary{background:#f3f3f1;color:var(--muted)}.top-meta{display:flex;gap:8px;align-items:center;flex-wrap:wrap}.counter{color:var(--muted);font-size:13px;font-variant-numeric:tabular-nums;font-weight:600}.progress-track{height:4px;background:#eeeff2}.progress-fill{background:var(--blue);height:100%;width:0;transition:width .2s}
-.card-main{padding:34px 28px 32px;text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:268px}.prompt-label{font-weight:700;color:var(--muted);font-size:11px;letter-spacing:.1em;text-transform:uppercase}.french{margin:17px auto 15px;font-size:clamp(26px,4vw,42px);font-weight:720;line-height:1.3;letter-spacing:-.8px;max-width:760px;overflow-wrap:anywhere}.revealable{border-radius:10px;transition:filter .17s;display:inline-block}.revealhint{color:var(--muted);font-size:12px;min-height:18px;margin:2px 0 14px}.audio-row{display:flex;justify-content:center;gap:8px;flex-wrap:wrap}
-.explain{background:#fafbf9;border-top:1px solid var(--line);padding:25px 30px 28px}.explain-header{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:17px}.explain h2{font-size:16px;letter-spacing:-.3px;margin:0;font-weight:760}.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px 36px}.field-title{font-size:11px;font-weight:750;letter-spacing:.08em;text-transform:uppercase;color:#858f98;margin-bottom:5px}.field-body{font-size:16px;line-height:1.6;white-space:pre-line;overflow-wrap:anywhere}.field-body.fr{font-weight:620}.field-body.sm{font-size:14px;color:#52616e}.field-full{grid-column:1/-1}.note{border-top:1px solid var(--line);padding-top:14px;margin-top:1px}
-.study-bottom{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:16px 23px;border-top:1px solid var(--line)}.navgrp{display:flex;align-items:center;gap:8px}.navgrp button{min-width:92px}.knowledge{display:flex;align-items:center;gap:10px}.known{border-color:#caebd9;color:var(--green);background:#f7fcf8}.known.is-known{background:#e6f8ed;border-color:#8cd5ab;color:#076736}.help{font-size:12px;color:var(--muted);text-align:center;margin-top:17px}.below{margin-top:18px;padding:19px 21px;background:white;border:1px solid var(--line);border-radius:16px;display:flex;align-items:center;justify-content:space-between;gap:15px}.below b{display:block;font-size:14px;margin-bottom:3px}.below p{margin:0;color:var(--muted);font-size:12px}.blank{padding:55px 20px;text-align:center}.blank h2{margin:0 0 10px;font-size:22px;letter-spacing:-.6px}.blank p{max-width:470px;margin:0 auto 20px;color:var(--muted);font-size:14px}.blank code{background:#f4f4f4;border-radius:5px;padding:2px 5px}.footer{margin:22px 0;text-align:center;color:#89929b;font-size:12px}.hide{display:none!important}
-@media(max-width:690px){.wrap{padding:15px 14px 40px}.top{gap:9px;padding-bottom:16px}.mark{width:37px;height:37px;font-size:22px}.brand{font-size:21px}.subtitle{font-size:10px}.top-right{gap:5px}.status{display:none}.hero{padding:24px 0 18px}.hero h1{font-size:28px}.controls{grid-template-columns:1fr 1fr;gap:10px}.controls .selectfield:first-child{grid-column:1/-1}.study-top{padding:14px 16px}.card-main{min-height:230px;padding:22px 16px}.french{font-size:30px}.explain{padding:20px 17px 23px}.info-grid{grid-template-columns:1fr;gap:15px}.study-bottom{padding:13px 12px;gap:9px;flex-wrap:wrap}.knowledge{width:100%;justify-content:center;order:-1}.navgrp{flex:1;justify-content:space-between}.navgrp button{min-width:82px}.below{padding:15px;flex-wrap:wrap}.below p{max-width:400px}.top-right .small{padding:7px 9px;font-size:12px}}
 
-/* Responsive edition: iPhone SE through iPad Pro, with Safari safe areas. */
-html{width:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%}
-body{width:100%;min-height:100vh;min-height:100svh;overflow-x:clip}
-.wrap{width:100%;max-width:1080px;min-width:0;padding-bottom:calc(40px + env(safe-area-inset-bottom,0px));padding-left:max(24px,env(safe-area-inset-left,0px));padding-right:max(24px,env(safe-area-inset-right,0px))}
-.top,.identity,.top-right,.controls,.selectfield,.shell,.study-top,.card-main,.explain,.study-bottom,.navgrp,.knowledge{min-width:0}
-button,select{touch-action:manipulation;-webkit-tap-highlight-color:transparent}
-.revealable{touch-action:pan-y;-webkit-tap-highlight-color:transparent}
-.french,.field-body,.footer,.help,.below,.counter{overflow-wrap:anywhere}
-select{max-width:100%}
-@media (hover:none) and (pointer:coarse){button{min-height:44px}select{min-height:46px;font-size:16px}.revealable{cursor:pointer}}
-/* iPad portrait and landscape: question left, explanation right. */
-@media (min-width:740px) and (max-width:1366px){
- .wrap{max-width:1170px;padding-top:clamp(15px,2.2vw,30px);padding-left:max(22px,env(safe-area-inset-left,0px));padding-right:max(22px,env(safe-area-inset-right,0px))}
- .hero{padding:23px 0 17px}.hero h1{font-size:clamp(26px,3.1vw,34px)}
- .controls{grid-template-columns:minmax(0,1.65fr) minmax(0,.8fr) minmax(0,.9fr);gap:10px;margin-bottom:16px}
- .shell{display:grid;grid-template-columns:minmax(0,.94fr) minmax(0,1.06fr);grid-template-rows:auto 4px minmax(350px,auto) auto}
- .study-top{grid-column:1/-1;grid-row:1}
- .progress-track{grid-column:1/-1;grid-row:2}
- .card-main{grid-column:1;grid-row:3;padding:27px 20px;min-height:355px;justify-content:center}
- .french{font-size:clamp(28px,3.25vw,39px);margin:18px auto}
- .explain{grid-column:2;grid-row:3;border-top:0;border-left:1px solid var(--line);padding:24px 22px}
- .explain-header{margin-bottom:14px}.info-grid{grid-template-columns:1fr;gap:13px}
- .field-body{font-size:15px;line-height:1.48}.field-body.sm{font-size:13px}.field-title{margin-bottom:3px}
- .note{padding-top:10px}
- .study-bottom{grid-column:1/-1;grid-row:4}
- .blank{grid-column:1/-1;grid-row:3}
+/* PARLEZ STUDIO — refined, responsive, dependency-free UI */
+:root{
+ color-scheme:light; --bg:#f4f6fb; --surface:#ffffff; --surface2:#f8f9ff;
+ --text:#18223a; --muted:#71809b; --border:#e6eaf3; --accent:#5459df;
+ --accent2:#777bfa; --accent-bg:#efefff; --good:#13896f; --good-bg:#e7f8f1;
+ --shadow:0 20px 60px rgba(27,39,83,.075); --radius:22px;
 }
-/* iPhone: compact single-column UI with thumb-sized study controls. */
-@media (max-width:739px){
- .wrap{padding-top:max(13px,env(safe-area-inset-top,0px));padding-right:max(13px,env(safe-area-inset-right,0px));padding-left:max(13px,env(safe-area-inset-left,0px));padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))}
- .top{padding:0 0 12px;gap:8px;flex-wrap:nowrap}
- .identity{gap:9px}.mark{width:36px;height:36px;flex:0 0 36px;border-radius:11px;font-size:22px}
- .brand{font-size:21px}.subtitle{font-size:10px;margin-top:1px;white-space:nowrap}
- .top-right{flex-shrink:0}.top-right .small{min-height:43px;padding:6px 11px;font-size:13px;white-space:nowrap}
- .status{display:none}.hero{padding:14px 0 15px}.eyebrow{display:none}
- .hero h1{font-size:clamp(22px,5.5vw,27px);line-height:1.18;letter-spacing:-.85px;margin:0}
- .hero p{font-size:12px;margin-top:5px;line-height:1.3}
- .controls{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px;margin-bottom:12px}
- .controls .selectfield:first-child{grid-column:1/-1}
- .selectfield{gap:3px}.selectfield label{font-size:10px;letter-spacing:.06em}
- .selectfield select{min-height:45px;font-size:16px;border-radius:10px;padding-left:10px}
- .controlnote{margin-top:0;font-size:11px;line-height:1.15}
- .shell{display:flex;flex-direction:column;border-radius:17px}
- .study-top{order:1;padding:11px 13px;gap:7px}.top-meta{gap:5px}.pill{font-size:11px;padding:4px 8px}.counter{font-size:12px;white-space:nowrap}
- .progress-track{order:2;flex-shrink:0}.card-main{order:3;min-height:0;padding:24px 14px 17px}
- .prompt-label{font-size:10px}.french{font-size:clamp(26px,7.5vw,35px);line-height:1.27;margin:15px auto 14px;letter-spacing:-.65px;max-width:100%}
- .revealhint{margin-bottom:7px;min-height:12px;font-size:11px}.audio-row{width:100%;gap:7px}
- .audio-row button{font-size:13px;padding:10px 8px;min-height:45px;flex:1 1 130px;max-width:230px}
- .study-bottom{order:4;display:grid;grid-template-columns:minmax(0,1fr);gap:8px;padding:12px 12px 13px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:#fff}
- .navgrp{display:grid;grid-template-columns:1fr 1fr;gap:9px;order:0;width:100%}
- .navgrp button{min-width:0;width:100%;min-height:47px;font-size:14px}
- .knowledge{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;order:1;width:100%}
- .knowledge button{min-width:0;width:100%;min-height:46px;padding:8px 4px;font-size:12px;line-height:1.2;white-space:normal}
- .explain{order:5;padding:16px 15px 18px;border-top:0;background:#fafbf9}
- .explain-header{margin-bottom:12px}.explain h2{font-size:16px}
- .explain-header .small{min-height:42px;white-space:nowrap}
- .info-grid{grid-template-columns:minmax(0,1fr);gap:13px}
- .field-title{font-size:10px;margin-bottom:3px}
- .field-body{font-size:15px;line-height:1.48}.field-body.sm{font-size:13px;line-height:1.45}
- .note{padding-top:9px}
- .blank{order:6;padding:36px 16px}
- .below{padding:13px 14px;margin-top:12px;gap:10px;border-radius:14px}
- .below b{font-size:13px}.below p{font-size:11px}
- .below button{min-height:43px}
- .help{margin-top:13px;font-size:11px;padding:0 5px}.footer{margin:12px 0;font-size:11px;padding:0 7px}
-}
-/* Narrow iPhone SE / landscape split-view safety. */
-@media(max-width:365px){
- .wrap{padding-left:max(10px,env(safe-area-inset-left,0px));padding-right:max(10px,env(safe-area-inset-right,0px))}
- .subtitle{display:none}.brand{font-size:19px}.top-right .small{padding:6px 8px;font-size:12px}
- .hero h1{font-size:22px}.hero p{font-size:11px}
- .card-main{padding:19px 11px 14px}
- .audio-row button{flex:1 1 115px;font-size:12px;padding:8px 5px}
- .knowledge{gap:5px}.knowledge button{font-size:11px}
- .explain{padding:14px 12px}
-}
-@media(max-height:640px) and (max-width:739px){.hero{padding:10px 0}.hero p{display:none}.card-main{padding-top:16px;padding-bottom:12px}.french{margin:11px auto}.study-bottom{padding:9px 11px}}
-
-@media(prefers-reduced-motion:reduce){*{transition:none!important}}
-/* Deck picker and eye visibility controls */
-.deck-selector-row{display:flex;gap:8px;align-items:stretch;min-width:0}
+*{box-sizing:border-box}
+html{width:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;width:100%;min-height:100vh;min-height:100svh;overflow-x:clip;background:radial-gradient(circle at 95% 8%,rgba(216,221,255,.38),transparent 33%),var(--bg);color:var(--text);font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;font-size:15px;line-height:1.5}
+button,select,input{font:inherit}
+button{cursor:pointer;touch-action:manipulation;-webkit-tap-highlight-color:transparent}
+button:disabled{opacity:.36;cursor:not-allowed;transform:none!important;box-shadow:none!important}
+button:focus-visible,select:focus-visible,input:focus-visible,.revealable:focus-visible{outline:3px solid #aaa7ff;outline-offset:3px}
+button,select,input{transition:background .18s,border-color .18s,box-shadow .18s,transform .18s,color .18s}
+button:active:not(:disabled){transform:scale(.975)}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:1160px;width:100%;margin:0 auto;min-width:0;padding:22px max(22px,env(safe-area-inset-right,0px)) calc(40px + env(safe-area-inset-bottom,0px)) max(22px,env(safe-area-inset-left,0px))}
+.hide{display:none!important}
+/* Header */
+.top{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:20px}
+.identity{display:flex;align-items:center;gap:12px;min-width:0}
+.mark{position:relative;width:46px;height:46px;flex:0 0 46px;display:grid;place-items:center;border-radius:15px;color:white;background:linear-gradient(145deg,#8d80ff 0%,#535bdb 80%);box-shadow:0 9px 20px rgba(86,83,219,.24);font-weight:900;font-size:26px;line-height:1;letter-spacing:-1.5px}
+.mark::after{content:"";position:absolute;width:7px;height:7px;border-radius:50%;background:#a5ffe7;right:7px;top:7px}
+.brand{font-size:24px;line-height:1.04;font-weight:810;letter-spacing:-1.1px}
+.subtitle{color:var(--muted);font-size:11px;margin-top:5px;font-weight:550}
+.top-right{display:flex;gap:9px;align-items:center;flex-wrap:wrap;justify-content:flex-end;min-width:0}
+.status{display:inline-flex;align-items:center;gap:7px;color:var(--muted);font-size:12px;font-weight:650;border:1px solid var(--border);background:var(--surface);padding:9px 12px;border-radius:999px;max-width:310px}
+.status .dot{width:8px;height:8px;background:#b0bacb;border-radius:50%;flex:none}
+.status.good .dot{background:#23b88d;box-shadow:0 0 0 4px rgba(35,184,141,.10)}
+.status.warn .dot{background:#f1b459}
+.status #statusText{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.btn{min-height:42px;display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:10px 15px;border:1px solid var(--border);border-radius:13px;background:var(--surface);color:var(--text);font-weight:730;letter-spacing:-.1px;white-space:nowrap;box-shadow:0 3px 8px rgba(30,41,59,.015)}
+.btn:hover:not(:disabled){border-color:#c7c6ff;background:var(--surface2);box-shadow:0 6px 15px rgba(64,70,156,.07)}
+.btn-primary{border-color:#555ce0;background:linear-gradient(135deg,#6d67ed,#505bdc);color:white;box-shadow:0 8px 19px rgba(86,83,220,.22)}
+.btn-primary:hover:not(:disabled){background:linear-gradient(135deg,#7770ef,#4c51d1);color:white;border-color:#555ce0;box-shadow:0 10px 22px rgba(86,83,220,.30)}
+.btn-icon{width:42px;padding:0;flex:none}
+.btn-green{background:var(--good-bg);border-color:#bdeadd;color:var(--good)}
+.btn-green:hover:not(:disabled){background:#d9f4e8;border-color:#8fdcc7}
+.btn-green.is-known{background:var(--good);color:white;border-color:var(--good)}
+.btn-quiet{background:transparent;box-shadow:none}
+.icon{width:18px;height:18px;display:inline-block;vertical-align:middle;fill:none;stroke:currentColor;stroke-width:1.85;stroke-linecap:round;stroke-linejoin:round;flex:none}
+/* Welcome / summary */
+.hero{position:relative;overflow:hidden;border:1px solid #343d73;background:linear-gradient(114deg,#182047 0%,#292b68 61%,#40328a 100%);border-radius:26px;padding:32px 34px;margin-bottom:19px;color:#fff;display:flex;align-items:center;justify-content:space-between;gap:26px;min-height:206px;isolation:isolate;box-shadow:0 20px 45px rgba(42,39,113,.13)}
+.hero::before{content:"";position:absolute;inset:-200px -140px auto auto;width:500px;height:500px;border-radius:50%;border:90px solid rgba(177,160,255,.06);z-index:-1}
+.hero::after{content:"";position:absolute;right:18%;bottom:-200px;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(127,122,255,.25),transparent 68%);z-index:-1}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:11px;color:#c5c6ff;font-weight:800;letter-spacing:.14em;text-transform:uppercase}
+.spark{color:#b7ffa8;font-size:18px;line-height:0}
+.hero h1{font-size:clamp(30px,4.3vw,45px);font-weight:820;letter-spacing:-1.8px;line-height:1.1;margin:13px 0 10px}
+.hero h1 span{color:#c5b9ff}
+.hero p{color:#c4c9e9;font-size:14px;max-width:440px;margin:0}
+.hero-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;width:min(390px,43%);flex:none}
+.stat{min-width:0;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.13);border-radius:17px;padding:17px 12px;backdrop-filter:blur(5px);text-align:center}
+.stat b{font-size:clamp(22px,2.7vw,32px);line-height:1;display:block;font-weight:850;letter-spacing:-1px;font-variant-numeric:tabular-nums}
+.stat span{display:block;color:#cbcbed;font-size:11px;font-weight:650;margin-top:9px}
+/* Study setup */
+.control-shell{background:var(--surface);border:1px solid var(--border);border-radius:21px;padding:19px 21px 17px;margin-bottom:17px;box-shadow:0 5px 23px rgba(29,38,74,.025)}
+.section-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:14px}
+.section-head h2{font-size:15px;font-weight:820;letter-spacing:-.35px;margin:0;display:flex;align-items:center;gap:9px}
+.section-head h2 .icon{color:var(--accent)}
+.section-head p{font-size:12px;color:var(--muted);margin:0}
+.controls{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,.75fr) minmax(0,.9fr);gap:13px;align-items:start}
+.selectfield{display:flex;flex-direction:column;gap:6px;min-width:0}
+.selectfield label{color:var(--muted);font-size:11px;font-weight:760;letter-spacing:.08em;text-transform:uppercase}
+.selectfield select{width:100%;height:47px;max-width:100%;min-width:0;border:1px solid var(--border);background:var(--surface2);color:var(--text);border-radius:12px;padding:8px 31px 8px 13px;text-overflow:ellipsis;font-weight:660;font-size:14px;outline-offset:2px}
+.selectfield select:hover{border-color:#bbb9f8}
+.deck-selector-row{display:flex;align-items:stretch;gap:8px;min-width:0}
 .deck-selector-row select{flex:1;min-width:0}
-.deck-browse{white-space:nowrap;flex:none;font-size:13px;font-weight:680;color:#255dbb;border-color:#d9e5fc;background:#f7faff}
-.deck-browse[aria-expanded="true"]{background:#e9f1ff;border-color:#8fb3fa}
-.deck-library{margin:-5px 0 17px;border:1px solid #dce5f2;background:#fff;border-radius:18px;padding:17px;box-shadow:var(--shadow)}
-.deck-library-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:11px}
-.deck-library-head b{font-size:17px;letter-spacing:-.3px}
+.deck-browse{border:1px solid #cccafa;background:var(--accent-bg);color:var(--accent);min-height:47px;padding:10px 13px;white-space:nowrap;border-radius:12px;font-weight:760;display:inline-flex;gap:6px;align-items:center}
+.deck-browse[aria-expanded=true]{border-color:var(--accent);background:#dddfff}
+.controlnote{font-size:11px;color:var(--muted);min-height:16px;margin-top:1px}
+.deck-library{padding:18px;border-radius:19px;border:1px solid var(--border);background:var(--surface);margin:-2px 0 17px;box-shadow:var(--shadow)}
+.deck-library-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:13px}
+.deck-library-head b{font-size:17px;letter-spacing:-.4px}
 .deck-library-head span{font-size:12px;color:var(--muted)}
-.deck-library-search{width:100%;border:1px solid var(--line);border-radius:11px;min-height:46px;font:inherit;font-size:16px;padding:9px 13px;color:var(--ink);background:#fff;margin-bottom:12px}
-.deck-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:9px;max-height:310px;overflow-y:auto;overscroll-behavior:contain}
-.deck-tile{text-align:left;min-width:0;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:2px;padding:12px 11px;min-height:70px;border:1px solid var(--line);border-radius:12px;background:#fff}
-.deck-tile .deck-name{font-weight:720;line-height:1.3;overflow-wrap:anywhere}.deck-tile .deck-amount{font-size:12px;color:var(--muted)}
-.deck-tile.is-selected{border-color:#92b6ff;background:#eef5ff;color:#1555c3}
-.deck-tile.is-selected .deck-amount{color:#4776bb}
-.deck-empty{font-size:13px;color:var(--muted);padding:12px}
-.card-prompt-head{display:flex;justify-content:center;align-items:center;gap:10px}
-.eye-toggle{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:39px;padding:7px 10px;background:white;border:1px solid #dbe3ef;border-radius:12px;color:#2563eb;font-weight:680;font-size:12px;white-space:nowrap}
-.eye-toggle svg{width:18px;height:18px;stroke:currentColor;stroke-width:1.85;stroke-linecap:round;stroke-linejoin:round;fill:none;flex:none}
+.deck-library-search{width:100%;height:46px;border-radius:12px;border:1px solid var(--border);background:var(--surface2);color:var(--text);font-size:16px;padding:10px 14px;margin-bottom:13px}
+.deck-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;max-height:340px;overflow-y:auto;overscroll-behavior:contain}
+.deck-tile{min-width:0;min-height:82px;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:5px;text-align:left;border:1px solid var(--border);border-radius:15px;background:var(--surface2);color:var(--text);padding:12px 14px;white-space:normal}
+.deck-tile:hover{border-color:#aaaafa;transform:translateY(-2px);box-shadow:0 8px 22px rgba(70,67,144,.08)}
+.deck-tile.is-selected{background:var(--accent-bg);border-color:#a8a4fc;box-shadow:inset 0 0 0 1px #bab6fb}
+.deck-tile .deck-name{font-size:13px;font-weight:780;line-height:1.3;overflow-wrap:anywhere}
+.deck-tile .deck-amount{color:var(--muted);font-size:11px}
+.deck-empty{color:var(--muted);font-size:13px;padding:14px}
+/* Card and lesson */
+.shell{overflow:hidden;background:var(--surface);border:1px solid var(--border);border-radius:24px;box-shadow:var(--shadow);display:grid;grid-template-columns:minmax(0,1.03fr) minmax(0,.97fr);grid-template-rows:auto 5px minmax(350px,auto) auto;min-width:0}
+.study-top{grid-column:1/-1;grid-row:1;display:flex;align-items:center;justify-content:space-between;gap:10px;padding:18px 23px;background:var(--surface)}
+.top-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap;min-width:0}
+.pill{padding:6px 12px;border-radius:999px;font-size:12px;font-weight:790;background:var(--accent-bg);color:var(--accent)}
+.pill.secondary{background:var(--surface2);border:1px solid var(--border);color:var(--muted)}
+.counter{color:var(--muted);font-weight:760;font-size:12px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.progress-track{grid-column:1/-1;grid-row:2;background:var(--accent-bg);height:5px}
+.progress-fill{height:100%;width:0;background:linear-gradient(90deg,#8178f3,#4bc4b1);transition:width .25s}
+.card-main{position:relative;grid-column:1;grid-row:3;min-width:0;min-height:358px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:34px 28px 32px;background:radial-gradient(circle at 49% 37%,rgba(224,222,255,.35),transparent 64%),var(--surface)}
+.card-main::before{content:"FR";position:absolute;top:18px;left:22px;color:#e0e0f3;font-size:12px;font-weight:900;letter-spacing:.13em}
+.card-main::after{content:"✦";position:absolute;bottom:18px;right:22px;color:#c5c8ed;font-size:20px}
+.card-prompt-head{display:flex;justify-content:center;align-items:center;gap:12px}
+.prompt-label{font-size:11px;font-weight:850;letter-spacing:.13em;color:var(--muted)}
+.french{font-size:clamp(26px,3.2vw,41px);font-weight:840;letter-spacing:-1px;line-height:1.29;max-width:100%;overflow-wrap:anywhere;margin:19px 0 13px}
+.revealable{display:inline-block;min-width:0;border-radius:8px;overflow-wrap:anywhere;cursor:pointer}
+.revealable.is-masked{padding:5px 12px;background:var(--accent-bg);border:1px dashed #bfbcf3;color:var(--accent)!important;font-size:clamp(14px,2vw,18px);font-weight:700;letter-spacing:.16em;line-height:1.45;user-select:none}
+.revealhint{font-size:12px;color:var(--muted);min-height:18px;margin-bottom:17px}
+.audio-row{display:flex;gap:9px;justify-content:center;flex-wrap:wrap;width:100%;margin-top:3px}
+.audio-row button{min-height:45px;font-size:13px}
+.eye-toggle{min-height:40px;display:inline-flex;align-items:center;gap:7px;justify-content:center;padding:8px 12px;border:1px solid #d6d6f6;border-radius:12px;background:var(--accent-bg);color:var(--accent);font-weight:750;font-size:12px;white-space:nowrap}
+.eye-toggle svg{width:17px;height:17px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
 .eye-toggle .icon-closed{display:none}.eye-toggle.is-hidden .icon-open{display:none}.eye-toggle.is-hidden .icon-closed{display:block}
-.eye-toggle.is-hidden{background:#eef4ff;border-color:#b9cefa}
-.revealable.is-masked{padding:4px 10px;color:#64748b!important;background:#f1f5f9;border:1px dashed #cbd5e1;letter-spacing:.16em;font-size:clamp(14px,2.3vw,19px);font-weight:630;line-height:1.5;cursor:pointer;user-select:none}
-.eye-toggle:focus-visible,.deck-tile:focus-visible,.deck-library-search:focus-visible{outline:3px solid #93b4ff;outline-offset:2px}
-@media(max-width:739px){.deck-library{padding:12px;margin:-2px 0 12px}.deck-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-height:250px;gap:7px}.deck-tile{min-height:68px;padding:10px}.deck-browse{font-size:12px;padding:6px 10px;min-width:76px}.card-prompt-head{gap:8px}.eye-toggle{min-height:43px}.knowledge{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(min-width:740px) and (max-width:960px){.deck-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
-@media(max-width:365px){.deck-browse{min-width:66px;padding:5px 7px;font-size:11px}.deck-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.eye-toggle.is-hidden{background:var(--surface2);border-color:var(--border);color:var(--muted)}
+.explain{grid-column:2;grid-row:3;padding:28px 28px 30px;background:var(--surface2);border-left:1px solid var(--border);min-width:0}
+.explain-header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
+.explain h2{font-size:17px;font-weight:830;letter-spacing:-.4px;margin:0}
+.info-grid{display:grid;grid-template-columns:1fr;gap:10px}
+.info-grid>div{border-radius:13px;padding:12px 14px;background:var(--surface);border:1px solid var(--border);min-width:0}
+.field-title{font-size:10px;letter-spacing:.09em;font-weight:840;color:var(--muted);margin-bottom:5px}
+.field-body{font-size:15px;font-weight:560;line-height:1.5;white-space:pre-line;overflow-wrap:anywhere}
+.field-body.fr{font-weight:730}
+.field-body.sm{font-size:13px;color:var(--muted)}
+.study-bottom{grid-column:1/-1;grid-row:4;display:flex;gap:16px;align-items:center;justify-content:space-between;padding:17px 21px;border-top:1px solid var(--border);background:var(--surface)}
+.navgrp,.knowledge{display:flex;align-items:center;gap:9px;min-width:0}
+.navgrp .btn{min-width:124px}
+.knowledge .btn{min-width:106px}
+.blank{grid-column:1/-1;grid-row:3;text-align:center;padding:52px 24px}
+.blank h2{font-size:22px;letter-spacing:-.6px;margin:0 0 8px}.blank p{font-size:14px;color:var(--muted);margin:0 auto 20px;max-width:460px}
+/* Progress footer */
+.below{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:17px;padding:19px 22px;background:var(--surface);border:1px solid var(--border);border-radius:18px}
+.below-left{display:flex;align-items:center;gap:14px;min-width:0}
+.progress-glyph{width:41px;height:41px;flex:0 0 41px;border-radius:13px;display:grid;place-items:center;background:var(--good-bg);color:var(--good)}
+.below b{display:block;font-size:14px;font-weight:800;margin-bottom:3px}
+.below p{margin:0;font-size:12px;color:var(--muted)}
+.help{text-align:center;color:var(--muted);font-size:12px;margin-top:19px}
+.footer{text-align:center;font-size:12px;color:var(--muted);margin:12px 0}
+/* Color mode */
+.mode-sun{display:none}html[data-theme=dark] .mode-sun{display:block}html[data-theme=dark] .mode-moon{display:none}
+html[data-theme=dark]{color-scheme:dark;--bg:#10172b;--surface:#1b2540;--surface2:#222e4d;--text:#eef1ff;--muted:#a6b3d0;--border:#33405d;--accent:#b2a7ff;--accent2:#9895ff;--accent-bg:#343257;--good:#55d1a7;--good-bg:#214c4b;--shadow:0 20px 60px rgba(0,0,0,.2)}
+html[data-theme=dark] body{background:radial-gradient(circle at 98% 10%,rgba(94,77,180,.15),transparent 32%),var(--bg)}
+html[data-theme=dark] .hero{border-color:#5863a9}
+html[data-theme=dark] .btn-primary{color:white;background:linear-gradient(135deg,#7465e8,#595cd6)}
+html[data-theme=dark] .btn-primary:hover{color:white}
+html[data-theme=dark] .card-main{background:radial-gradient(circle at 50% 36%,rgba(70,62,139,.24),transparent 70%),var(--surface)}
+html[data-theme=dark] .card-main::before{color:#505575}html[data-theme=dark] .card-main::after{color:#656c93}
+html[data-theme=dark] .pill.secondary{color:var(--muted)}
+html[data-theme=dark] .deck-browse[aria-expanded=true]{background:#423e73}
+html[data-theme=dark] .deck-tile.is-selected{border-color:#8075d9;background:#322e5b;box-shadow:none}
+html[data-theme=dark] .revealable.is-masked{border-color:#7971ba}
+/* Responsive tablets */
+@media(max-width:920px){
+ .wrap{padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+ .hero{padding:27px 26px}.hero-stats{width:38%;gap:6px}.stat{padding:14px 6px}.stat span{font-size:10px}
+ .shell{grid-template-columns:minmax(0,.94fr) minmax(0,1.06fr)}
+ .card-main{padding:32px 19px}.explain{padding:21px 18px}.study-bottom{gap:9px;padding:14px}
+ .navgrp .btn,.knowledge .btn{min-width:0}
+ .deck-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+/* iPhone / narrow iPad split view */
+@media(max-width:700px){
+ .wrap{padding-top:max(12px,env(safe-area-inset-top,0px));padding-left:max(13px,env(safe-area-inset-left,0px));padding-right:max(13px,env(safe-area-inset-right,0px));padding-bottom:calc(22px + env(safe-area-inset-bottom,0px))}
+ .top{margin-bottom:12px}.identity{gap:9px}.mark{width:38px;height:38px;flex-basis:38px;border-radius:12px;font-size:23px}.brand{font-size:21px}.subtitle{font-size:10px;margin-top:2px}
+ .top-right{gap:5px}.status{display:none}.top-right .btn{font-size:12px;min-height:39px;padding:8px 10px}.top-right .btn-icon{width:39px;padding:0}
+ .hero{min-height:0;display:block;padding:23px 20px 19px;margin-bottom:12px;border-radius:21px}.eyebrow{font-size:9px}.hero h1{font-size:clamp(28px,7vw,37px);margin:9px 0 7px;letter-spacing:-1.4px}.hero p{font-size:12px;line-height:1.45}
+ .hero-stats{width:100%;margin-top:19px;gap:7px}.stat{padding:12px 8px;border-radius:12px}.stat b{font-size:24px}.stat span{font-size:10px;margin-top:5px}
+ .control-shell{padding:14px 13px 15px;margin-bottom:11px;border-radius:17px}.section-head{margin-bottom:11px}.section-head h2{font-size:14px}.section-head p{font-size:10px}
+ .controls{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.controls .selectfield:first-child{grid-column:1/-1}.selectfield label{font-size:10px}.selectfield select{font-size:16px;min-height:46px}
+ .controlnote{min-height:0}.deck-library{padding:13px;margin:0 0 11px}.deck-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-height:280px;gap:8px}.deck-tile{min-height:75px;padding:10px 11px}
+ .shell{display:flex;flex-direction:column;border-radius:19px;overflow:hidden}
+ .study-top{order:1;padding:13px 14px}.pill{font-size:11px;padding:5px 9px}.counter{font-size:11px}.progress-track{order:2;height:4px;flex:none}
+ .card-main{order:3;min-height:215px;padding:29px 15px 22px}.card-main::before{top:12px;left:13px;font-size:10px}.card-main::after{right:14px;bottom:8px;font-size:15px}
+ .french{font-size:clamp(26px,7.3vw,35px);margin:13px 0 9px;letter-spacing:-.7px;line-height:1.25}
+ .prompt-label{font-size:10px}.eye-toggle{min-height:42px;font-size:12px}.revealhint{font-size:11px;margin-bottom:10px;min-height:12px}
+ .audio-row{gap:8px}.audio-row .btn{flex:1 1 120px;min-height:45px;font-size:12px;padding:10px 7px}
+ .study-bottom{order:4;display:grid;grid-template-columns:1fr;gap:9px;padding:12px;border-top:1px solid var(--border)}
+ .navgrp{display:grid;grid-template-columns:1fr 1fr;gap:8px;order:0;width:100%}.navgrp .btn{width:100%;min-height:47px}
+ .knowledge{display:grid;grid-template-columns:1fr 1fr;gap:8px;order:1;width:100%}.knowledge .btn{width:100%;font-size:12px;min-height:45px;padding:8px}
+ .explain{order:5;border-left:0;border-top:1px solid var(--border);padding:17px 15px 19px}
+ .explain-header{margin-bottom:13px}.explain h2{font-size:16px}.info-grid{gap:9px}.info-grid>div{padding:10px 12px}.field-body{font-size:14px}.field-body.sm{font-size:12px}
+ .below{margin-top:11px;padding:13px 12px;border-radius:16px;gap:9px}.below-left{gap:8px}.progress-glyph{width:35px;height:35px;flex-basis:35px}.below b{font-size:12px}.below p{font-size:10px}.below .btn{font-size:11px;padding:8px;min-height:43px;white-space:normal}
+ .help{font-size:11px;margin-top:14px}.footer{font-size:11px;margin-top:10px}
+ .blank{order:6;padding:35px 15px}
+}
+@media(max-width:370px){
+ .top .sync-label{display:none}.top-right .btn{padding:8px 10px}
+ .hero{padding:19px 15px 16px}.hero h1{font-size:26px}.hero p{font-size:11px}.stat b{font-size:21px}
+ .section-head p{display:none}.deck-browse{padding:8px 10px;font-size:12px}.card-main{padding:27px 12px 18px}.french{font-size:26px}
+ .audio-row .btn{font-size:11px;padding:9px 5px}.btn{gap:6px}.study-top{padding:11px}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;scroll-behavior:auto!important}}
 </style>
 </head>
 <body>
 <div class="wrap">
   <header class="top">
-    <div class="identity"><div class="mark" aria-hidden="true">P</div><div><div class="brand">parlez<span style="color:#2563eb">.</span></div><div class="subtitle">French, one card at a time</div></div></div>
-    <div class="top-right"><div class="status" id="status"><span class="dot"></span><span id="statusText">Connecting to GitHub…</span></div><button class="small quiet" id="refresh" type="button" title="Check GitHub for new CSV files"><span class="small-icon">↻</span>Refresh decks</button></div>
+    <div class="identity"><div class="mark" aria-hidden="true">P</div><div><div class="brand">parlez<span style="color:var(--accent)">.</span></div><div class="subtitle">Your French study studio</div></div></div>
+    <div class="top-right"><div class="status" id="status"><span class="dot"></span><span id="statusText">Connecting to GitHub…</span></div>
+      <button class="btn btn-icon" id="themeToggle" type="button" title="Switch color mode" aria-label="Switch to dark mode"><svg class="icon mode-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.2 16A8.8 8.8 0 0 1 8 3.8 8.8 8.8 0 1 0 20.2 16Z"/></svg><svg class="icon mode-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2m10-10h-2M4 12H2m17.07-7.07-1.41 1.41M6.34 17.66l-1.41 1.41m14.14 0-1.41-1.41M6.34 6.34 4.93 4.93"/></svg></button>
+      <button class="btn" id="refresh" type="button" title="Check GitHub for new CSV decks"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 0 0-14.5-4.7L3 9m0-6v6h6M4 13a8 8 0 0 0 14.5 4.7L21 15m0 6v-6h-6"/></svg><span class="sync-label">Sync decks</span></button></div>
   </header>
-  <section class="hero"><div class="eyebrow">Your daily French practice</div><h1>Choose a deck. Start learning.</h1><p>Audio, examples, and translations—all in one simple card.</p></section>
-  <section class="controls" aria-label="Deck and card filters">
-    <div class="selectfield"><label for="deck">DECK</label><div class="deck-selector-row"><select id="deck" aria-label="Choose a deck"><option value="">Loading your decks…</option></select><button id="browseDecks" class="deck-browse" type="button" aria-expanded="false" aria-controls="deckLibrary">▦ Decks</button></div><div class="controlnote" id="deckCount"></div></div>
-    <div class="selectfield"><label for="level">LEVEL</label><select id="level"><option value="all">All levels</option><option>A1</option><option>A2</option><option>B1</option><option>B2</option><option>C1</option><option>C2</option></select></div>
-    <div class="selectfield"><label for="kind">CONTENT</label><select id="kind"><option value="all">Everything</option><option value="Vocabulary">Vocabulary</option><option value="Grammar">Grammar</option><option value="Sentences">Sentences</option><option value="Pronunciation">Pronunciation</option><option value="Other">Other</option></select></div>
+  <section class="hero"><div class="hero-copy"><div class="eyebrow"><span class="spark">✦</span> YOUR FRENCH LEARNING SPACE</div><h1>Little cards.<br><span>Big progress.</span></h1><p>Listen, reveal, and remember. Every deck you add on GitHub is ready to study here.</p></div>
+    <div class="hero-stats" aria-label="Your study statistics"><div class="stat"><b id="statDecks">—</b><span>Decks</span></div><div class="stat"><b id="statCards">—</b><span>Cards</span></div><div class="stat"><b id="statLearned">0</b><span>Learned</span></div></div>
   </section>
-  <section class="deck-library hide" id="deckLibrary" aria-label="Choose a flashcard deck">
-    <div class="deck-library-head"><b>Choose a deck</b><span id="deckLibraryCount">Loading decks…</span></div>
-    <input class="deck-library-search" id="deckSearch" type="search" placeholder="Search levels or topics…" aria-label="Search decks">
-    <div class="deck-grid" id="deckGrid"></div>
+  <section class="control-shell" aria-label="Choose your flashcard session"><div class="section-head"><h2><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 9 5-9 5-9-5 9-5Zm-9 9 9 5 9-5m-18 5 9 5 9-5"/></svg> Your study session</h2><p>Pick a deck to get started</p></div>
+    <div class="controls">
+      <div class="selectfield"><label for="deck">Choose a deck</label><div class="deck-selector-row"><select id="deck" aria-label="Choose a deck"><option value="">Loading decks…</option></select><button id="browseDecks" class="deck-browse" type="button" aria-expanded="false" aria-controls="deckLibrary"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg>Browse</button></div><div class="controlnote" id="deckCount"></div></div>
+      <div class="selectfield"><label for="level">Difficulty</label><select id="level"><option value="all">All levels</option><option>A1</option><option>A2</option><option>B1</option><option>B2</option><option>C1</option><option>C2</option></select></div>
+      <div class="selectfield"><label for="kind">Card type</label><select id="kind"><option value="all">Everything</option><option value="Vocabulary">Vocabulary</option><option value="Grammar">Grammar</option><option value="Sentences">Sentences</option><option value="Pronunciation">Pronunciation</option><option value="Other">Other</option></select></div>
+    </div>
   </section>
+  <section class="deck-library hide" id="deckLibrary" aria-label="Browse flashcard decks"><div class="deck-library-head"><b>Explore your decks</b><span id="deckLibraryCount">Loading decks…</span></div><input class="deck-library-search" id="deckSearch" type="search" placeholder="Search a level or topic…" aria-label="Search decks"><div class="deck-grid" id="deckGrid"></div></section>
   <main class="shell" id="studyArea" aria-live="off">
     <div class="study-top"><div class="top-meta"><span class="pill" id="deckLabel">Flashcards</span><span class="pill secondary" id="levelLabel">All levels</span></div><div class="counter" id="counter">0 of 0</div></div>
     <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
     <div class="card-main" id="cardMain">
-      <div class="card-prompt-head"><div class="prompt-label">FRENCH</div>
-        <button class="eye-toggle" id="toggleFrench" type="button" aria-label="Hide French text" aria-pressed="true" title="Show or hide French">
-          <svg class="icon-open" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>
-          <svg class="icon-closed" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3l18 18M10.6 6.1c.46-.07.93-.1 1.4-.1 6.5 0 10 6 10 6a16.5 16.5 0 0 1-3.6 4.1M6.5 6.5C3.6 8.2 2 12 2 12s3.5 6 10 6c1.7 0 3.2-.4 4.5-1.1M10 10a3 3 0 0 0 4 4"/></svg>
-          <span id="frenchEyeLabel">Hide</span>
-        </button>
-      </div>
+      <div class="card-prompt-head"><div class="prompt-label">FRENCH</div><button class="eye-toggle" id="toggleFrench" type="button" aria-label="Hide French text" aria-pressed="true" title="Show or hide French"><svg class="icon-open" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><svg class="icon-closed" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3l18 18M10.6 6.1c.46-.07.93-.1 1.4-.1 6.5 0 10 6 10 6a16.5 16.5 0 0 1-3.6 4.1M6.5 6.5C3.6 8.2 2 12 2 12s3.5 6 10 6c1.7 0 3.2-.4 4.5-1.1M10 10a3 3 0 0 0 4 4"/></svg><span id="frenchEyeLabel">Hide</span></button></div>
       <div class="french"><span class="revealable" tabindex="0" role="button" id="french" title="Tap to reveal hidden text"></span></div>
       <div class="revealhint" id="frenchHint"></div>
-      <div class="audio-row"><button class="primary" id="speak" type="button">▶ Hear French</button><button id="speakExample" type="button">♫ Hear example</button></div>
+      <div class="audio-row"><button class="btn btn-primary" id="speak" type="button"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5Zm4.5 3.5a5 5 0 0 1 0 7m2.8-9.8a9 9 0 0 1 0 12.6"/></svg>Hear French</button><button class="btn" id="speakExample" type="button"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 14v-3a9 9 0 0 1 18 0v3m-18 0v5h5v-7H3v2Zm18 0v5h-5v-7h5v2Z"/></svg>Hear example</button></div>
     </div>
-    <div class="explain" id="explain"><div class="explain-header"><h2>Meaning &amp; examples</h2><button class="eye-toggle" id="toggleEnglish" type="button" aria-label="Hide English meanings" aria-pressed="true" title="Show or hide English">
-        <svg class="icon-open" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg>
-        <svg class="icon-closed" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3l18 18M10.6 6.1c.46-.07.93-.1 1.4-.1 6.5 0 10 6 10 6a16.5 16.5 0 0 1-3.6 4.1M6.5 6.5C3.6 8.2 2 12 2 12s3.5 6 10 6c1.7 0 3.2-.4 4.5-1.1M10 10a3 3 0 0 0 4 4"/></svg>
-        <span id="englishEyeLabel">Hide</span>
-      </button></div>
-      <div class="info-grid">
-        <div><div class="field-title">ENGLISH MEANING</div><div id="meaning" class="field-body revealable" tabindex="0" role="button" title="Tap to reveal if blurred"></div></div>
-        <div><div class="field-title">FRENCH EXAMPLE</div><div id="exampleFr" class="field-body fr revealable" tabindex="0" role="button" title="Tap to reveal if blurred"></div></div>
-        <div><div class="field-title">EXAMPLE TRANSLATION</div><div id="exampleEn" class="field-body sm revealable" tabindex="0" role="button" title="Tap to reveal if blurred"></div></div>
-        <div><div class="field-title">QUICK NOTE</div><div id="note" class="field-body sm revealable" tabindex="0" role="button" title="Tap to reveal if blurred"></div></div>
-      </div>
+    <div class="explain" id="explain"><div class="explain-header"><h2>Meaning &amp; examples</h2><button class="eye-toggle" id="toggleEnglish" type="button" aria-label="Hide English meanings" aria-pressed="true" title="Show or hide English"><svg class="icon-open" viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/></svg><svg class="icon-closed" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3l18 18M10.6 6.1c.46-.07.93-.1 1.4-.1 6.5 0 10 6 10 6a16.5 16.5 0 0 1-3.6 4.1M6.5 6.5C3.6 8.2 2 12 2 12s3.5 6 10 6c1.7 0 3.2-.4 4.5-1.1M10 10a3 3 0 0 0 4 4"/></svg><span id="englishEyeLabel">Hide</span></button></div>
+      <div class="info-grid"><div><div class="field-title">ENGLISH MEANING</div><div id="meaning" class="field-body revealable" tabindex="0" role="button" title="Tap to reveal hidden text"></div></div><div><div class="field-title">FRENCH EXAMPLE</div><div id="exampleFr" class="field-body fr revealable" tabindex="0" role="button" title="Tap to reveal hidden text"></div></div><div><div class="field-title">EXAMPLE TRANSLATION</div><div id="exampleEn" class="field-body sm revealable" tabindex="0" role="button" title="Tap to reveal hidden text"></div></div><div><div class="field-title">QUICK NOTE</div><div id="note" class="field-body sm revealable" tabindex="0" role="button" title="Tap to reveal hidden text"></div></div></div>
     </div>
-    <div class="study-bottom" id="studyBottom">
-      <div class="navgrp"><button id="prev" type="button">← Previous</button><button class="primary" id="next" type="button">Next →</button></div>
-      <div class="knowledge"><button id="shuffle" type="button">⇄ Shuffle</button><button class="known" id="known" type="button">✓ I know this</button></div>
-    </div>
-    <div class="blank hide" id="blank"><h2 id="blankTitle">No cards yet</h2><p id="blankText">Add CSV files to your GitHub repository, then refresh.</p><button class="primary" id="blankRefresh" type="button">Refresh decks</button></div>
+    <div class="study-bottom" id="studyBottom"><div class="navgrp"><button class="btn" id="prev" type="button"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m15 18-6-6 6-6"/></svg>Previous</button><button class="btn btn-primary" id="next" type="button">Next card<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button></div><div class="knowledge"><button class="btn" id="shuffle" type="button"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m18 14 4 4-4 4m0-20 4 4-4 4M2 18h3c5 0 6-12 12-12h5M2 6h3c2 0 3 1.5 4.1 3.4M14.9 15.2C16 17 17 18 19 18h3"/></svg><span id="shuffleLabel">Shuffle</span></button><button class="btn btn-green" id="known" type="button"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="m5 12 4 4L19 6"/><circle cx="12" cy="12" r="10"/></svg><span id="knownLabel">I know this</span></button></div></div>
+    <div class="blank hide" id="blank"><h2 id="blankTitle">No cards yet</h2><p id="blankText">Add CSV files to your GitHub repository, then refresh.</p><button class="btn btn-primary" id="blankRefresh" type="button"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 11a8 8 0 0 0-14.5-4.7L3 9m0-6v6h6M4 13a8 8 0 0 0 14.5 4.7L21 15m0 6v-6h-6"/></svg>Refresh decks</button></div>
   </main>
-  <section class="below"><div><b id="progressText">Progress for this deck</b><p id="progressHelp">Your progress stays on this iPad or computer.</p></div><button class="small" id="resetProgress" type="button">Reset studied cards</button></section>
-  <div class="help">Use the eye buttons to show or hide text · Choose any deck · Swipe between cards · Refresh for new CSV decks.</div>
-  <div class="footer">Upload a CSV to GitHub, then tap Refresh decks · <a href="https://github.com/0PAtelDhruV0/Flashcard_app" target="_blank" rel="noopener noreferrer">Your GitHub repository</a> · No login required</div>
+  <section class="below"><div class="below-left"><div class="progress-glyph"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3v18h18M7 16l4-5 3 3 5-7"/></svg></div><div><b id="progressText">Progress for this deck</b><p id="progressHelp">Your progress stays on this device.</p></div></div><button class="btn btn-quiet" id="resetProgress" type="button">Reset progress</button></section>
+  <div class="help">Tip: tap either eye to hide the text and test your memory. Swipe to move between cards.</div>
+  <div class="footer">Add a CSV to GitHub → Sync decks · <a href="https://github.com/0PAtelDhruV0/Flashcard_app" target="_blank" rel="noopener noreferrer">Manage decks on GitHub ↗</a></div>
 </div>
 <script>
 /* Configured for the user's public GitHub repository. New CSV files are discovered automatically. */
@@ -224,7 +277,7 @@ function cardId(c){let s=c.french+'|'+c.meaning,hash=2166136261;for(let i=0;i<s.
 function deckNow(){return state.decks.find(d=>d.path===state.selected)}
 function knownSet(){return new Set(knownByDeck[state.selected]||[])}
 function filteredCards(){const d=deckNow();if(!d)return[];const c=d.cards.filter(x=>(state.level==='all'||x.level===state.level)&&(state.kind==='all'||x.category.toLowerCase()===state.kind.toLowerCase()));if(state.shuffle){const randOrder=state.order||[];return c.slice().sort((a,b)=>randOrder.indexOf(cardId(a))-randOrder.indexOf(cardId(b)))}return c}
-function chooseDeck(){state.position=0;state.shuffle=false;state.order=[];state.revealedFr=false;state.revealedEn=false;storage.set('selected',state.selected);render();$('shuffle').textContent='⇄ Shuffle';if(deckChooserOpen)paintDeckGrid()}
+function chooseDeck(){state.position=0;state.shuffle=false;state.order=[];state.revealedFr=false;state.revealedEn=false;storage.set('selected',state.selected);render();$('shuffleLabel').textContent='Shuffle';if(deckChooserOpen)paintDeckGrid()}
 function render(){const d=deckNow();state.cards=filteredCards();const cards=state.cards;const empty=!cards.length;
  $('cardMain').classList.toggle('hide',empty);$('explain').classList.toggle('hide',empty);$('studyBottom').classList.toggle('hide',empty);$('blank').classList.toggle('hide',!empty);
  $('deckLabel').textContent=d?.name||'Flashcards';$('deckCount').textContent=d?`${d.cards.length} cards in this deck`:'Upload CSV decks to GitHub';
@@ -233,12 +286,14 @@ function render(){const d=deckNow();state.cards=filteredCards();const cards=stat
  $('levelLabel').textContent=c.level||'French';const frVisible=!state.hideFr||state.revealedFr,enVisible=!state.hideEn||state.revealedEn;
  renderText('french',c.french,!frVisible);renderText('meaning',c.meaning,!enVisible);renderText('exampleFr',c.example_fr,!frVisible);renderText('exampleEn',c.example_en,!enVisible);renderText('note',c.note,!enVisible);
  $('frenchHint').textContent=frVisible?'':'Tap the hidden French text or the eye to reveal it';updateEye('toggleFrench','frenchEyeLabel',frVisible,'French text');updateEye('toggleEnglish','englishEyeLabel',enVisible,'English meanings');$('prev').disabled=cards.length<=1;$('next').disabled=cards.length<=1;
- const learned=knownSet().has(cardId(c));$('known').textContent=learned?'✓ Learned':'✓ I know this';$('known').classList.toggle('is-known',learned);renderProgress()}
-function renderProgress(){const d=deckNow();const studied=knownSet().size;$('progressText').textContent=d?`${studied} learned · ${d.cards.length} cards in ${d.name}`:'Progress for this deck';$('progressHelp').textContent='Progress is stored privately on this device.';if(!state.cards.length){$('counter').textContent='0 of 0';$('progressFill').style.width='0%'}}
+ const learned=knownSet().has(cardId(c));$('knownLabel').textContent=learned?'Learned':'I know this';$('known').classList.toggle('is-known',learned);renderProgress()}
+function updateStats(){const ds=state.decks;const total=ds.reduce((n,d)=>n+d.cards.length,0);const learned=ds.reduce((n,d)=>n+d.cards.filter(c=>(knownByDeck[d.path]||[]).includes(cardId(c))).length,0);$('statDecks').textContent=ds.length.toLocaleString();$('statCards').textContent=total.toLocaleString();$('statLearned').textContent=learned.toLocaleString()}
+function renderProgress(){updateStats();const d=deckNow();const studied=knownSet().size;$('progressText').textContent=d?`${studied} learned · ${d.cards.length} cards in ${d.name}`:'Progress for this deck';$('progressHelp').textContent='Progress is stored privately on this device.';if(!state.cards.length){$('counter').textContent='0 of 0';$('progressFill').style.width='0%'}}
 function advance(delta){if(!state.cards.length)return;state.position=(state.position+delta+state.cards.length)%state.cards.length;state.revealedFr=false;state.revealedEn=false;window.speechSynthesis?.cancel();render()}
 function markKnown(){const c=state.cards[state.position];if(!c)return;let items=knownSet(),id=cardId(c);items.has(id)?items.delete(id):items.add(id);knownByDeck[state.selected]=Array.from(items);storage.set('known',knownByDeck);render()}
 function toggleReveal(which){if(which==='fr')state.revealedFr=true;else state.revealedEn=true;render()}
 function speak(example){const c=state.cards[state.position];if(!c||!('speechSynthesis' in window)){if(!('speechSynthesis' in window))alert('This browser does not support speech playback. Open Parlez in Safari or Chrome.');return}const input=example?c.example_fr:c.french;if(!input)return;const synth=window.speechSynthesis;synth.cancel();const utter=new SpeechSynthesisUtterance(input);utter.lang='fr-FR';utter.rate=.88;utter.pitch=1;const voices=synth.getVoices();const french=voices.filter(v=>v.lang?.toLowerCase().startsWith('fr'));const preferred=french.find(v=>v.lang.toLowerCase()==='fr-fr')||french[0];if(preferred)utter.voice=preferred;try{synth.speak(utter)}catch(e){console.warn('Speech unavailable',e)}}
+const preferredMode=storage.get('theme','light');document.documentElement.dataset.theme=preferredMode==='dark'?'dark':'light';function updateTheme(){const dark=document.documentElement.dataset.theme==='dark';$('themeToggle').setAttribute('aria-label',dark?'Switch to light mode':'Switch to dark mode');$('themeToggle').title=dark?'Light mode':'Dark mode'}updateTheme();$('themeToggle').addEventListener('click',()=>{const t=document.documentElement.dataset.theme==='dark'?'light':'dark';document.documentElement.dataset.theme=t;storage.set('theme',t);updateTheme()});
 $('refresh').addEventListener('click',loadFromGithub);$('blankRefresh').addEventListener('click',loadFromGithub);
 $('deck').addEventListener('change',e=>selectDeck(e.target.value));
 $('browseDecks').addEventListener('click',()=>toggleDeckChooser(!deckChooserOpen));
@@ -248,7 +303,7 @@ $('level').addEventListener('change',e=>{state.level=e.target.value;state.positi
 $('kind').addEventListener('change',e=>{state.kind=e.target.value;state.position=0;render()});
 $('prev').addEventListener('click',()=>advance(-1));$('next').addEventListener('click',()=>advance(1));
 $('known').addEventListener('click',markKnown);
-$('shuffle').addEventListener('click',()=>{state.shuffle=!state.shuffle;if(state.shuffle){state.order=(deckNow()?.cards||[]).map(cardId);for(let i=state.order.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[state.order[i],state.order[j]]=[state.order[j],state.order[i]]}}state.position=0;render();$('shuffle').textContent=state.shuffle?'⇄ In order':'⇄ Shuffle'});
+$('shuffle').addEventListener('click',()=>{state.shuffle=!state.shuffle;if(state.shuffle){state.order=(deckNow()?.cards||[]).map(cardId);for(let i=state.order.length-1;i>0;i--){let j=Math.floor(Math.random()*(i+1));[state.order[i],state.order[j]]=[state.order[j],state.order[i]]}}state.position=0;render();$('shuffleLabel').textContent=state.shuffle?'In order':'Shuffle'});
 $('speak').addEventListener('click',()=>speak(false));$('speakExample').addEventListener('click',()=>speak(true));
 $('toggleFrench').addEventListener('click',()=>{const visible=!state.hideFr||state.revealedFr;state.hideFr=visible;state.revealedFr=false;render()});
 $('toggleEnglish').addEventListener('click',()=>{const visible=!state.hideEn||state.revealedEn;state.hideEn=visible;state.revealedEn=false;render()});
