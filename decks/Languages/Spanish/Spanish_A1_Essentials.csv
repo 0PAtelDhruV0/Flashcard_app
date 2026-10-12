@@ -1,0 +1,165 @@
+front,back,example,example_translation,note,level,type,audio_lang
+Hola,Hello,"Hola, ¿cómo estás?","Hello, how are you?",,A1,Greetings & politeness,es-ES
+Buenos días,Good morning,"Buenos días, señora.","Good morning, ma'am.",,A1,Greetings & politeness,es-ES
+Buenas tardes,Good afternoon / Good evening,"Buenas tardes, profesor.","Good afternoon, teacher.",,A1,Greetings & politeness,es-ES
+Buenas noches,Good evening / Good night,"Buenas noches, hasta mañana.","Good night, see you tomorrow.",,A1,Greetings & politeness,es-ES
+Adiós,Goodbye,"Adiós, nos vemos pronto.","Goodbye, see you soon.",,A1,Greetings & politeness,es-ES
+Hasta luego,See you later,"Hasta luego, amigos.","See you later, friends.",,A1,Greetings & politeness,es-ES
+Hasta mañana,See you tomorrow,Hasta mañana en clase.,See you tomorrow in class.,,A1,Greetings & politeness,es-ES
+Nos vemos,See you,Nos vemos el viernes.,See you on Friday.,,A1,Greetings & politeness,es-ES
+Por favor,Please,"Un café, por favor.","A coffee, please.",,A1,Greetings & politeness,es-ES
+Gracias,Thank you,Muchas gracias por tu ayuda.,Thank you very much for your help.,,A1,Greetings & politeness,es-ES
+De nada,You're welcome,"De nada, con gusto.","You're welcome, gladly.",,A1,Greetings & politeness,es-ES
+Lo siento,I'm sorry,"Lo siento, llegué tarde.","I'm sorry, I arrived late.",,A1,Greetings & politeness,es-ES
+Perdón,Sorry / Excuse me,"Perdón, ¿dónde está el baño?","Excuse me, where is the bathroom?",,A1,Greetings & politeness,es-ES
+Disculpe,Excuse me (formal),"Disculpe, ¿qué hora es?","Excuse me, what time is it?",,A1,Greetings & politeness,es-ES
+Sí,Yes,"Sí, estoy listo.","Yes, I'm ready.",,A1,Greetings & politeness,es-ES
+No,No,"No, gracias.","No, thank you.",,A1,Greetings & politeness,es-ES
+Claro,Of course / Sure,"Claro, te ayudo.","Of course, I'll help you.",,A1,Greetings & politeness,es-ES
+Mucho gusto,Nice to meet you,"Mucho gusto, me llamo Ana.","Nice to meet you, my name is Ana.",,A1,Greetings & politeness,es-ES
+la persona,the person,Es una persona amable.,They are a kind person.,Feminine noun even for a male person.,A1,People & family,es-ES
+el hombre,the man,El hombre está aquí.,The man is here.,,A1,People & family,es-ES
+la mujer,the woman,La mujer trabaja aquí.,The woman works here.,,A1,People & family,es-ES
+el niño,the boy / child,El niño juega afuera.,The boy plays outside.,,A1,People & family,es-ES
+la niña,the girl,La niña lee un libro.,The girl is reading a book.,,A1,People & family,es-ES
+el amigo,the (male) friend,Mi amigo vive cerca.,My friend lives nearby.,,A1,People & family,es-ES
+la amiga,the (female) friend,Mi amiga habla español.,My friend speaks Spanish.,,A1,People & family,es-ES
+la familia,the family,Mi familia es grande.,My family is big.,,A1,People & family,es-ES
+la madre,the mother,Mi madre cocina muy bien.,My mother cooks very well.,,A1,People & family,es-ES
+el padre,the father,Mi padre trabaja hoy.,My father is working today.,,A1,People & family,es-ES
+la hermana,the sister,Mi hermana estudia medicina.,My sister studies medicine.,,A1,People & family,es-ES
+el hermano,the brother,Mi hermano es alto.,My brother is tall.,,A1,People & family,es-ES
+la abuela,the grandmother,Mi abuela vive en Madrid.,My grandmother lives in Madrid.,,A1,People & family,es-ES
+el abuelo,the grandfather,Mi abuelo tiene setenta años.,My grandfather is seventy years old.,,A1,People & family,es-ES
+el hijo,the son,Su hijo tiene cinco años.,Their son is five years old.,,A1,People & family,es-ES
+la hija,the daughter,Su hija está en la escuela.,Their daughter is at school.,,A1,People & family,es-ES
+el profesor,the teacher (male),El profesor explica la lección.,The teacher explains the lesson.,,A1,People & family,es-ES
+la profesora,the teacher (female),La profesora habla despacio.,The teacher speaks slowly.,,A1,People & family,es-ES
+el estudiante,the student (male),El estudiante hace preguntas.,The student asks questions.,,A1,People & family,es-ES
+la estudiante,the student (female),La estudiante aprende rápido.,The student learns quickly.,,A1,People & family,es-ES
+la casa,the house / home,Mi casa es pequeña.,My house is small.,,A1,At home & school,es-ES
+el apartamento,the apartment,Vivo en un apartamento.,I live in an apartment.,,A1,At home & school,es-ES
+la habitación,the room / bedroom,La habitación tiene una ventana.,The room has a window.,,A1,At home & school,es-ES
+la cocina,the kitchen,Mi padre está en la cocina.,My father is in the kitchen.,,A1,At home & school,es-ES
+el baño,the bathroom,El baño está a la derecha.,The bathroom is on the right.,,A1,At home & school,es-ES
+la puerta,the door,"Cierra la puerta, por favor.","Close the door, please.",,A1,At home & school,es-ES
+la ventana,the window,Abre la ventana.,Open the window.,,A1,At home & school,es-ES
+la mesa,the table,El libro está sobre la mesa.,The book is on the table.,,A1,At home & school,es-ES
+la silla,the chair,Hay cuatro sillas.,There are four chairs.,,A1,At home & school,es-ES
+la cama,the bed,La cama es cómoda.,The bed is comfortable.,,A1,At home & school,es-ES
+el libro,the book,Leo un libro por la noche.,I read a book at night.,,A1,At home & school,es-ES
+el cuaderno,the notebook,Escribo en mi cuaderno.,I write in my notebook.,,A1,At home & school,es-ES
+el lápiz,the pencil,Necesito un lápiz.,I need a pencil.,,A1,At home & school,es-ES
+el bolígrafo,the pen,Tengo un bolígrafo azul.,I have a blue pen.,,A1,At home & school,es-ES
+la mochila,the backpack,Mi mochila está aquí.,My backpack is here.,,A1,At home & school,es-ES
+la escuela,the school,La escuela está cerca.,The school is nearby.,,A1,At home & school,es-ES
+la clase,the class / lesson,La clase empieza a las nueve.,Class starts at nine.,,A1,At home & school,es-ES
+el trabajo,the work / job,Mi trabajo empieza temprano.,My job starts early.,,A1,At home & school,es-ES
+el teléfono,the telephone,Mi teléfono está en la mesa.,My phone is on the table.,,A1,At home & school,es-ES
+el ordenador,the computer (Spain),Uso el ordenador para estudiar.,I use the computer to study.,Also: la computadora (common in Latin America).,A1,At home & school,es-ES
+el dinero,the money,No tengo mucho dinero.,I don't have much money.,,A1,At home & school,es-ES
+la llave,the key,¿Dónde está mi llave?,Where is my key?,,A1,At home & school,es-ES
+el agua,the water,"Quiero agua, por favor.","I want water, please.",Feminine noun; el is used before stressed initial a in the singular.,A1,Food & drinks,es-ES
+el café,the coffee,Tomo café por la mañana.,I drink coffee in the morning.,,A1,Food & drinks,es-ES
+el té,the tea,¿Quieres té con limón?,Do you want tea with lemon?,,A1,Food & drinks,es-ES
+la leche,the milk,La leche está fría.,The milk is cold.,,A1,Food & drinks,es-ES
+el pan,the bread,Compro pan fresco.,I buy fresh bread.,,A1,Food & drinks,es-ES
+el arroz,the rice,Comemos arroz con verduras.,We eat rice with vegetables.,,A1,Food & drinks,es-ES
+el queso,the cheese,Me gusta el queso.,I like cheese.,,A1,Food & drinks,es-ES
+el huevo,the egg,Como un huevo por la mañana.,I eat an egg in the morning.,,A1,Food & drinks,es-ES
+la carne,the meat,No como mucha carne.,I don't eat much meat.,,A1,Food & drinks,es-ES
+el pollo,the chicken,El pollo está delicioso.,The chicken is delicious.,,A1,Food & drinks,es-ES
+el pescado,the fish (as food),Comemos pescado los viernes.,We eat fish on Fridays.,,A1,Food & drinks,es-ES
+la sopa,the soup,La sopa está caliente.,The soup is hot.,,A1,Food & drinks,es-ES
+la ensalada,the salad,Quiero una ensalada.,I want a salad.,,A1,Food & drinks,es-ES
+la fruta,the fruit,Como fruta todos los días.,I eat fruit every day.,,A1,Food & drinks,es-ES
+la manzana,the apple,Tengo una manzana roja.,I have a red apple.,,A1,Food & drinks,es-ES
+el plátano,the banana,El plátano es amarillo.,The banana is yellow.,"Also: la banana, depending on region.",A1,Food & drinks,es-ES
+la naranja,the orange,Quiero una naranja.,I want an orange.,,A1,Food & drinks,es-ES
+la patata,the potato (Spain),Necesito dos patatas.,I need two potatoes.,Also: la papa in much of Latin America.,A1,Food & drinks,es-ES
+la verdura,the vegetable,Como muchas verduras.,I eat lots of vegetables.,,A1,Food & drinks,es-ES
+el tomate,the tomato,El tomate está fresco.,The tomato is fresh.,,A1,Food & drinks,es-ES
+el azúcar,the sugar,No quiero azúcar.,I don't want sugar.,,A1,Food & drinks,es-ES
+la sal,the salt,"Pasa la sal, por favor.","Pass the salt, please.",,A1,Food & drinks,es-ES
+el desayuno,the breakfast,El desayuno está listo.,Breakfast is ready.,,A1,Food & drinks,es-ES
+la comida,the food / lunch,La comida está muy rica.,The food is very tasty.,,A1,Food & drinks,es-ES
+la cena,the dinner,La cena es a las ocho.,Dinner is at eight.,,A1,Food & drinks,es-ES
+el restaurante,the restaurant,El restaurante está abierto.,The restaurant is open.,,A1,Food & drinks,es-ES
+la ciudad,the city,La ciudad es bonita.,The city is beautiful.,,A1,Places & transport,es-ES
+el pueblo,the town / village,Mi pueblo es tranquilo.,My town is quiet.,,A1,Places & transport,es-ES
+la calle,the street,La calle es larga.,The street is long.,,A1,Places & transport,es-ES
+la plaza,the square / plaza,Nos vemos en la plaza.,See you in the square.,,A1,Places & transport,es-ES
+la tienda,the store / shop,La tienda abre a las diez.,The store opens at ten.,,A1,Places & transport,es-ES
+el supermercado,the supermarket,Voy al supermercado.,I'm going to the supermarket.,,A1,Places & transport,es-ES
+el mercado,the market,Compro fruta en el mercado.,I buy fruit at the market.,,A1,Places & transport,es-ES
+el hospital,the hospital,El hospital está cerca.,The hospital is nearby.,,A1,Places & transport,es-ES
+la farmacia,the pharmacy,Busco una farmacia.,I'm looking for a pharmacy.,,A1,Places & transport,es-ES
+el banco,the bank,El banco cierra pronto.,The bank closes soon.,,A1,Places & transport,es-ES
+la estación,the station,La estación está lejos.,The station is far away.,,A1,Places & transport,es-ES
+el aeropuerto,the airport,El aeropuerto es grande.,The airport is big.,,A1,Places & transport,es-ES
+el tren,the train,El tren llega a las seis.,The train arrives at six.,,A1,Places & transport,es-ES
+el autobús,the bus,Espero el autobús.,I'm waiting for the bus.,,A1,Places & transport,es-ES
+el coche,the car (Spain),Mi coche es blanco.,My car is white.,Also: el carro / el auto in many regions.,A1,Places & transport,es-ES
+la bicicleta,the bicycle,Voy en bicicleta.,I go by bicycle.,,A1,Places & transport,es-ES
+el avión,the airplane,El avión sale mañana.,The plane departs tomorrow.,,A1,Places & transport,es-ES
+el billete,the ticket (Spain),Necesito un billete de tren.,I need a train ticket.,"In Latin America, often: el boleto.",A1,Places & transport,es-ES
+el mapa,the map,Tengo un mapa de la ciudad.,I have a map.,Masculine noun despite the -a ending.,A1,Places & transport,es-ES
+la playa,the beach,Vamos a la playa.,We're going to the beach.,,A1,Places & transport,es-ES
+hoy,today,Hoy es lunes.,Today is Monday.,,A1,Days & time,es-ES
+mañana,tomorrow / morning,Mañana tengo clase.,Tomorrow I have class.,,A1,Days & time,es-ES
+ayer,yesterday,Ayer fui al parque.,Yesterday I went to the park.,,A1,Days & time,es-ES
+ahora,now,Ahora estoy ocupado.,I'm busy now.,,A1,Days & time,es-ES
+después,afterwards / later,Hablamos después.,We'll talk later.,,A1,Days & time,es-ES
+temprano,early,Me levanto temprano.,I get up early.,,A1,Days & time,es-ES
+tarde,late,Llegué tarde.,I arrived late.,,A1,Days & time,es-ES
+el lunes,Monday,Trabajo el lunes.,I work on Monday.,,A1,Days & time,es-ES
+el martes,Tuesday,Estudio el martes.,I study on Tuesday.,,A1,Days & time,es-ES
+el miércoles,Wednesday,El miércoles tengo una reunión.,I have a meeting on Wednesday.,,A1,Days & time,es-ES
+el jueves,Thursday,El jueves voy al gimnasio.,I go to the gym on Thursday.,,A1,Days & time,es-ES
+el viernes,Friday,El viernes salgo temprano.,I leave early on Friday.,,A1,Days & time,es-ES
+el sábado,Saturday,El sábado descanso.,I rest on Saturday.,,A1,Days & time,es-ES
+el domingo,Sunday,El domingo visito a mi familia.,I visit my family on Sunday.,,A1,Days & time,es-ES
+enero,January,En enero hace frío.,In January it's cold.,,A1,Days & time,es-ES
+febrero,February,Mi cumpleaños es en febrero.,My birthday is in February.,,A1,Days & time,es-ES
+marzo,March,En marzo empieza la primavera.,Spring starts in March.,,A1,Days & time,es-ES
+abril,April,Viajo en abril.,I travel in April.,,A1,Days & time,es-ES
+mayo,May,En mayo tengo vacaciones.,I have vacation in May.,,A1,Days & time,es-ES
+junio,June,En junio hace calor.,It's hot in June.,,A1,Days & time,es-ES
+julio,July,En julio vamos a la playa.,We go to the beach in July.,,A1,Days & time,es-ES
+agosto,August,En agosto no trabajo.,I don't work in August.,,A1,Days & time,es-ES
+septiembre,September,La escuela empieza en septiembre.,School starts in September.,,A1,Days & time,es-ES
+octubre,October,En octubre estudio español.,I study Spanish in October.,,A1,Days & time,es-ES
+noviembre,November,En noviembre llueve mucho.,It rains a lot in November.,,A1,Days & time,es-ES
+diciembre,December,En diciembre visitamos a la familia.,We visit family in December.,,A1,Days & time,es-ES
+rojo / roja,red,Tengo una camisa roja.,I have a red shirt.,Adjectives agree with noun gender.,A1,Colors & descriptions,es-ES
+azul,blue,El cielo está azul.,The sky is blue.,,A1,Colors & descriptions,es-ES
+verde,green,La manzana es verde.,The apple is green.,,A1,Colors & descriptions,es-ES
+amarillo / amarilla,yellow,El coche es amarillo.,The car is yellow.,,A1,Colors & descriptions,es-ES
+blanco / blanca,white,La casa es blanca.,The house is white.,,A1,Colors & descriptions,es-ES
+negro / negra,black,Llevo zapatos negros.,I'm wearing black shoes.,,A1,Colors & descriptions,es-ES
+grande,big / large,La mesa es grande.,The table is big.,,A1,Colors & descriptions,es-ES
+pequeño / pequeña,small,El gato es pequeño.,The cat is small.,,A1,Colors & descriptions,es-ES
+bueno / buena,good,Es una buena idea.,It's a good idea.,,A1,Colors & descriptions,es-ES
+malo / mala,bad,Hace mal tiempo.,The weather is bad.,,A1,Colors & descriptions,es-ES
+fácil,easy,Este ejercicio es fácil.,This exercise is easy.,,A1,Colors & descriptions,es-ES
+difícil,difficult,La pregunta es difícil.,The question is difficult.,,A1,Colors & descriptions,es-ES
+uno,1,Tengo 1 libro.,I have 1 book.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
+dos,2,Tengo 2 libros.,I have 2 books.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
+tres,3,Tengo 3 libros.,I have 3 books.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
+cuatro,4,Tengo 4 libros.,I have 4 books.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
+cinco,5,Tengo 5 libros.,I have 5 books.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
+seis,6,Tengo 6 libros.,I have 6 books.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
+siete,7,Tengo 7 libros.,I have 7 books.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
+ocho,8,Tengo 8 libros.,I have 8 books.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
+nueve,9,Tengo 9 libros.,I have 9 books.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
+diez,10,Tengo 10 libros.,I have 10 books.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
+once,11,Tengo 11 libros.,I have 11 books.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
+doce,12,Tengo 12 libros.,I have 12 books.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
+trece,13,Tengo 13 libros.,I have 13 books.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
+catorce,14,Tengo 14 libros.,I have 14 books.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
+quince,15,Tengo 15 libros.,I have 15 books.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
+dieciséis,16,Tengo 16 libros.,I have 16 books.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
+diecisiete,17,Tengo 17 libros.,I have 17 books.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
+dieciocho,18,Tengo 18 libros.,I have 18 books.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
+diecinueve,19,Tengo 19 libros.,I have 19 books.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
+veinte,20,Tengo 20 libros.,I have 20 books.,Spanish number; uno becomes un before a masculine singular noun.,A1,Numbers 1–20,es-ES
