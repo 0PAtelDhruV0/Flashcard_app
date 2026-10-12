@@ -1,0 +1,214 @@
+front,back,note,level,type,audio_lang
+Basic symbol: I,1 (one),This symbol can repeat up to three times in classical standard notation.,Beginner,Basic symbols,en-US
+Basic symbol: V,5 (five),This symbol is not repeated in standard Roman numerals.,Beginner,Basic symbols,en-US
+Basic symbol: X,10 (ten),This symbol can repeat up to three times in classical standard notation.,Beginner,Basic symbols,en-US
+Basic symbol: L,50 (fifty),This symbol is not repeated in standard Roman numerals.,Beginner,Basic symbols,en-US
+Basic symbol: C,100 (one hundred),This symbol can repeat up to three times in classical standard notation.,Beginner,Basic symbols,en-US
+Basic symbol: D,500 (five hundred),This symbol is not repeated in standard Roman numerals.,Beginner,Basic symbols,en-US
+Basic symbol: M,1000 (one thousand),This symbol can repeat up to three times in classical standard notation.,Beginner,Basic symbols,en-US
+I,1,I represents 1.,Beginner,Read Roman numerals,en-US
+II,2,II represents 2.,Beginner,Read Roman numerals,en-US
+III,3,III represents 3.,Beginner,Read Roman numerals,en-US
+IV,4,IV represents 4.,Beginner,Read Roman numerals,en-US
+V,5,V represents 5.,Beginner,Read Roman numerals,en-US
+VI,6,VI represents 6.,Beginner,Read Roman numerals,en-US
+VII,7,VII represents 7.,Beginner,Read Roman numerals,en-US
+VIII,8,VIII represents 8.,Beginner,Read Roman numerals,en-US
+IX,9,IX represents 9.,Beginner,Read Roman numerals,en-US
+X,10,X represents 10.,Beginner,Read Roman numerals,en-US
+XI,11,X (10) + I (1) = 11.,Beginner,Read Roman numerals,en-US
+XII,12,X (10) + II (2) = 12.,Beginner,Read Roman numerals,en-US
+XIII,13,X (10) + III (3) = 13.,Beginner,Read Roman numerals,en-US
+XIV,14,X (10) + IV (4) = 14.,Beginner,Read Roman numerals,en-US
+XV,15,X (10) + V (5) = 15.,Beginner,Read Roman numerals,en-US
+XVI,16,X (10) + VI (6) = 16.,Beginner,Read Roman numerals,en-US
+XVII,17,X (10) + VII (7) = 17.,Beginner,Read Roman numerals,en-US
+XVIII,18,X (10) + VIII (8) = 18.,Beginner,Read Roman numerals,en-US
+XIX,19,X (10) + IX (9) = 19.,Beginner,Read Roman numerals,en-US
+XX,20,XX represents 20.,Beginner,Read Roman numerals,en-US
+XXI,21,XX (20) + I (1) = 21.,Intermediate,Read Roman numerals,en-US
+XXII,22,XX (20) + II (2) = 22.,Intermediate,Read Roman numerals,en-US
+XXIII,23,XX (20) + III (3) = 23.,Intermediate,Read Roman numerals,en-US
+XXIV,24,XX (20) + IV (4) = 24.,Intermediate,Read Roman numerals,en-US
+XXV,25,XX (20) + V (5) = 25.,Intermediate,Read Roman numerals,en-US
+XXVI,26,XX (20) + VI (6) = 26.,Intermediate,Read Roman numerals,en-US
+XXVII,27,XX (20) + VII (7) = 27.,Intermediate,Read Roman numerals,en-US
+XXVIII,28,XX (20) + VIII (8) = 28.,Intermediate,Read Roman numerals,en-US
+XXIX,29,XX (20) + IX (9) = 29.,Intermediate,Read Roman numerals,en-US
+XXX,30,XXX represents 30.,Intermediate,Read Roman numerals,en-US
+XXXI,31,XXX (30) + I (1) = 31.,Intermediate,Read Roman numerals,en-US
+XXXII,32,XXX (30) + II (2) = 32.,Intermediate,Read Roman numerals,en-US
+XXXIII,33,XXX (30) + III (3) = 33.,Intermediate,Read Roman numerals,en-US
+XXXIV,34,XXX (30) + IV (4) = 34.,Intermediate,Read Roman numerals,en-US
+XXXV,35,XXX (30) + V (5) = 35.,Intermediate,Read Roman numerals,en-US
+XXXVI,36,XXX (30) + VI (6) = 36.,Intermediate,Read Roman numerals,en-US
+XXXVII,37,XXX (30) + VII (7) = 37.,Intermediate,Read Roman numerals,en-US
+XXXVIII,38,XXX (30) + VIII (8) = 38.,Intermediate,Read Roman numerals,en-US
+XXXIX,39,XXX (30) + IX (9) = 39.,Intermediate,Read Roman numerals,en-US
+XL,40,XL represents 40.,Intermediate,Read Roman numerals,en-US
+XLI,41,XL (40) + I (1) = 41.,Intermediate,Read Roman numerals,en-US
+XLII,42,XL (40) + II (2) = 42.,Intermediate,Read Roman numerals,en-US
+XLIII,43,XL (40) + III (3) = 43.,Intermediate,Read Roman numerals,en-US
+XLIV,44,XL (40) + IV (4) = 44.,Intermediate,Read Roman numerals,en-US
+XLV,45,XL (40) + V (5) = 45.,Intermediate,Read Roman numerals,en-US
+XLVI,46,XL (40) + VI (6) = 46.,Intermediate,Read Roman numerals,en-US
+XLVII,47,XL (40) + VII (7) = 47.,Intermediate,Read Roman numerals,en-US
+XLVIII,48,XL (40) + VIII (8) = 48.,Intermediate,Read Roman numerals,en-US
+XLIX,49,XL (40) + IX (9) = 49.,Intermediate,Read Roman numerals,en-US
+L,50,L represents 50.,Intermediate,Read Roman numerals,en-US
+LI,51,L (50) + I (1) = 51.,Intermediate,Read Roman numerals,en-US
+LII,52,L (50) + II (2) = 52.,Intermediate,Read Roman numerals,en-US
+LIII,53,L (50) + III (3) = 53.,Intermediate,Read Roman numerals,en-US
+LIV,54,L (50) + IV (4) = 54.,Intermediate,Read Roman numerals,en-US
+LV,55,L (50) + V (5) = 55.,Intermediate,Read Roman numerals,en-US
+LVI,56,L (50) + VI (6) = 56.,Intermediate,Read Roman numerals,en-US
+LVII,57,L (50) + VII (7) = 57.,Intermediate,Read Roman numerals,en-US
+LVIII,58,L (50) + VIII (8) = 58.,Intermediate,Read Roman numerals,en-US
+LIX,59,L (50) + IX (9) = 59.,Intermediate,Read Roman numerals,en-US
+LX,60,LX represents 60.,Intermediate,Read Roman numerals,en-US
+LXI,61,LX (60) + I (1) = 61.,Intermediate,Read Roman numerals,en-US
+LXII,62,LX (60) + II (2) = 62.,Intermediate,Read Roman numerals,en-US
+LXIII,63,LX (60) + III (3) = 63.,Intermediate,Read Roman numerals,en-US
+LXIV,64,LX (60) + IV (4) = 64.,Intermediate,Read Roman numerals,en-US
+LXV,65,LX (60) + V (5) = 65.,Intermediate,Read Roman numerals,en-US
+LXVI,66,LX (60) + VI (6) = 66.,Intermediate,Read Roman numerals,en-US
+LXVII,67,LX (60) + VII (7) = 67.,Intermediate,Read Roman numerals,en-US
+LXVIII,68,LX (60) + VIII (8) = 68.,Intermediate,Read Roman numerals,en-US
+LXIX,69,LX (60) + IX (9) = 69.,Intermediate,Read Roman numerals,en-US
+LXX,70,LXX represents 70.,Intermediate,Read Roman numerals,en-US
+LXXI,71,LXX (70) + I (1) = 71.,Intermediate,Read Roman numerals,en-US
+LXXII,72,LXX (70) + II (2) = 72.,Intermediate,Read Roman numerals,en-US
+LXXIII,73,LXX (70) + III (3) = 73.,Intermediate,Read Roman numerals,en-US
+LXXIV,74,LXX (70) + IV (4) = 74.,Intermediate,Read Roman numerals,en-US
+LXXV,75,LXX (70) + V (5) = 75.,Intermediate,Read Roman numerals,en-US
+LXXVI,76,LXX (70) + VI (6) = 76.,Intermediate,Read Roman numerals,en-US
+LXXVII,77,LXX (70) + VII (7) = 77.,Intermediate,Read Roman numerals,en-US
+LXXVIII,78,LXX (70) + VIII (8) = 78.,Intermediate,Read Roman numerals,en-US
+LXXIX,79,LXX (70) + IX (9) = 79.,Intermediate,Read Roman numerals,en-US
+LXXX,80,LXXX represents 80.,Intermediate,Read Roman numerals,en-US
+LXXXI,81,LXXX (80) + I (1) = 81.,Intermediate,Read Roman numerals,en-US
+LXXXII,82,LXXX (80) + II (2) = 82.,Intermediate,Read Roman numerals,en-US
+LXXXIII,83,LXXX (80) + III (3) = 83.,Intermediate,Read Roman numerals,en-US
+LXXXIV,84,LXXX (80) + IV (4) = 84.,Intermediate,Read Roman numerals,en-US
+LXXXV,85,LXXX (80) + V (5) = 85.,Intermediate,Read Roman numerals,en-US
+LXXXVI,86,LXXX (80) + VI (6) = 86.,Intermediate,Read Roman numerals,en-US
+LXXXVII,87,LXXX (80) + VII (7) = 87.,Intermediate,Read Roman numerals,en-US
+LXXXVIII,88,LXXX (80) + VIII (8) = 88.,Intermediate,Read Roman numerals,en-US
+LXXXIX,89,LXXX (80) + IX (9) = 89.,Intermediate,Read Roman numerals,en-US
+XC,90,XC represents 90.,Intermediate,Read Roman numerals,en-US
+XCI,91,XC (90) + I (1) = 91.,Intermediate,Read Roman numerals,en-US
+XCII,92,XC (90) + II (2) = 92.,Intermediate,Read Roman numerals,en-US
+XCIII,93,XC (90) + III (3) = 93.,Intermediate,Read Roman numerals,en-US
+XCIV,94,XC (90) + IV (4) = 94.,Intermediate,Read Roman numerals,en-US
+XCV,95,XC (90) + V (5) = 95.,Intermediate,Read Roman numerals,en-US
+XCVI,96,XC (90) + VI (6) = 96.,Intermediate,Read Roman numerals,en-US
+XCVII,97,XC (90) + VII (7) = 97.,Intermediate,Read Roman numerals,en-US
+XCVIII,98,XC (90) + VIII (8) = 98.,Intermediate,Read Roman numerals,en-US
+XCIX,99,XC (90) + IX (9) = 99.,Intermediate,Read Roman numerals,en-US
+C,100,C represents 100.,Intermediate,Read Roman numerals,en-US
+CI,101,C (100) + I (1) = 101.,Advanced,Read larger numerals,en-US
+CV,105,C (100) + V (5) = 105.,Advanced,Read larger numerals,en-US
+CX,110,C (100) + X (10) = 110.,Advanced,Read larger numerals,en-US
+CXV,115,C (100) + X (10) + V (5) = 115.,Advanced,Read larger numerals,en-US
+CXX,120,C (100) + XX (20) = 120.,Advanced,Read larger numerals,en-US
+CXXV,125,C (100) + XX (20) + V (5) = 125.,Advanced,Read larger numerals,en-US
+CL,150,C (100) + L (50) = 150.,Advanced,Read larger numerals,en-US
+CLXXV,175,C (100) + LXX (70) + V (5) = 175.,Advanced,Read larger numerals,en-US
+CXCIX,199,C (100) + XC (90) + IX (9) = 199.,Advanced,Read larger numerals,en-US
+CC,200,CC represents 200.,Advanced,Read larger numerals,en-US
+CCL,250,CC (200) + L (50) = 250.,Advanced,Read larger numerals,en-US
+CCLXXV,275,CC (200) + LXX (70) + V (5) = 275.,Advanced,Read larger numerals,en-US
+CCC,300,CCC represents 300.,Advanced,Read larger numerals,en-US
+CCCL,350,CCC (300) + L (50) = 350.,Advanced,Read larger numerals,en-US
+CCCLXXV,375,CCC (300) + LXX (70) + V (5) = 375.,Advanced,Read larger numerals,en-US
+CD,400,CD represents 400.,Advanced,Read larger numerals,en-US
+CDL,450,CD (400) + L (50) = 450.,Advanced,Read larger numerals,en-US
+CDXCIX,499,CD (400) + XC (90) + IX (9) = 499.,Advanced,Read larger numerals,en-US
+D,500,D represents 500.,Advanced,Read larger numerals,en-US
+DL,550,D (500) + L (50) = 550.,Advanced,Read larger numerals,en-US
+DC,600,DC represents 600.,Advanced,Read larger numerals,en-US
+DCL,650,DC (600) + L (50) = 650.,Advanced,Read larger numerals,en-US
+DCC,700,DCC represents 700.,Advanced,Read larger numerals,en-US
+DCCL,750,DCC (700) + L (50) = 750.,Advanced,Read larger numerals,en-US
+DCCC,800,DCCC represents 800.,Advanced,Read larger numerals,en-US
+DCCCL,850,DCCC (800) + L (50) = 850.,Advanced,Read larger numerals,en-US
+DCCCLXXXVIII,888,DCCC (800) + LXXX (80) + VIII (8) = 888.,Advanced,Read larger numerals,en-US
+CM,900,CM represents 900.,Advanced,Read larger numerals,en-US
+CML,950,CM (900) + L (50) = 950.,Advanced,Read larger numerals,en-US
+CMXCIX,999,CM (900) + XC (90) + IX (9) = 999.,Advanced,Read larger numerals,en-US
+M,1000,M represents 1000.,Advanced,Read larger numerals,en-US
+MI,1001,M (1000) + I (1) = 1001.,Advanced,Read larger numerals,en-US
+MX,1010,M (1000) + X (10) = 1010.,Advanced,Read larger numerals,en-US
+ML,1050,M (1000) + L (50) = 1050.,Advanced,Read larger numerals,en-US
+MC,1100,M (1000) + C (100) = 1100.,Advanced,Read larger numerals,en-US
+MCCL,1250,M (1000) + CC (200) + L (50) = 1250.,Advanced,Read larger numerals,en-US
+MCDLIII,1453,M (1000) + CD (400) + L (50) + III (3) = 1453.,Advanced,Read larger numerals,en-US
+MCDXCII,1492,M (1000) + CD (400) + XC (90) + II (2) = 1492.,Advanced,Read larger numerals,en-US
+MDC,1600,M (1000) + DC (600) = 1600.,Advanced,Read larger numerals,en-US
+MDCLXVI,1666,M (1000) + DC (600) + LX (60) + VI (6) = 1666.,Advanced,Read larger numerals,en-US
+MDCCL,1750,M (1000) + DCC (700) + L (50) = 1750.,Advanced,Read larger numerals,en-US
+MDCCC,1800,M (1000) + DCCC (800) = 1800.,Advanced,Read larger numerals,en-US
+MDCCCL,1850,M (1000) + DCCC (800) + L (50) = 1850.,Advanced,Read larger numerals,en-US
+MCM,1900,M (1000) + CM (900) = 1900.,Advanced,Read larger numerals,en-US
+MCMXLV,1945,M (1000) + CM (900) + XL (40) + V (5) = 1945.,Advanced,Read larger numerals,en-US
+MCML,1950,M (1000) + CM (900) + L (50) = 1950.,Advanced,Read larger numerals,en-US
+MCMLXIX,1969,M (1000) + CM (900) + LX (60) + IX (9) = 1969.,Advanced,Read larger numerals,en-US
+MCMLXXXIV,1984,M (1000) + CM (900) + LXXX (80) + IV (4) = 1984.,Advanced,Read larger numerals,en-US
+MCMXC,1990,M (1000) + CM (900) + XC (90) = 1990.,Advanced,Read larger numerals,en-US
+MCMXCIX,1999,M (1000) + CM (900) + XC (90) + IX (9) = 1999.,Advanced,Read larger numerals,en-US
+MM,2000,MM represents 2000.,Advanced,Read larger numerals,en-US
+MMI,2001,MM (2000) + I (1) = 2001.,Advanced,Read larger numerals,en-US
+MMX,2010,MM (2000) + X (10) = 2010.,Advanced,Read larger numerals,en-US
+MMXXIV,2024,MM (2000) + XX (20) + IV (4) = 2024.,Advanced,Read larger numerals,en-US
+MMXXV,2025,MM (2000) + XX (20) + V (5) = 2025.,Advanced,Read larger numerals,en-US
+MMXXVI,2026,MM (2000) + XX (20) + VI (6) = 2026.,Advanced,Read larger numerals,en-US
+MML,2050,MM (2000) + L (50) = 2050.,Advanced,Read larger numerals,en-US
+MMC,2100,MM (2000) + C (100) = 2100.,Advanced,Read larger numerals,en-US
+MMCCCXLV,2345,MM (2000) + CCC (300) + XL (40) + V (5) = 2345.,Advanced,Read larger numerals,en-US
+MMCDXCIX,2499,MM (2000) + CD (400) + XC (90) + IX (9) = 2499.,Advanced,Read larger numerals,en-US
+MMDCCL,2750,MM (2000) + DCC (700) + L (50) = 2750.,Advanced,Read larger numerals,en-US
+MMCMXCIX,2999,MM (2000) + CM (900) + XC (90) + IX (9) = 2999.,Advanced,Read larger numerals,en-US
+MMM,3000,MMM represents 3000.,Advanced,Read larger numerals,en-US
+MMMCCCXXXIII,3333,MMM (3000) + CCC (300) + XXX (30) + III (3) = 3333.,Advanced,Read larger numerals,en-US
+MMMDCCCLXXXVIII,3888,MMM (3000) + DCCC (800) + LXXX (80) + VIII (8) = 3888.,Advanced,Read larger numerals,en-US
+MMMCMXCIX,3999,MMM (3000) + CM (900) + XC (90) + IX (9) = 3999.,Advanced,Read larger numerals,en-US
+Rule: What are the 7 basic Roman symbols?,"I=1, V=5, X=10, L=50, C=100, D=500, M=1000.",Learn the seven symbols before combining them.,Beginner,Rules,en-US
+Rule: When do you add symbol values?,When a symbol is followed by one of equal or smaller value.,VII = 5 + 1 + 1 = 7; XVI = 10 + 5 + 1 = 16.,Beginner,Rules,en-US
+Rule: When do you subtract symbol values?,When a permitted smaller symbol appears immediately before a larger one.,"IV = 4, IX = 9, XL = 40, XC = 90, CD = 400, CM = 900.",Beginner,Rules,en-US
+Rule: Which subtractive pairs are standard?,"IV, IX, XL, XC, CD, CM.",I may precede V or X; X may precede L or C; C may precede D or M.,Beginner,Rules,en-US
+"Rule: How many times can I, X, C and M repeat?",Up to three consecutive times in standard notation.,III = 3; XXX = 30; CCC = 300; MMM = 3000.,Beginner,Rules,en-US
+"Rule: Can V, L and D repeat?","No. V, L and D are not repeated in standard notation.","10 is X, not VV; 100 is C, not LL.",Beginner,Rules,en-US
+Rule: How is 4 written?,IV,Subtract I (1) from V (5): 5 − 1 = 4.,Beginner,Rules,en-US
+Rule: How is 9 written?,IX,Subtract I (1) from X (10): 10 − 1 = 9.,Beginner,Rules,en-US
+Rule: How is 40 written?,XL,Subtract X (10) from L (50): 50 − 10 = 40.,Beginner,Rules,en-US
+Rule: How is 90 written?,XC,Subtract X (10) from C (100): 100 − 10 = 90.,Beginner,Rules,en-US
+Rule: How is 400 written?,CD,Subtract C (100) from D (500): 500 − 100 = 400.,Beginner,Rules,en-US
+Rule: How is 900 written?,CM,Subtract C (100) from M (1000): 1000 − 100 = 900.,Beginner,Rules,en-US
+Rule: Does classical Roman numeral notation have a symbol for zero?,No standard symbol for zero.,Standard Roman numerals represent positive integers.,Beginner,Rules,en-US
+Rule: What is the largest number in ordinary Roman notation without overlines?,3999 = MMMCMXCIX,"Larger numbers require additional conventions, such as an overline.",Beginner,Rules,en-US
+Write 4 in Roman numerals,IV,IV represents 4.,Intermediate,Practice writing,en-US
+Write 9 in Roman numerals,IX,IX represents 9.,Intermediate,Practice writing,en-US
+Write 14 in Roman numerals,XIV,X (10) + IV (4) = 14.,Intermediate,Practice writing,en-US
+Write 19 in Roman numerals,XIX,X (10) + IX (9) = 19.,Intermediate,Practice writing,en-US
+Write 24 in Roman numerals,XXIV,XX (20) + IV (4) = 24.,Intermediate,Practice writing,en-US
+Write 39 in Roman numerals,XXXIX,XXX (30) + IX (9) = 39.,Intermediate,Practice writing,en-US
+Write 40 in Roman numerals,XL,XL represents 40.,Intermediate,Practice writing,en-US
+Write 44 in Roman numerals,XLIV,XL (40) + IV (4) = 44.,Intermediate,Practice writing,en-US
+Write 49 in Roman numerals,XLIX,XL (40) + IX (9) = 49.,Intermediate,Practice writing,en-US
+Write 58 in Roman numerals,LVIII,L (50) + VIII (8) = 58.,Intermediate,Practice writing,en-US
+Write 64 in Roman numerals,LXIV,LX (60) + IV (4) = 64.,Intermediate,Practice writing,en-US
+Write 76 in Roman numerals,LXXVI,LXX (70) + VI (6) = 76.,Intermediate,Practice writing,en-US
+Write 89 in Roman numerals,LXXXIX,LXXX (80) + IX (9) = 89.,Intermediate,Practice writing,en-US
+Write 94 in Roman numerals,XCIV,XC (90) + IV (4) = 94.,Intermediate,Practice writing,en-US
+Write 99 in Roman numerals,XCIX,XC (90) + IX (9) = 99.,Intermediate,Practice writing,en-US
+Write 125 in Roman numerals,CXXV,C (100) + XX (20) + V (5) = 125.,Advanced,Practice writing,en-US
+Write 247 in Roman numerals,CCXLVII,CC (200) + XL (40) + VII (7) = 247.,Advanced,Practice writing,en-US
+Write 399 in Roman numerals,CCCXCIX,CCC (300) + XC (90) + IX (9) = 399.,Advanced,Practice writing,en-US
+Write 444 in Roman numerals,CDXLIV,CD (400) + XL (40) + IV (4) = 444.,Advanced,Practice writing,en-US
+Write 909 in Roman numerals,CMIX,CM (900) + IX (9) = 909.,Advanced,Practice writing,en-US
+Write 1492 in Roman numerals,MCDXCII,M (1000) + CD (400) + XC (90) + II (2) = 1492.,Advanced,Practice writing,en-US
+Write 1776 in Roman numerals,MDCCLXXVI,M (1000) + DCC (700) + LXX (70) + VI (6) = 1776.,Advanced,Practice writing,en-US
+Write 1984 in Roman numerals,MCMLXXXIV,M (1000) + CM (900) + LXXX (80) + IV (4) = 1984.,Advanced,Practice writing,en-US
+Write 1999 in Roman numerals,MCMXCIX,M (1000) + CM (900) + XC (90) + IX (9) = 1999.,Advanced,Practice writing,en-US
+Write 2026 in Roman numerals,MMXXVI,MM (2000) + XX (20) + VI (6) = 2026.,Advanced,Practice writing,en-US
+Write 3999 in Roman numerals,MMMCMXCIX,MMM (3000) + CM (900) + XC (90) + IX (9) = 3999.,Advanced,Practice writing,en-US
