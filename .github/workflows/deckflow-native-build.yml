@@ -1,0 +1,54 @@
+name: Deckflow native SwiftUI build
+
+on:
+  push:
+    paths:
+      - 'native/**'
+      - '.github/workflows/deckflow-native-build.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ios-build:
+    runs-on: macos-15
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create temporary Xcode project
+        run: |
+          brew install xcodegen
+          cat > project.yml <<'YAML'
+          name: Deckflow
+          options:
+            deploymentTarget:
+              iOS: '17.0'
+          targets:
+            Deckflow:
+              type: application
+              platform: iOS
+              sources:
+                - path: native/Deckflow.swiftpm/AppModule
+              settings:
+                base:
+                  PRODUCT_BUNDLE_IDENTIFIER: com.deckflow.flashcards
+                  SWIFT_VERSION: 5.0
+                  GENERATE_INFOPLIST_FILE: YES
+                  TARGETED_DEVICE_FAMILY: '1,2'
+                  CODE_SIGNING_ALLOWED: NO
+          YAML
+          xcodegen generate --spec project.yml
+      - name: Compile with iOS Simulator SDK
+        run: |
+          set -o pipefail
+          xcodebuild -project Deckflow.xcodeproj -scheme Deckflow \
+            -sdk iphonesimulator -configuration Debug \
+            -destination 'generic/platform=iOS Simulator' \
+            CODE_SIGNING_ALLOWED=NO build 2>&1 | tee build.log
+      - name: Attach diagnostics when build fails
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: deckflow-ios-build-log
+          path: build.log
