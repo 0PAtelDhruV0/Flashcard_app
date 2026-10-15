@@ -234,14 +234,14 @@ struct StudyView: View {
     private func speechLocale(for card: Flashcard) -> String {
         if !card.audioLanguage.isEmpty { return card.audioLanguage }
         switch (store.activeDeck?.language ?? store.activeDeck?.topic ?? "").lowercased() {
-        case "spanish": "es-ES"
-        case "french": "fr-FR"
-        case "sanskrit", "hindi": "hi-IN"
-        case "german": "de-DE"
-        case "italian": "it-IT"
-        case "japanese": "ja-JP"
-        case "portuguese": "pt-PT"
-        default: "en-US"
+        case "spanish": return "es-ES"
+        case "french": return "fr-FR"
+        case "sanskrit", "hindi": return "hi-IN"
+        case "german": return "de-DE"
+        case "italian": return "it-IT"
+        case "japanese": return "ja-JP"
+        case "portuguese": return "pt-PT"
+        default: return "en-US"
         }
     }
 }
